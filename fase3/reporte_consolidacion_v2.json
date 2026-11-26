@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "fecha": "2026-10-24 00:38:45",
+  "repositorios": "/home/leandro/Vídeos/TESIS/DATASETS",
+  "destino": "/home/leandro/Imágenes/tesis/fase3/conjunto_bruto_v2",
+  "modo": "enlace_duro",
+  "total_imagenes": 18467,
+  "tabla_cruzada": {
+    "aedes_aegypti": {
+      "kaggle": 603,
+      "mosquito_alert": 73,
+      "dryad": 597,
+      "couret": 219,
+      "ong": 250,
+      "inaturalist": 1100
+    },
+    "aedes_albopictus": {
+      "mosquito_alert": 14778,
+      "dryad": 597,
+      "ong": 250,
+      "couret": 0,
+      "inaturalist": 0,
+      "kaggle": 0
+    }
+  },
+  "verificacion_m1": {
+    "aedes_aegypti": {
+      "fuente_dominante": "inaturalist",
+      "porcentaje": 38.7,
+      "cumple": true,
+      "total": 2842
+    },
+    "aedes_albopictus": {
+      "fuente_dominante": "mosquito_alert",
+      "porcentaje": 94.6,
+      "cumple": false,
+      "total": 15625
+    }
+  },
+  "umbral_m1": 70.0,
+  "especimenes_con_id": 17967,
+  "especimenes_multiples": 548
+}

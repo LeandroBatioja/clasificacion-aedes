@@ -1,0 +1,656 @@
+{
+  "fecha": "2026-10-24 17:02:28",
+  "resultados": {
+    "aegypti": {
+      "revisadas": 200,
+      "indeterminables": 110,
+      "discrepan": 56,
+      "coinciden": 34,
+      "determinables": 90,
+      "tasa_error": 0.6222
+    },
+    "albopictus": {
+      "revisadas": 200,
+      "indeterminables": 180,
+      "coinciden": 11,
+      "discrepan": 9,
+      "determinables": 20,
+      "tasa_error": 0.45
+    },
+    "aegypti|dryad": {
+      "revisadas": 60,
+      "indeterminables": 9,
+      "discrepan": 51,
+      "determinables": 51,
+      "tasa_error": 1.0
+    },
+    "aegypti|inaturalist": {
+      "revisadas": 110,
+      "indeterminables": 71,
+      "coinciden": 34,
+      "discrepan": 5,
+      "determinables": 39,
+      "tasa_error": 0.1282
+    },
+    "aegypti|mosquito_alert": {
+      "revisadas": 5,
+      "indeterminables": 5,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "aegypti|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "albopictus|dryad": {
+      "revisadas": 60,
+      "indeterminables": 52,
+      "discrepan": 8,
+      "determinables": 8,
+      "tasa_error": 1.0
+    },
+    "albopictus|mosquito_alert": {
+      "revisadas": 115,
+      "indeterminables": 103,
+      "coinciden": 11,
+      "discrepan": 1,
+      "determinables": 12,
+      "tasa_error": 0.0833
+    },
+    "albopictus|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "determinables": 0,
+      "tasa_error": null
+    }
+  },
+  "discrepancias": [
+    {
+      "id": "10",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa73",
+      "nombre_destino": "dryad__Phone_AEa73_2547_.png",
+      "observada": "otro",
+      "nota": "no corresponde a Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "20",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs256403812",
+      "nombre_destino": "inaturalist__inat_256403812_459708867.jpg",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "23",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb61",
+      "nombre_destino": "dryad__Phone_AEb61_3517_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "24",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb28",
+      "nombre_destino": "dryad__Macro_AEb28_3223_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "29",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb05",
+      "nombre_destino": "dryad__Macro_AEb05_3176_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "32",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALa76",
+      "nombre_destino": "dryad__Phone_ALa76_2288_.png",
+      "observada": "otro",
+      "nota": "patron no corresponde a Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "33",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa72",
+      "nombre_destino": "dryad__Micro_AEa72_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "40",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa39",
+      "nombre_destino": "dryad__Micro_AEa39_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "54",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs152211879",
+      "nombre_destino": "inaturalist__inat_152211879_262736195.jpg",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "56",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALa91",
+      "nombre_destino": "dryad__Phone_ALa91_2346_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "57",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb02",
+      "nombre_destino": "dryad__Micro_AEb02_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "59",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa96",
+      "nombre_destino": "dryad__Macro_AEa96_2598_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "60",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa27",
+      "nombre_destino": "dryad__Macro_AEa27_2446_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "66",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa75",
+      "nombre_destino": "dryad__Micro_AEa75_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "72",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa86",
+      "nombre_destino": "dryad__Micro_AEa86_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "80",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb00",
+      "nombre_destino": "dryad__Macro_AEb00_3167_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "81",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb72",
+      "nombre_destino": "dryad__Micro_AEb72_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "89",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa72",
+      "nombre_destino": "dryad__Macro_AEa72_2546_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "97",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa34",
+      "nombre_destino": "dryad__Phone_AEa34_2463_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "98",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa95",
+      "nombre_destino": "dryad__Macro_AEa95_2597_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "99",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs258015128",
+      "nombre_destino": "inaturalist__inat_258015128_462855528.jpg",
+      "observada": "albopictus",
+      "nota": "vista dorsal en hoja, pequeño; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "110",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALb71",
+      "nombre_destino": "dryad__Macro_ALb71_3101_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "117",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALb90",
+      "nombre_destino": "dryad__Micro_ALb90_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "118",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb65",
+      "nombre_destino": "dryad__Micro_AEb65_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "137",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb46",
+      "nombre_destino": "dryad__Micro_AEb46_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "139",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb64",
+      "nombre_destino": "dryad__Macro_AEb64_3524_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "141",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb77",
+      "nombre_destino": "dryad__Phone_AEb77_3550_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "142",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa34",
+      "nombre_destino": "dryad__Micro_AEa34_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "147",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb50",
+      "nombre_destino": "dryad__Micro_AEb50_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "152",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs59237768",
+      "nombre_destino": "inaturalist__inat_59237768_94638860.jpg",
+      "observada": "otro",
+      "nota": "imagen fuera del alcance del conjunto (adultos); confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "155",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb75",
+      "nombre_destino": "dryad__Micro_AEb75_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "157",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa21",
+      "nombre_destino": "dryad__Micro_AEa21_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "160",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa74",
+      "nombre_destino": "dryad__Macro_AEa74_2551_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "164",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa98",
+      "nombre_destino": "dryad__Micro_AEa98_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "166",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALa95",
+      "nombre_destino": "dryad__Phone_ALa95_2357_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-baja; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "167",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa90",
+      "nombre_destino": "dryad__Macro_AEa90_2586_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "169",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb20",
+      "nombre_destino": "dryad__Phone_AEb20_3207_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "171",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb81",
+      "nombre_destino": "dryad__Micro_AEb81_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "173",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa30",
+      "nombre_destino": "dryad__Macro_AEa30_2452_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "178",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb68",
+      "nombre_destino": "dryad__Macro_AEb68_3532_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "190",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb94",
+      "nombre_destino": "dryad__Phone_AEb94_3586_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "192",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb69",
+      "nombre_destino": "dryad__Micro_AEb69_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "195",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa31",
+      "nombre_destino": "dryad__Phone_AEa31_2454_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "201",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa29",
+      "nombre_destino": "dryad__Micro_AEa29_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "206",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa81",
+      "nombre_destino": "dryad__Macro_AEa81_2565_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "214",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb43",
+      "nombre_destino": "dryad__Macro_AEb43_3257_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "220",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb67",
+      "nombre_destino": "dryad__Macro_AEb67_3529_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "227",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALb59",
+      "nombre_destino": "dryad__Phone_ALb59_3077_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "250",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa24",
+      "nombre_destino": "dryad__Micro_AEa24_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "257",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb91",
+      "nombre_destino": "dryad__Micro_AEb91_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "264",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb89",
+      "nombre_destino": "dryad__Micro_AEb89_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "285",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALa41",
+      "nombre_destino": "dryad__Micro_ALa41_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "293",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb76",
+      "nombre_destino": "dryad__Macro_AEb76_3548_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "294",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs58098194",
+      "nombre_destino": "inaturalist__inat_58098194_92723762.jpg",
+      "observada": "otro",
+      "nota": "imagen fuera del alcance del conjunto (adultos); confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "296",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa06",
+      "nombre_destino": "dryad__Macro_AEa06_2414_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "302",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa66",
+      "nombre_destino": "dryad__Phone_AEa66_2533_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "313",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa44",
+      "nombre_destino": "dryad__Macro_AEa44_2483_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "317",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa61",
+      "nombre_destino": "dryad__Phone_AEa61_2523_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "318",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa32",
+      "nombre_destino": "dryad__Macro_AEa32_2457_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "326",
+      "especie_etiqueta": "albopictus",
+      "origen": "mosquito_alert",
+      "grupo": "ma_rep_39406aed-7ebe-4fb5-b370-8da795c9378b",
+      "nombre_destino": "mosquito_alert__49790e73-af09-487d-803a-1a5a61cd36fc.jpg",
+      "observada": "aegypti",
+      "nota": "vista dorsal sobre ladrillo; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "330",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb68",
+      "nombre_destino": "dryad__Phone_AEb68_3531_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "364",
+      "especie_etiqueta": "albopictus",
+      "origen": "dryad",
+      "grupo": "dryad_ALa61",
+      "nombre_destino": "dryad__Phone_ALa61_2255_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "369",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb49",
+      "nombre_destino": "dryad__Phone_AEb49_3271_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "375",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEb54",
+      "nombre_destino": "dryad__Micro_AEb54_.png",
+      "observada": "otro",
+      "nota": "aspecto de Culex; confianza media-alta; revisado por el investigador (24/10/2026)"
+    },
+    {
+      "id": "394",
+      "especie_etiqueta": "aegypti",
+      "origen": "dryad",
+      "grupo": "dryad_AEa15",
+      "nombre_destino": "dryad__Micro_AEa15_.png",
+      "observada": "otro",
+      "nota": "no corresponde al patron de Ae. aegypti ni Ae. albopictus; confianza media; revisado por el investigador (24/10/2026)"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "fecha": "2026-09-20 22:30:09",
+  "raiz": "conjunto_bruto",
+  "normalizacion_lado_px": 512,
+  "procesadas": 16921,
+  "ilegibles": 48,
+  "archivos_ilegibles": [
+    "mosquito_alert__049e8a01-04ff-40ee-ad46-5033d2f68ab5.jpg",
+    "mosquito_alert__08a38e6e-2270-4369-b3bd-024659c2f1a0.jpg",
+    "mosquito_alert__10d42fbf-6e1b-4645-a6ac-afa7bad98b3d.jpg",
+    "mosquito_alert__052c8919-b815-4a6b-a731-0011863160f8.jpg",
+    "mosquito_alert__1c071e6c-6edf-4796-9b53-642408b336cb.jpg",
+    "mosquito_alert__247872ad-6578-4647-9a24-7fa6ba5df5b8.jpg",
+    "mosquito_alert__249fc741-4613-4532-8a99-59e2b35a211f.jpg",
+    "mosquito_alert__25143303-03f3-4b84-a1cf-802fcaa17f8d.jpg",
+    "mosquito_alert__275a4456-5556-4a56-9e9a-9e9a10ea3502.jpg",
+    "mosquito_alert__2d8bc09c-59ab-4787-a56f-ea6502b74fde.jpg",
+    "mosquito_alert__37bcd99f-4562-47b8-99a4-561c4729e549.jpg",
+    "mosquito_alert__3a70cf65-5829-44d5-9c16-15e175d49b18.jpg",
+    "mosquito_alert__44a3415b-3425-4f6c-8e95-6d7b72193db7.jpg",
+    "mosquito_alert__47116f4f-7733-4998-af39-c86159aeaf72.jpg",
+    "mosquito_alert__4ab3d4d3-6c31-434a-a0f1-1c14969dea29.jpg",
+    "mosquito_alert__4d19e3bc-a16c-4fa9-b0f5-00a85343fcc0.jpg",
+    "mosquito_alert__5b1d5726-0689-4c81-9144-7af71aa14e9e.jpg",
+    "mosquito_alert__6b97c222-6de7-434e-a90f-59b94c522fc4.jpg",
+    "mosquito_alert__7ca37c19-908b-411b-a32e-d8563c2d312d.jpg",
+    "mosquito_alert__8109426f-36a7-445c-8c23-342a03a91e1d.jpg",
+    "mosquito_alert__842e921c-486f-4507-9303-8568060eaf0c.jpg",
+    "mosquito_alert__9c19b3c7-cf48-4fda-a475-def2b58d5148.jpg",
+    "mosquito_alert__9dfa08a7-8c44-4906-9ccd-10deedefb916.jpg",
+    "mosquito_alert__9dfc9328-2474-4f3b-928a-7df8db719c11.jpg",
+    "mosquito_alert__a231d030-8a71-457f-8438-e73e085b61e4.jpg",
+    "mosquito_alert__a4274d16-a5ad-4aa8-b461-9cf5918fb925.jpg",
+    "mosquito_alert__a446f017-5ef0-4fad-945a-66fa877a6b20.jpg",
+    "mosquito_alert__ad518635-7fb3-4d8b-88f2-387940d14998.jpg",
+    "mosquito_alert__b1045d9c-e378-4c28-bb75-d2ceb4e7c11b.jpg",
+    "mosquito_alert__b877aed6-1563-40ee-8d46-9ae2f6dd42f6.jpg",
+    "mosquito_alert__b90a80a8-4c9c-432e-9dcc-39b4feecc4ef.jpg",
+    "mosquito_alert__bc664bc8-39c8-4473-b0f9-54de351abe82.jpg",
+    "mosquito_alert__bef6d57b-ec60-4158-8d31-65a342fcef08.jpg",
+    "mosquito_alert__c2df2f0d-9bd4-46b1-b138-36477685f916.jpg",
+    "mosquito_alert__c87e5e12-b8bb-47be-826f-6f8e366ab29a.jpg",
+    "mosquito_alert__ca9ca701-4f2c-4bd5-8093-2febae69734b.jpg",
+    "mosquito_alert__cd277be3-125a-4bc6-80e4-d9a6f2af0e49.jpg",
+    "mosquito_alert__cc14b8fb-a6e1-4772-ac61-d13b6a66f915.jpg",
+    "mosquito_alert__cfe27c03-db17-444f-9c14-2290fb2437c3.jpg",
+    "mosquito_alert__dffac693-936b-41c9-a5fa-95c9d6faa5f4.jpg",
+    "mosquito_alert__e62ccf04-d1b2-4cdf-8da7-f1fca1f1c849.jpg",
+    "mosquito_alert__e99cda26-936d-43c0-b5a6-e4e966437c43.jpg",
+    "mosquito_alert__f0df7c38-6e66-4991-8b6c-3f183b872396.jpg",
+    "mosquito_alert__f18e3e0a-8597-4ff4-aa1b-8c24789c78f4.jpg",
+    "mosquito_alert__f4f10303-a4be-43a9-a846-6d63429355f6.jpg",
+    "mosquito_alert__f7dfec6d-c0a9-49ee-809d-006999f075aa.jpg",
+    "mosquito_alert__f766f736-3b1b-4068-bd60-e9dcb8a96795.jpg",
+    "mosquito_alert__fa505d77-344d-4f5a-b7cb-2fa6d047b47e.jpg"
+  ],
+  "duracion_min": 6.58,
+  "distribuciones": {
+    "global": {
+      "n": 16921,
+      "minimo": 2.43,
+      "p1": 13.64,
+      "p5": 23.88,
+      "p10": 32.72,
+      "p25": 53.05,
+      "p50": 100.17,
+      "p75": 222.03,
+      "maximo": 15889.48
+    },
+    "por_especie": {
+      "aedes_aegypti": {
+        "n": 1543,
+        "minimo": 11.86,
+        "p1": 29.33,
+        "p5": 39.29,
+        "p10": 43.59,
+        "p25": 52.75,
+        "p50": 73.44,
+        "p75": 176.73,
+        "maximo": 1531.47
+      },
+      "aedes_albopictus": {
+        "n": 15378,
+        "minimo": 2.43,
+        "p1": 13.24,
+        "p5": 23.14,
+        "p10": 31.55,
+        "p25": 53.13,
+        "p50": 103.03,
+        "p75": 226.97,
+        "maximo": 15889.48
+      }
+    },
+    "por_repositorio": {
+      "couret": {
+        "n": 219,
+        "minimo": 18.32,
+        "p1": 24.4,
+        "p5": 33.03,
+        "p10": 40.55,
+        "p25": 51.79,
+        "p50": 67.86,
+        "p75": 82.26,
+        "maximo": 121.94
+      },
+      "dryad": {
+        "n": 796,
+        "minimo": 35.64,
+        "p1": 54.94,
+        "p5": 69.7,
+        "p10": 83.5,
+        "p25": 113.84,
+        "p50": 231.31,
+        "p75": 426.3,
+        "maximo": 1049.19
+      },
+      "kaggle": {
+        "n": 603,
+        "minimo": 11.86,
+        "p1": 29.98,
+        "p5": 37.29,
+        "p10": 40.31,
+        "p25": 45.43,
+        "p50": 52.19,
+        "p75": 57.59,
+        "maximo": 103.16
+      },
+      "mosquito_alert": {
+        "n": 14803,
+        "minimo": 2.43,
+        "p1": 13.15,
+        "p5": 22.77,
+        "p10": 30.93,
+        "p25": 51.64,
+        "p50": 98.48,
+        "p75": 215.81,
+        "maximo": 15889.48
+      },
+      "ong": {
+        "n": 500,
+        "minimo": 69.47,
+        "p1": 77.83,
+        "p5": 116.94,
+        "p10": 136.43,
+        "p25": 163.83,
+        "p50": 212.17,
+        "p75": 271.43,
+        "maximo": 555.8
+      }
+    },
+    "por_especie_y_repositorio": {
+      "aegypti/couret": {
+        "n": 219,
+        "minimo": 18.32,
+        "p1": 24.4,
+        "p5": 33.03,
+        "p10": 40.55,
+        "p25": 51.79,
+        "p50": 67.86,
+        "p75": 82.26,
+        "maximo": 121.94
+      },
+      "aegypti/dryad": {
+        "n": 398,
+        "minimo": 35.64,
+        "p1": 50.14,
+        "p5": 69.08,
+        "p10": 81.61,
+        "p25": 112.55,
+        "p50": 225.5,
+        "p75": 351.76,
+        "maximo": 701.46
+      },
+      "aegypti/kaggle": {
+        "n": 603,
+        "minimo": 11.86,
+        "p1": 29.98,
+        "p5": 37.29,
+        "p10": 40.31,
+        "p25": 45.43,
+        "p50": 52.19,
+        "p75": 57.59,
+        "maximo": 103.16
+      },
+      "aegypti/mosquito_alert": {
+        "n": 73,
+        "minimo": 22.66,
+        "p1": 24.26,
+        "p5": 35.08,
+        "p10": 48.01,
+        "p25": 65.69,
+        "p50": 152.39,
+        "p75": 528.7,
+        "maximo": 1531.47
+      },
+      "aegypti/ong": {
+        "n": 250,
+        "minimo": 69.47,
+        "p1": 76.93,
+        "p5": 109.47,
+        "p10": 132.05,
+        "p25": 153.56,
+        "p50": 184.38,
+        "p75": 231.7,
+        "maximo": 549.89
+      },
+      "albopictus/dryad": {
+        "n": 398,
+        "minimo": 53.21,
+        "p1": 60.04,
+        "p5": 74.6,
+        "p10": 84.04,
+        "p25": 117.09,
+        "p50": 257.62,
+        "p75": 512.41,
+        "maximo": 1049.19
+      },
+      "albopictus/mosquito_alert": {
+        "n": 14730,
+        "minimo": 2.43,
+        "p1": 13.1,
+        "p5": 22.76,
+        "p10": 30.88,
+        "p25": 51.57,
+        "p50": 98.35,
+        "p75": 214.93,
+        "maximo": 15889.48
+      },
+      "albopictus/ong": {
+        "n": 250,
+        "minimo": 71.85,
+        "p1": 95.14,
+        "p5": 120.88,
+        "p10": 141.81,
+        "p25": 184.91,
+        "p50": 242.86,
+        "p75": 300.86,
+        "maximo": 555.8
+      }
+    }
+  },
+  "simulacion_umbrales": {
+    "por_especie": {
+      "3": {
+        "aedes_aegypti": 0.0,
+        "aedes_albopictus": 0.0
+      },
+      "5": {
+        "aedes_aegypti": 0.0,
+        "aedes_albopictus": 0.0
+      },
+      "10": {
+        "aedes_aegypti": 0.0,
+        "aedes_albopictus": 0.4
+      },
+      "15": {
+        "aedes_aegypti": 0.1,
+        "aedes_albopictus": 1.5
+      },
+      "20": {
+        "aedes_aegypti": 0.4,
+        "aedes_albopictus": 3.4
+      },
+      "30": {
+        "aedes_aegypti": 1.2,
+        "aedes_albopictus": 9.1
+      },
+      "50": {
+        "aedes_aegypti": 20.4,
+        "aedes_albopictus": 22.8
+      },
+      "75": {
+        "aedes_aegypti": 50.6,
+        "aedes_albopictus": 38.2
+      },
+      "100": {
+        "aedes_aegypti": 59.9,
+        "aedes_albopictus": 49.0
+      },
+      "150": {
+        "aedes_aegypti": 69.2,
+        "aedes_albopictus": 63.0
+      }
+    },
+    "por_repositorio": {
+      "3": {
+        "couret": 0.0,
+        "dryad": 0.0,
+        "kaggle": 0.0,
+        "mosquito_alert": 0.0,
+        "ong": 0.0
+      },
+      "5": {
+        "couret": 0.0,
+        "dryad": 0.0,
+        "kaggle": 0.0,
+        "mosquito_alert": 0.0,
+        "ong": 0.0
+      },
+      "10": {
+        "couret": 0.0,
+        "dryad": 0.0,
+        "kaggle": 0.0,
+        "mosquito_alert": 0.4,
+        "ong": 0.0
+      },
+      "15": {
+        "couret": 0.0,
+        "dryad": 0.0,
+        "kaggle": 0.3,
+        "mosquito_alert": 1.6,
+        "ong": 0.0
+      },
+      "20": {
+        "couret": 0.9,
+        "dryad": 0.0,
+        "kaggle": 0.7,
+        "mosquito_alert": 3.5,
+        "ong": 0.0
+      },
+      "30": {
+        "couret": 3.7,
+        "dryad": 0.0,
+        "kaggle": 1.2,
+        "mosquito_alert": 9.5,
+        "ong": 0.0
+      },
+      "50": {
+        "couret": 22.4,
+        "dryad": 0.5,
+        "kaggle": 42.1,
+        "mosquito_alert": 23.7,
+        "ong": 0.0
+      },
+      "75": {
+        "couret": 61.6,
+        "dryad": 6.5,
+        "kaggle": 98.3,
+        "mosquito_alert": 39.6,
+        "ong": 0.8
+      },
+      "100": {
+        "couret": 92.7,
+        "dryad": 19.1,
+        "kaggle": 99.8,
+        "mosquito_alert": 50.5,
+        "ong": 3.0
+      },
+      "150": {
+        "couret": 100.0,
+        "dryad": 38.4,
+        "kaggle": 100.0,
+        "mosquito_alert": 64.4,
+        "ong": 16.8
+      }
+    }
+  },
+  "regla_contencion_pct": 30.0,
+  "umbral_maximo_admisible": 30
+}

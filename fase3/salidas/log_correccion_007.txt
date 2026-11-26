@@ -1,0 +1,79 @@
+======================================================================
+  CORRECCION DE LA VERIFICACION MORFOLOGICA (ENTRADA 007)
+======================================================================
+
+  RESULTADO ORIGINAL
+  Grupo                         Revis.  Indet.  Coinc.  Discr.    Error
+  aegypti                          200     110      34      56   62.2 %
+  albopictus                       200     180      11       9   45.0 %
+  aegypti|dryad                     60       9       0      51  100.0 %
+  aegypti|inaturalist              110      71      34       5   12.8 %
+  aegypti|mosquito_alert             5       5       0       0        -
+  aegypti|ong                       25      25       0       0        -
+  albopictus|dryad                  60      52       0       8  100.0 %
+  albopictus|mosquito_alert        115     103      11       1    8.3 %
+  albopictus|ong                    25      25       0       0        -
+  ATENCION albopictus|dryad: 100.0 % -> evaluar exclusion
+  ATENCION aegypti|dryad: 100.0 % -> evaluar exclusion
+
+  Reclasificadas (laboratorio, 'otro' -> indeterminable): 59
+
+  RESULTADO CORREGIDO
+  Grupo                         Revis.  Indet.  Coinc.  Discr.    Error
+  aegypti                          200     161      34       5   12.8 %
+  albopictus                       200     188      11       1    8.3 %
+  aegypti|dryad                     60      60       0       0        -
+  aegypti|inaturalist              110      71      34       5   12.8 %
+  aegypti|mosquito_alert             5       5       0       0        -
+  aegypti|ong                       25      25       0       0        -
+  albopictus|dryad                  60      60       0       0        -
+  albopictus|mosquito_alert        115     103      11       1    8.3 %
+  albopictus|ong                    25      25       0       0        -
+
+  Discrepancias tras la correccion: 6
+    #20   inaturalist     aegypti    -> otro       1 imagen(es) excluida(s)
+    #54   inaturalist     aegypti    -> otro       1 imagen(es) excluida(s)
+    #99   inaturalist     aegypti    -> albopictus 1 imagen(es) excluida(s)
+    #152  inaturalist     aegypti    -> otro       1 imagen(es) excluida(s)
+    #294  inaturalist     aegypti    -> otro       1 imagen(es) excluida(s)
+    #326  mosquito_alert  albopictus -> aegypti    1 imagen(es) excluida(s)
+
+  iNaturalist en el conjunto de trabajo: 1093
+    sin anotacion: 655
+    adulto u otro estadio adulto: 412
+    no adulto: 26
+    excluida: inaturalist__inat_20312902_31363446.jpg (larva)
+    excluida: inaturalist__inat_40242055_63928295.jpg (larva)
+    excluida: inaturalist__inat_40295433_64011406.jpg (larva)
+    excluida: inaturalist__inat_44442121_70463710.jpg (larva)
+    excluida: inaturalist__inat_46734701_74120476.jpg (larva)
+    excluida: inaturalist__inat_46736230_74122464.jpg (larva)
+    excluida: inaturalist__inat_46736631_74123088.jpg (larva)
+    excluida: inaturalist__inat_46741564_74130422.jpg (larva)
+    excluida: inaturalist__inat_50155068_79641467.jpg (larva)
+    excluida: inaturalist__inat_51588180_81973788.jpg (larva)
+    excluida: inaturalist__inat_53640532_85321241.jpg (larva)
+    excluida: inaturalist__inat_53862779_85681125.jpg (larva)
+    excluida: inaturalist__inat_53862785_85681173.jpg (larva)
+    excluida: inaturalist__inat_53988479_85878876.jpg (larva)
+    excluida: inaturalist__inat_54800724_87218337.jpg (larva)
+    excluida: inaturalist__inat_57572420_91843149.jpg (larva)
+    excluida: inaturalist__inat_57577204_91851768.jpg (larva)
+    excluida: inaturalist__inat_58098194_92723762.jpg (larva)
+    excluida: inaturalist__inat_59231270_94627887.jpg (larva)
+    excluida: inaturalist__inat_59233379_94631041.jpg (larva)
+    excluida: inaturalist__inat_59237768_94638860.jpg (larva)
+    excluida: inaturalist__inat_59516649_95101535.jpg (larva)
+    excluida: inaturalist__inat_59968065_95857401.jpg (larva)
+    excluida: inaturalist__inat_60153919_96163843.jpg (larva)
+    excluida: inaturalist__inat_60625306_96954297.jpg (larva)
+    excluida: inaturalist__inat_61000263_97571857.jpg (larva)
+
+  Exclusiones totales: 30 (en el conjunto de trabajo: 30)
+  Conjunto de trabajo tras exclusiones (antes de rebalancear):
+    aedes_aegypti: 1958  (dryad 597, inaturalist 1064, mosquito_alert 53, ong 244)
+    aedes_albopictus: 1986  (dryad 596, mosquito_alert 1142, ong 248)
+
+  Guardado: fase3/verificacion_morfologica/resultado_verificacion_corregido.json
+            fase3/verificacion_morfologica/exclusiones_007.csv
+            fase3/verificacion_morfologica/verificacion_morfologica_corregida.csv

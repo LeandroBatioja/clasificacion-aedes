@@ -1,0 +1,212 @@
+.
+├── arbol_bibliografia.txt
+├── auditoria_estructura.txt
+├── bibliografia
+│   ├── 01_Increasing transmission of dengue virus across ecologically diverse regions of Ecuador and associated risk factors.pdf
+│   ├── 02_Spatial Modeling of the Potential Distribution of Dengue in the City of Manta, Ecuador.pdf
+│   ├── 03_Early Detection of Dengue Outbreaks - Transmission Model Analysis of a Dengue Outbreak in a Remote Setting in Ecuador.pdf
+│   ├── 04_Variable performance of DNA barcoding and morphological characteristics for the identification of Arctic blacklegged.pdf
+│   ├── 05_Automatic Classification of Mosquito Genera Using Transfer Learning.pdf
+│   ├── 06_Potentials and limitations in the application of Convolutional Neural Networks for mosquito species identification.pdf
+│   ├── 07_Deep Learning-Based Vector Mosquitoes Classification for Preventing Infectious Diseases Transmission.pdf
+│   ├── 08_Advanced vision transformers and open-set learning for robust mosquito classification - A novel approach to.pdf
+│   ├── 09_Application of computer vision and deep learning models to automatically classify medically important mosquitoes in.pdf
+│   ├── 10_Augmenting community-driven vector surveillance with automated image classification - Lessons from the Artificial.pdf
+│   ├── 15_Analysis of inpatient data on dengue fever, malaria and leishmaniasis in Ecuador - A cross-sectional national study.pdf
+│   ├── 17_A Deep Convolutional Neural Network for Classification of Aedes Albopictus Mosquitoes.pdf
+│   ├── 18_A Deep Learning-based Dengue Mosquito Detection Method Using Faster R-CNN and Image Processing Techniques.pdf
+│   ├── 19_A Study on Intelligent Insect Image Recognition Based on Overlap Patch Relevance Extraction and Classification.pdf
+│   ├── 20_Dengue mosquito larvae identification using digital images.pdf
+│   ├── 21_Mosquito species identification accuracy of early deployed algorithms in IDX, A vector identification tool.pdf
+│   ├── 22_Aedes aegypti and Aedes albopictus (diptera - culicidae) in artificial breeding sites in rural settlements and.pdf
+│   ├── 23_A morphological identification key to the mosquito disease vectors of the Pacific.pdf
+│   ├── 24_Enhancing mosquito classification through self-supervised learning.pdf
+│   ├── 25_Gen-CNN - a framework for the automatic generation of CNNs for image classification.pdf
+│   ├── 26_Analyzing Parameter-Efficient Convolutional Neural Network Architectures for Visual Classification.pdf
+│   ├── 27_ImageNet Large Scale Visual Recognition Challenge.pdf
+│   ├── 28_A review on the effectiveness of recent approaches to few-shot learning for image analysis.pdf
+│   ├── 29_EfficientNet - Rethinking Model Scaling for Convolutional Neural Networks.pdf
+│   ├── 30_MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications.pdf
+│   ├── 31_Searching for MobileNetV3.pdf
+│   ├── 32_Deep Residual Learning for Image Recognition.pdf
+│   ├── 33_An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.pdf
+│   ├── 34_Grad-CAM - Visual Explanations from Deep Networks via Gradient-Based Localization.pdf
+│   ├── 35_TransembleNet - Enhancing vector mosquito species classification through transfer learning-based ensemble model.pdf
+│   ├── 36_MosquitoSong+ - A noise-robust deep learning model for mosquito classification from wingbeat sounds.pdf
+│   ├── 37_A convolutional neural network to identify mosquito species (Diptera - Culicidae) of the genus Aedes by wing images.pdf
+│   ├── 38_Constitución de la República del Ecuador.pdf
+│   ├── 39_Ley Orgánica de Salud.pdf
+│   ├── 40_Ley Orgánica de Educación Superior.pdf
+│   ├── 41_Ley Orgánica de Protección de Datos Personales.pdf
+│   ├── 42_Código Orgánico de la Economía Social de los Conocimientos, Creatividad e Innovación.pdf
+│   ├── 43_Acuerdo Ministerial 00001-2025 - Norma Técnica del Sistema Integrado de Vigilancia Epidemiológica (SIVE).pdf
+│   ├── 48_Integrated Management Strategy for the Prevention and Control of Arboviral Diseases.pdf
+│   ├── indice_bibliografia.md
+│   └── verificacion_doi.md
+├── bibliografia.zip
+├── bitacora_experimentos.md
+├── descargar_bibliografia.py
+├── estructura_proyecto.txt
+├── fase2
+│   ├── benchmark_cpu.py
+│   ├── criterios_depuracion.md
+│   ├── ficha_tecnica.md
+│   ├── README_FASE2.md
+│   ├── requirements.txt
+│   ├── salidas
+│   │   ├── log_benchmark.txt
+│   │   ├── log_verificacion.txt
+│   │   ├── reporte_benchmark.json
+│   │   └── reporte_entorno.json
+│   └── verificar_entorno.py
+└── fase3
+    ├── analisis_nitidez
+    │   ├── franja_5_10
+    │   │   ├── var5.114_mosquito_alert__c7f5636b-cd30-4a6c-9236-a134425756b0.jpg
+    │   │   ├── var7.414_mosquito_alert__69ac295e-d8b2-4944-9438-01ace10de6b4.jpg
+    │   │   ├── var7.47_mosquito_alert__588c4037-c4f7-4cb7-8492-d63d639a1212.jpg
+    │   │   ├── var8.315_mosquito_alert__a844cf19-32b9-4c14-a088-ab105f7730b2.jpg
+    │   │   ├── var8.394_mosquito_alert__22d2e18b-aab3-4f8a-a554-d1f6f7543f7d.jpg
+    │   │   ├── var8.888_mosquito_alert__defaf943-5e59-4740-b8f8-1a13b8671363.jpg
+    │   │   ├── var9.051_mosquito_alert__d65ecfbb-0633-4be4-8629-fc27db779e76.jpg
+    │   │   ├── var9.053_mosquito_alert__397e3e5c-2e3f-4042-96a2-3f3d09bae58a.jpg
+    │   │   ├── var9.091_mosquito_alert__5c20a8e5-e1d1-4649-8ca4-25b51a51cb77.jpg
+    │   │   ├── var9.167_mosquito_alert__1587f8e9-aed0-469c-b78a-e461f75a7342.jpg
+    │   │   ├── var9.219_mosquito_alert__28fad04a-cc42-4f51-b408-326b00f6a35c.jpg
+    │   │   └── var9.275_mosquito_alert__2fe366db-2e04-48ce-9c93-1c92beb4958b.jpg
+    │   ├── franja_5_10.zip
+    │   ├── metricas_por_imagen.csv
+    │   ├── muestra_visual
+    │   │   ├── couret
+    │   │   │   ├── var00018.32_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0123.jpg
+    │   │   │   ├── var00018.40_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0103.jpg
+    │   │   │   ├── var00023.93_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0038.jpg
+    │   │   │   ├── var00026.56_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0036.jpg
+    │   │   │   ├── var00027.78_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0020.jpg
+    │   │   │   ├── var00033.04_p05_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0093.jpg
+    │   │   │   ├── var00033.26_p05_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0019.jpg
+    │   │   │   ├── var00040.83_p10_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0006.jpg
+    │   │   │   ├── var00041.29_p10_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0105.jpg
+    │   │   │   ├── var00051.61_p25_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0128.jpg
+    │   │   │   ├── var00051.97_p25_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0064.jpg
+    │   │   │   ├── var00067.86_p50_aegypti_couret__aedes_aegypti_m_NEWORLEANS_image0037.jpg
+    │   │   │   └── var00068.02_p50_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0144.jpg
+    │   │   ├── dryad
+    │   │   │   ├── var00035.64_min_aegypti_dryad__Macro_AEa63_2526_.png
+    │   │   │   ├── var00039.43_min_aegypti_dryad__Macro_AEb23_3214_.png
+    │   │   │   ├── var00042.62_min_aegypti_dryad__Macro_AEa59_2517_.png
+    │   │   │   ├── var00045.78_min_aegypti_dryad__Macro_AEa64_2529_.png
+    │   │   │   ├── var00050.27_min_aegypti_dryad__Macro_AEa65_2531_.png
+    │   │   │   ├── var00054.95_p01_aegypti_dryad__Macro_AEb41_3253_.png
+    │   │   │   ├── var00056.49_p01_albopictus_dryad__Macro_ALa58_2247_.png
+    │   │   │   ├── var00069.71_p05_aegypti_dryad__Macro_AEb17_3201_.png
+    │   │   │   ├── var00070.02_p05_aegypti_dryad__Macro_AEb52_3497_.png
+    │   │   │   ├── var00083.41_p10_albopictus_dryad__Macro_ALb66_3092_.png
+    │   │   │   ├── var00083.58_p10_albopictus_dryad__Macro_ALa28_2404_.png
+    │   │   │   ├── var00113.86_p25_aegypti_dryad__Macro_AEa25_2441_.png
+    │   │   │   ├── var00113.86_p25_aegypti_dryad__Macro_AEb79_3553_.png
+    │   │   │   ├── var00232.52_p50_aegypti_dryad__Micro_AEb83_.png
+    │   │   │   └── var00236.87_p50_aegypti_dryad__Micro_AEb13_.png
+    │   │   ├── kaggle
+    │   │   │   ├── var00011.86_min_aegypti_kaggle__aegypti21a.jpg
+    │   │   │   ├── var00013.63_min_aegypti_kaggle__aegypti21c.jpg
+    │   │   │   ├── var00015.66_min_aegypti_kaggle__aegypti21b.jpg
+    │   │   │   ├── var00018.10_min_aegypti_kaggle__aegypti21d.jpg
+    │   │   │   ├── var00026.82_min_aegypti_kaggle__aegypti146a.jpg
+    │   │   │   ├── var00029.95_p01_aegypti_kaggle__aegypti88a.jpg
+    │   │   │   ├── var00031.38_p01_aegypti_kaggle__aegypti16a.jpg
+    │   │   │   ├── var00037.28_p05_aegypti_kaggle__aegypti124a.jpg
+    │   │   │   ├── var00037.34_p05_aegypti_kaggle__aegypti27c.jpg
+    │   │   │   ├── var00040.30_p10_aegypti_kaggle__aegypti4c.jpg
+    │   │   │   ├── var00040.33_p10_aegypti_kaggle__aegypti28a.jpg
+    │   │   │   ├── var00045.43_p25_aegypti_kaggle__aegypti41a.jpg
+    │   │   │   ├── var00045.43_p25_aegypti_kaggle__aegypti50d.jpg
+    │   │   │   ├── var00052.19_p50_aegypti_kaggle__aegypti78c.jpg
+    │   │   │   └── var00052.25_p50_aegypti_kaggle__aegypti83b.jpg
+    │   │   ├── mosquito_alert
+    │   │   │   ├── var00002.43_min_albopictus_mosquito_alert__9dfa8fb3-dcfb-4810-92c5-04afcfe46f05.jpg
+    │   │   │   ├── var00004.40_min_albopictus_mosquito_alert__60d5746c-3ffb-41eb-8833-eb78a706b32f.jpg
+    │   │   │   ├── var00004.43_min_albopictus_mosquito_alert__911f2071-9e72-4e22-a472-db0a20e3aed1.jpg
+    │   │   │   ├── var00004.86_min_albopictus_mosquito_alert__2fdee095-a0ee-469e-821d-0a002eb912b7.jpg
+    │   │   │   ├── var00004.94_min_albopictus_mosquito_alert__9cbf08f1-4bab-4a9b-956e-217fd5e50e5f.jpg
+    │   │   │   ├── var00013.15_p01_albopictus_mosquito_alert__af758087-178e-4bf4-bacd-9e8bb0f14662.jpg
+    │   │   │   ├── var00013.16_p01_albopictus_mosquito_alert__df061638-f530-439a-88e2-d8221f6c98b9.jpg
+    │   │   │   ├── var00022.77_p05_albopictus_mosquito_alert__43a6246b-298e-408a-8549-48570dbbff40.jpg
+    │   │   │   ├── var00022.77_p05_albopictus_mosquito_alert__c7d8c81f-388e-4762-9ae9-92038beb77d9.jpg
+    │   │   │   ├── var00030.92_p10_albopictus_mosquito_alert__d2541fb6-6e59-4d6e-ad67-01ae9ed8e630.jpg
+    │   │   │   ├── var00030.98_p10_albopictus_mosquito_alert__522b00bb-abd3-44c6-b408-949497934e32.jpg
+    │   │   │   ├── var00051.64_p25_albopictus_mosquito_alert__7cf08a07-551e-4780-9ad5-2905932a5bf7.jpg
+    │   │   │   ├── var00051.64_p25_albopictus_mosquito_alert__a51ab5d0-8b66-499a-9ca0-1bad1476d038.jpg
+    │   │   │   ├── var00098.48_p50_albopictus_mosquito_alert__2bb41ebf-5639-4e4b-a1bc-fdd46253f66a.jpg
+    │   │   │   └── var00098.50_p50_albopictus_mosquito_alert__f98a60af-e019-40f1-967f-ec0c9e41b7bc.jpg
+    │   │   └── ong
+    │   │       ├── var00069.47_min_aegypti_ong__8.jpg
+    │   │       ├── var00070.74_min_aegypti_ong__141.jpg
+    │   │       ├── var00071.85_min_albopictus_ong__247.jpg
+    │   │       ├── var00074.52_min_albopictus_ong__246.jpg
+    │   │       ├── var00076.05_min_aegypti_ong__104.jpg
+    │   │       ├── var00077.85_p01_aegypti_ong__121.jpg
+    │   │       ├── var00083.96_p01_aegypti_ong__146.jpg
+    │   │       ├── var00116.97_p05_aegypti_ong__145.jpg
+    │   │       ├── var00117.21_p05_albopictus_ong__173.jpg
+    │   │       ├── var00136.55_p10_aegypti_ong__196.jpg
+    │   │       ├── var00136.98_p10_aegypti_ong__124.jpg
+    │   │       ├── var00163.93_p25_aegypti_ong__239.jpg
+    │   │       ├── var00164.20_p25_albopictus_ong__216.jpg
+    │   │       ├── var00211.35_p50_aegypti_ong__204.jpg
+    │   │       └── var00212.99_p50_aegypti_ong__33.jpg
+    │   ├── reporte_nitidez.json
+    │   ├── revision
+    │   │   ├── var00002.43_min_albopictus_mosquito_alert__9dfa8fb3-dcfb-4810-92c5-04afcfe46f05.jpg
+    │   │   ├── var00004.40_min_albopictus_mosquito_alert__60d5746c-3ffb-41eb-8833-eb78a706b32f.jpg
+    │   │   ├── var00011.86_min_aegypti_kaggle__aegypti21a.jpg
+    │   │   ├── var00013.15_p01_albopictus_mosquito_alert__af758087-178e-4bf4-bacd-9e8bb0f14662.jpg
+    │   │   ├── var00018.32_min_aegypti_couret__aedes_aegypti_f_NEWORLEANS_image0123.jpg
+    │   │   ├── var00022.77_p05_albopictus_mosquito_alert__43a6246b-298e-408a-8549-48570dbbff40.jpg
+    │   │   ├── var00026.82_min_aegypti_kaggle__aegypti146a.jpg
+    │   │   └── var00030.92_p10_albopictus_mosquito_alert__d2541fb6-6e59-4d6e-ad67-01ae9ed8e630.jpg
+    │   └── revision.zip
+    ├── analizar_nitidez.py
+    ├── auditar_estructura.py
+    ├── conjunto_bruto
+    │   ├── aedes_aegypti/  [1543 archivos, colapsada]
+    │   └── aedes_albopictus/  [15426 archivos, colapsada]
+    ├── conjunto_depurado
+    │   ├── aedes_aegypti/  [1529 archivos, colapsada]
+    │   └── aedes_albopictus/  [14508 archivos, colapsada]
+    ├── consolidar_conjunto.py
+    ├── depuracion
+    │   ├── metricas_depuracion.csv
+    │   ├── registro_imagenes_eliminadas.csv
+    │   └── reporte_depuracion.json
+    ├── depurar_conjunto.py
+    ├── procedencia_conjunto_bruto.csv
+    ├── reporte_consolidacion.json
+    ├── salidas
+    │   ├── log_consolidacion.txt
+    │   ├── log_consolidacion_sim.txt
+    │   ├── log_depuracion.txt
+    │   ├── log_depuracion_sim.txt
+    │   ├── log_depuracion_sim2.txt
+    │   ├── log_depuracion_sim3.txt
+    │   └── log_nitidez.txt
+    ├── verificacion_dup
+    │   ├── par1_E8_A_eliminada_couret__aedes_aegypti_f_NEWORLEANS_image0016.jpg
+    │   ├── par2_E8_A_eliminada_couret__aedes_aegypti_f_NEWORLEANS_image0027.jpg
+    │   ├── par3_E4_A_eliminada_couret__aedes_aegypti_f_NEWORLEANS_image0037.jpg
+    │   ├── par3_E4_B_conservada_couret__aedes_aegypti_m_NEWORLEANS_image0068.jpg
+    │   ├── par4_E4_A_eliminada_couret__aedes_aegypti_f_NEWORLEANS_image0123.jpg
+    │   └── par4_E4_B_conservada_couret__aedes_aegypti_f_NEWORLEANS_image0122.jpg
+    ├── verificacion_dup.zip
+    ├── verificacion_e5
+    │   ├── brillo_235.14_dryad__Micro_AEa17_.png
+    │   ├── brillo_235.46_dryad__Micro_AEa23_.png
+    │   ├── brillo_236.32_dryad__Micro_AEa11_.png
+    │   ├── brillo_236.62_dryad__Micro_AEa29_.png
+    │   ├── brillo_238.7_dryad__Micro_AEa30_.png
+    │   └── brillo_239.11_dryad__Micro_AEa20_.png
+    └── verificacion_e5.zip
+
+23 directories, 33190 files
+Generado: 2026-10-01 23:04. Excluidas: .git, .ipynb_checkpoints, .venv, __pycache__.
+Carpetas con mas de 50 archivos directos se muestran colapsadas con su conteo.

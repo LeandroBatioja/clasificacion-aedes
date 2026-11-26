@@ -1,0 +1,388 @@
+{
+  "fecha": "2026-10-24 17:18:31",
+  "resultado_original": {
+    "aegypti": {
+      "revisadas": 200,
+      "indeterminables": 110,
+      "coinciden": 34,
+      "discrepan": 56,
+      "determinables": 90,
+      "tasa_error": 0.6222
+    },
+    "aegypti|inaturalist": {
+      "revisadas": 110,
+      "indeterminables": 71,
+      "coinciden": 34,
+      "discrepan": 5,
+      "determinables": 39,
+      "tasa_error": 0.1282
+    },
+    "aegypti|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "albopictus": {
+      "revisadas": 200,
+      "indeterminables": 180,
+      "coinciden": 11,
+      "discrepan": 9,
+      "determinables": 20,
+      "tasa_error": 0.45
+    },
+    "albopictus|mosquito_alert": {
+      "revisadas": 115,
+      "indeterminables": 103,
+      "coinciden": 11,
+      "discrepan": 1,
+      "determinables": 12,
+      "tasa_error": 0.0833
+    },
+    "albopictus|dryad": {
+      "revisadas": 60,
+      "indeterminables": 52,
+      "coinciden": 0,
+      "discrepan": 8,
+      "determinables": 8,
+      "tasa_error": 1.0
+    },
+    "albopictus|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "aegypti|dryad": {
+      "revisadas": 60,
+      "indeterminables": 9,
+      "coinciden": 0,
+      "discrepan": 51,
+      "determinables": 51,
+      "tasa_error": 1.0
+    },
+    "aegypti|mosquito_alert": {
+      "revisadas": 5,
+      "indeterminables": 5,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    }
+  },
+  "reclasificadas_laboratorio": [
+    "10",
+    "23",
+    "24",
+    "29",
+    "32",
+    "33",
+    "40",
+    "56",
+    "57",
+    "59",
+    "60",
+    "66",
+    "72",
+    "80",
+    "81",
+    "89",
+    "97",
+    "98",
+    "110",
+    "117",
+    "118",
+    "137",
+    "139",
+    "141",
+    "142",
+    "147",
+    "155",
+    "157",
+    "160",
+    "164",
+    "166",
+    "167",
+    "169",
+    "171",
+    "173",
+    "178",
+    "190",
+    "192",
+    "195",
+    "201",
+    "206",
+    "214",
+    "220",
+    "227",
+    "250",
+    "257",
+    "264",
+    "285",
+    "293",
+    "296",
+    "302",
+    "313",
+    "317",
+    "318",
+    "330",
+    "364",
+    "369",
+    "375",
+    "394"
+  ],
+  "criterio_reclasificacion": "reclasificado a indeterminable: ejemplar de colonia seco con perdida de escamas; el criterio 'otro' no es aplicable (Entrada 007)",
+  "resultado_corregido": {
+    "aegypti": {
+      "revisadas": 200,
+      "indeterminables": 161,
+      "coinciden": 34,
+      "discrepan": 5,
+      "determinables": 39,
+      "tasa_error": 0.1282
+    },
+    "aegypti|inaturalist": {
+      "revisadas": 110,
+      "indeterminables": 71,
+      "coinciden": 34,
+      "discrepan": 5,
+      "determinables": 39,
+      "tasa_error": 0.1282
+    },
+    "aegypti|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "albopictus": {
+      "revisadas": 200,
+      "indeterminables": 188,
+      "coinciden": 11,
+      "discrepan": 1,
+      "determinables": 12,
+      "tasa_error": 0.0833
+    },
+    "albopictus|mosquito_alert": {
+      "revisadas": 115,
+      "indeterminables": 103,
+      "coinciden": 11,
+      "discrepan": 1,
+      "determinables": 12,
+      "tasa_error": 0.0833
+    },
+    "albopictus|dryad": {
+      "revisadas": 60,
+      "indeterminables": 60,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "albopictus|ong": {
+      "revisadas": 25,
+      "indeterminables": 25,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "aegypti|dryad": {
+      "revisadas": 60,
+      "indeterminables": 60,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    },
+    "aegypti|mosquito_alert": {
+      "revisadas": 5,
+      "indeterminables": 5,
+      "coinciden": 0,
+      "discrepan": 0,
+      "determinables": 0,
+      "tasa_error": null
+    }
+  },
+  "discrepancias_corregidas": [
+    {
+      "id": "20",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs256403812",
+      "nombre_destino": "inaturalist__inat_256403812_459708867.jpg",
+      "observada": "otro"
+    },
+    {
+      "id": "54",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs152211879",
+      "nombre_destino": "inaturalist__inat_152211879_262736195.jpg",
+      "observada": "otro"
+    },
+    {
+      "id": "99",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs258015128",
+      "nombre_destino": "inaturalist__inat_258015128_462855528.jpg",
+      "observada": "albopictus"
+    },
+    {
+      "id": "152",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs59237768",
+      "nombre_destino": "inaturalist__inat_59237768_94638860.jpg",
+      "observada": "otro"
+    },
+    {
+      "id": "294",
+      "especie_etiqueta": "aegypti",
+      "origen": "inaturalist",
+      "grupo": "inaturalist_obs58098194",
+      "nombre_destino": "inaturalist__inat_58098194_92723762.jpg",
+      "observada": "otro"
+    },
+    {
+      "id": "326",
+      "especie_etiqueta": "albopictus",
+      "origen": "mosquito_alert",
+      "grupo": "ma_rep_39406aed-7ebe-4fb5-b370-8da795c9378b",
+      "nombre_destino": "mosquito_alert__49790e73-af09-487d-803a-1a5a61cd36fc.jpg",
+      "observada": "aegypti"
+    }
+  ],
+  "inaturalist_estadio": {
+    "adulto u otro estadio adulto": 412,
+    "sin anotacion": 655,
+    "no adulto": 26
+  },
+  "inaturalist_no_adultas": [
+    {
+      "nombre_destino": "inaturalist__inat_20312902_31363446.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_40242055_63928295.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_40295433_64011406.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_44442121_70463710.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_46734701_74120476.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_46736230_74122464.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_46736631_74123088.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_46741564_74130422.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_50155068_79641467.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_51588180_81973788.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_53640532_85321241.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_53862779_85681125.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_53862785_85681173.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_53988479_85878876.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_54800724_87218337.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_57572420_91843149.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_57577204_91851768.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_58098194_92723762.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_59231270_94627887.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_59233379_94631041.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_59237768_94638860.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_59516649_95101535.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_59968065_95857401.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_60153919_96163843.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_60625306_96954297.jpg",
+      "estadio": "larva"
+    },
+    {
+      "nombre_destino": "inaturalist__inat_61000263_97571857.jpg",
+      "estadio": "larva"
+    }
+  ],
+  "exclusiones": 30,
+  "conjunto_tras_exclusiones": {
+    "aedes_aegypti": {
+      "dryad": 597,
+      "inaturalist": 1064,
+      "mosquito_alert": 53,
+      "ong": 244
+    },
+    "aedes_albopictus": {
+      "dryad": 596,
+      "mosquito_alert": 1142,
+      "ong": 248
+    }
+  }
+}

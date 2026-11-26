@@ -1,0 +1,125 @@
+======================================================================
+  ANALISIS DE NITIDEZ DEL CONJUNTO BRUTO
+======================================================================
+  Conjunto        : conjunto_bruto
+  Imagenes        : 16969
+  Normalizacion   : lado mayor 512 px
+  Procesos        : 11
+
+  Midiendo...
+    1000/16969
+    2000/16969
+    3000/16969
+    4000/16969
+    5000/16969
+    6000/16969
+    7000/16969
+    8000/16969
+    9000/16969
+    10000/16969
+    11000/16969
+    12000/16969
+    13000/16969
+    14000/16969
+    15000/16969
+    16000/16969
+  Procesadas : 16921   Ilegibles (E1): 48   Tiempo: 6.6 min
+
+======================================================================
+  DISTRIBUCION POR ESPECIE
+======================================================================
+  Grupo                               n     min      p5     p25      p50      max
+  --------------------------------------------------------------------
+  aedes_aegypti                    1543    11.9    39.3    52.8     73.4   1531.5
+  aedes_albopictus                15378     2.4    23.1    53.1    103.0  15889.5
+
+======================================================================
+  DISTRIBUCION POR REPOSITORIO
+======================================================================
+  Grupo                               n     min      p5     p25      p50      max
+  --------------------------------------------------------------------
+  couret                            219    18.3    33.0    51.8     67.9    121.9
+  dryad                             796    35.6    69.7   113.8    231.3   1049.2
+  kaggle                            603    11.9    37.3    45.4     52.2    103.2
+  mosquito_alert                  14803     2.4    22.8    51.6     98.5  15889.5
+  ong                               500    69.5   116.9   163.8    212.2    555.8
+
+======================================================================
+  DISTRIBUCION POR ESPECIE Y REPOSITORIO
+======================================================================
+  Grupo                               n     min      p5     p25      p50      max
+  --------------------------------------------------------------------
+  aegypti/couret                    219    18.3    33.0    51.8     67.9    121.9
+  aegypti/dryad                     398    35.6    69.1   112.5    225.5    701.5
+  aegypti/kaggle                    603    11.9    37.3    45.4     52.2    103.2
+  aegypti/mosquito_alert             73    22.7    35.1    65.7    152.4   1531.5
+  aegypti/ong                       250    69.5   109.5   153.6    184.4    549.9
+  albopictus/dryad                  398    53.2    74.6   117.1    257.6   1049.2
+  albopictus/mosquito_alert       14730     2.4    22.8    51.6     98.3  15889.5
+  albopictus/ong                    250    71.8   120.9   184.9    242.9    555.8
+
+======================================================================
+  SIMULACION DE UMBRALES POR ESPECIE
+  (% descartado; * = supera la regla de contencion del 30 %)
+======================================================================
+   Umbral aedes_aegypti aedes_albopic
+  -----------------------------------
+        3         0.0%          0.0% 
+        5         0.0%          0.0% 
+       10         0.0%          0.4% 
+       15         0.1%          1.5% 
+       20         0.4%          3.4% 
+       30         1.2%          9.1% 
+       50        20.4%         22.8% 
+       75        50.6%*        38.2%*
+      100        59.9%*        49.0%*
+      150        69.2%*        63.0%*
+
+======================================================================
+  SIMULACION DE UMBRALES POR REPOSITORIO
+  (% descartado; * = supera la regla de contencion del 30 %)
+======================================================================
+   Umbral        couret         dryad        kaggle mosquito_aler           ong
+  -----------------------------------------------------------------------------
+        3         0.0%          0.0%          0.0%          0.0%          0.0% 
+        5         0.0%          0.0%          0.0%          0.0%          0.0% 
+       10         0.0%          0.0%          0.0%          0.4%          0.0% 
+       15         0.0%          0.0%          0.3%          1.6%          0.0% 
+       20         0.9%          0.0%          0.7%          3.5%          0.0% 
+       30         3.7%          0.0%          1.2%          9.5%          0.0% 
+       50        22.4%          0.5%         42.1%*        23.7%          0.0% 
+       75        61.6%*         6.5%         98.3%*        39.6%*         0.8% 
+      100        92.7%*        19.1%         99.8%*        50.5%*         3.0% 
+      150       100.0%*        38.4%*       100.0%*        64.4%*        16.8% 
+
+======================================================================
+  UMBRAL MAXIMO QUE RESPETA LA REGLA DE CONTENCION
+======================================================================
+  30  (ningun repositorio ni especie pierde mas del 30 %)
+  Es un TECHO, no una recomendacion: el umbral definitivo surge de
+  la inspeccion visual y puede ser menor.
+
+======================================================================
+  MUESTRA VISUAL ESTRATIFICADA
+======================================================================
+  couret              13 imagenes -> analisis_nitidez/muestra_visual/couret
+  dryad               15 imagenes -> analisis_nitidez/muestra_visual/dryad
+  kaggle              15 imagenes -> analisis_nitidez/muestra_visual/kaggle
+  mosquito_alert      15 imagenes -> analisis_nitidez/muestra_visual/mosquito_alert
+  ong                 15 imagenes -> analisis_nitidez/muestra_visual/ong
+  Total copiadas: 73  (copias reales, no enlaces: pueden abrirse y borrarse)
+
+======================================================================
+  SIGUIENTE PASO (MANUAL)
+======================================================================
+  1. Abra analisis_nitidez/muestra_visual/ ; hay una carpeta por repositorio.
+     Cada nombre empieza por su varianza, asi quedan ordenadas.
+  2. En cada repositorio identifique desde que varianza el
+     desenfoque impide ver escudo toracico, patas o abdomen.
+  3. Adopte como umbral el valor mas bajo que elimine desenfoque
+     real sin superar el techo de contencion (30).
+  4. Registre umbral y justificacion en la Entrada 006.
+
+  Archivos: analisis_nitidez/metricas_por_imagen.csv
+            analisis_nitidez/reporte_nitidez.json
+======================================================================

@@ -1,0 +1,132 @@
+{
+  "fecha_verificacion": "2026-09-19 23:09:16",
+  "python": "3.11.13",
+  "sistema": "Linux 5.14.0-687.46.1.el9_8.x86_64",
+  "procesador": "x86_64",
+  "cpu": "Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz",
+  "ram_gb": 23.0,
+  "librerias": {
+    "torch": "2.4.1+cpu",
+    "torchvision": "0.19.1+cpu",
+    "timm": "1.0.9",
+    "scikit-learn": "1.5.2",
+    "statsmodels": "0.14.4",
+    "scipy": "1.14.1",
+    "opencv": "5.0.0",
+    "numpy": "2.1.1",
+    "pandas": "2.2.3",
+    "Pillow": "10.4.0",
+    "ImageHash": "4.3.1",
+    "matplotlib": "3.9.2"
+  },
+  "cuda_disponible": false,
+  "hilos_cpu": 6,
+  "arquitecturas": {
+    "EfficientNet-B0": {
+      "id_timm": "efficientnet_b0",
+      "parametros_total": 4010110,
+      "parametros_entrenables": 4010110,
+      "media_normalizacion": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "desv_normalizacion": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resolucion_cfg": [
+        3,
+        224,
+        224
+      ],
+      "estado": "OK"
+    },
+    "MobileNetV3-Large": {
+      "id_timm": "mobilenetv3_large_100",
+      "parametros_total": 4204594,
+      "parametros_entrenables": 4204594,
+      "media_normalizacion": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "desv_normalizacion": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resolucion_cfg": [
+        3,
+        224,
+        224
+      ],
+      "estado": "OK"
+    },
+    "ResNet50": {
+      "id_timm": "resnet50",
+      "parametros_total": 23512130,
+      "parametros_entrenables": 23512130,
+      "media_normalizacion": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "desv_normalizacion": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resolucion_cfg": [
+        3,
+        224,
+        224
+      ],
+      "estado": "OK"
+    },
+    "ViT-S/16": {
+      "id_timm": "vit_small_patch16_224",
+      "parametros_total": 21666434,
+      "parametros_entrenables": 21666434,
+      "media_normalizacion": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "desv_normalizacion": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "resolucion_cfg": [
+        3,
+        224,
+        224
+      ],
+      "estado": "OK"
+    }
+  },
+  "ajuste_fino_parcial": {
+    "EfficientNet-B0": {
+      "total": 4010110,
+      "entrenables_solo_clasificador": 2562,
+      "porcentaje": 0.0639
+    },
+    "MobileNetV3-Large": {
+      "total": 4204594,
+      "entrenables_solo_clasificador": 2562,
+      "porcentaje": 0.0609
+    },
+    "ResNet50": {
+      "total": 23512130,
+      "entrenables_solo_clasificador": 4098,
+      "porcentaje": 0.0174
+    },
+    "ViT-S/16": {
+      "total": 21666434,
+      "entrenables_solo_clasificador": 770,
+      "porcentaje": 0.0036
+    }
+  }
+}

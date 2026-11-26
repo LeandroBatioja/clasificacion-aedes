@@ -1,0 +1,89 @@
+
+==============================================================
+  1. ENTORNO DE EJECUCION
+==============================================================
+  Fecha              : 2026-09-19 23:09:16
+  Python             : 3.11.13
+  Sistema operativo  : Linux 5.14.0-687.46.1.el9_8.x86_64
+  CPU                : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+  RAM total          : 23.0 GB
+
+==============================================================
+  2. VERSIONES DE LIBRERIAS
+==============================================================
+  [OK]    torch                  2.4.1+cpu
+  [OK]    torchvision            0.19.1+cpu
+  [OK]    timm                   1.0.9
+  [OK]    scikit-learn           1.5.2
+  [OK]    statsmodels            0.14.4
+  [OK]    scipy                  1.14.1
+  [OK]    opencv                 5.0.0
+  [OK]    numpy                  2.1.1
+  [OK]    pandas                 2.2.3
+  [OK]    Pillow                 10.4.0
+  [OK]    ImageHash              4.3.1
+  [OK]    matplotlib             3.9.2
+
+==============================================================
+  3. CONFIGURACION DE PYTORCH
+==============================================================
+  Version de torch   : 2.4.1+cpu
+  CUDA disponible    : False  (se espera False)
+  Hilos de CPU       : 6
+
+==============================================================
+  4. CARGA DE LAS CUATRO ARQUITECTURAS
+==============================================================
+  Clases objetivo    : 2 (Aedes aegypti, Aedes albopictus)
+  Resolucion entrada : 224 x 224
+
+  Arquitectura         ID timm                        Params  Estado
+  --------------------------------------------------------------------------
+  EfficientNet-B0      efficientnet_b0               4.01 M  OK
+  MobileNetV3-Large    mobilenetv3_large_100         4.20 M  OK
+  ResNet50             resnet50                     23.51 M  OK
+  ViT-S/16             vit_small_patch16_224        21.67 M  OK
+
+==============================================================
+  5. PARAMETROS DE NORMALIZACION (declarados en 3.3)
+==============================================================
+  Arquitectura         Media (RGB)                Desv. estandar (RGB)
+  --------------------------------------------------------------------------
+  EfficientNet-B0      [0.485, 0.456, 0.406]      [0.229, 0.224, 0.225]
+  MobileNetV3-Large    [0.485, 0.456, 0.406]      [0.229, 0.224, 0.225]
+  ResNet50             [0.485, 0.456, 0.406]      [0.229, 0.224, 0.225]
+  ViT-S/16             [0.5, 0.5, 0.5]            [0.5, 0.5, 0.5]
+
+==============================================================
+  6. VERIFICACION DEL AJUSTE FINO PARCIAL
+==============================================================
+  Estrategia declarada en 3.2: congelar capas iniciales y
+  entrenar unicamente los ultimos bloques y el clasificador.
+
+  Arquitectura              Total   Entrenables   % entrenable
+  --------------------------------------------------------------------------
+  EfficientNet-B0          4.01M       2,562         0.064%
+  MobileNetV3-Large        4.20M       2,562         0.061%
+  ResNet50                23.51M       4,098         0.017%
+  ViT-S/16                21.67M         770         0.004%
+
+==============================================================
+  7. PRUEBA FUNCIONAL (pasada hacia adelante)
+==============================================================
+  Se verifica que cada modelo procese un lote y devuelva
+  dos salidas por imagen (una por clase).
+
+  EfficientNet-B0      salida (2, 2)       OK
+  MobileNetV3-Large    salida (2, 2)       OK
+  ResNet50             salida (2, 2)       OK
+  ViT-S/16             salida (2, 2)       OK
+
+==============================================================
+  8. REPORTE PARA LA FICHA TECNICA
+==============================================================
+  Arquitecturas verificadas : 4 de 4
+  Reporte guardado en       : reporte_entorno.json
+
+  RESULTADO: entorno verificado correctamente.
+  Siguiente paso: ejecutar benchmark_cpu.py
+==============================================================

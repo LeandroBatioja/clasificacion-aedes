@@ -1,0 +1,79 @@
+==============================================================
+  CONSOLIDACION DEL CONJUNTO BRUTO
+==============================================================
+  Repositorios : /home/leandro/Vídeos/TESIS/DATASETS
+  Destino      : /home/leandro/Imágenes/tesis/fase3/conjunto_bruto_v2
+  Modo         : ENLACES DUROS (sin espacio adicional)
+
+  Recolectando...
+  18467 imagenes recolectadas
+
+==============================================================
+  TABLA CRUZADA ESPECIE x REPOSITORIO  (medida M1)
+==============================================================
+  Repositorio                  aegypti        albopictus
+  ------------------------------------------------------
+  couret                    219 (7.7%)          0 (0.0%)
+  dryad                    597 (21.0%)        597 (3.8%)
+  inaturalist             1100 (38.7%)          0 (0.0%)
+  kaggle                   603 (21.2%)          0 (0.0%)
+  mosquito_alert             73 (2.6%)     14778 (94.6%)
+  ong                       250 (8.8%)        250 (1.6%)
+  ------------------------------------------------------
+  TOTAL                           2842             15625
+
+==============================================================
+  VERIFICACION M1  (ninguna fuente > 70.0%)
+==============================================================
+  aedes_aegypti        inaturalist        38.7%   CUMPLE
+  aedes_albopictus     mosquito_alert     94.6%   NO CUMPLE
+
+  El conjunto bruto no cumple M1. Se resolvera mediante
+  submuestreo dirigido de la fuente dominante durante el
+  balanceo, priorizando diversidad de origen.
+
+==============================================================
+  AGRUPAMIENTO POR ESPECIMEN
+==============================================================
+  Con identificador : 17967
+  Sin identificador : 500  (se agrupan en agrupar_especimenes.py)
+  Especimenes con varias imagenes: 548
+    kaggle           aegypti29    5 imagenes
+    kaggle           aegypti30    5 imagenes
+    kaggle           aegypti32    5 imagenes
+    kaggle           aegypti100   4 imagenes
+    kaggle           aegypti101   4 imagenes
+
+==============================================================
+  ESCRIBIENDO CONJUNTO BRUTO
+==============================================================
+    1000/18467
+    2000/18467
+    3000/18467
+    4000/18467
+    5000/18467
+    6000/18467
+    7000/18467
+    8000/18467
+    9000/18467
+    10000/18467
+    11000/18467
+    12000/18467
+    13000/18467
+    14000/18467
+    15000/18467
+    16000/18467
+    17000/18467
+    18000/18467
+  Total escritas     : 18467
+    enlaces duros    : 18467
+    copias fisicas   : 0
+
+==============================================================
+  ARCHIVOS GENERADOS
+==============================================================
+  /home/leandro/Imágenes/tesis/fase3/procedencia_conjunto_bruto_v2.csv
+  /home/leandro/Imágenes/tesis/fase3/reporte_consolidacion_v2.json
+  /home/leandro/Imágenes/tesis/fase3/conjunto_bruto_v2/aedes_aegypti/
+  /home/leandro/Imágenes/tesis/fase3/conjunto_bruto_v2/aedes_albopictus/
+==============================================================

@@ -1,0 +1,34 @@
+{
+  "fecha": "2026-10-23 21:33:58",
+  "taxon_id": 155453,
+  "pais_excluido": "Ecuador",
+  "place_id_excluido": 7512,
+  "criterios": {
+    "grado": "research",
+    "licencias": [
+      "cc0",
+      "cc-by",
+      "cc-by-nc"
+    ],
+    "fotos_por_observacion": 1,
+    "max_por_usuario": 10,
+    "semilla": 42
+  },
+  "observaciones_consultadas": 4084,
+  "exclusiones": {
+    "sin ubicacion (pais no verificable)": 6,
+    "observada en Ecuador": 27,
+    "supera el tope por observador": 1441
+  },
+  "elegibles": 4051,
+  "disponibles_tras_tope": 2610,
+  "seleccionadas": 1100,
+  "observadores": 790,
+  "licencias": {
+    "cc-by-nc": 951,
+    "cc-by": 123,
+    "cc0": 26
+  },
+  "descargadas_en_esta_ejecucion": 1100,
+  "fallos": []
+}

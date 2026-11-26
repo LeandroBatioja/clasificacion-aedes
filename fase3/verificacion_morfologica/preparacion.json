@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-10-24 01:13:34",
+  "semilla": 42,
+  "conjunto_trabajo": {
+    "aedes_aegypti": {
+      "mosquito_alert": 53,
+      "dryad": 597,
+      "ong": 244,
+      "inaturalist": 1093
+    },
+    "aedes_albopictus": {
+      "dryad": 596,
+      "ong": 248,
+      "mosquito_alert": 1143
+    }
+  },
+  "reportes_ma_albopictus": 723,
+  "muestra": {
+    "aedes_aegypti": {
+      "mosquito_alert": 5,
+      "dryad": 60,
+      "ong": 25,
+      "inaturalist": 110
+    },
+    "aedes_albopictus": {
+      "dryad": 60,
+      "ong": 25,
+      "mosquito_alert": 115
+    }
+  }
+}

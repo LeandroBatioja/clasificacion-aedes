@@ -1,0 +1,1314 @@
+{
+  "corrida_mediana": {
+    "efficientnet_b0": 46,
+    "mobilenetv3_large_100": 43,
+    "resnet50": 44,
+    "vit_small_patch16_224": 46
+  },
+  "metricas": {
+    "efficientnet_b0": {
+      "prueba": {
+        "n": 589,
+        "n_aegypti": 295,
+        "n_albopictus": 294,
+        "exactitud": 0.8251,
+        "exactitud_balanceada": 0.8251,
+        "macro_f1": 0.8251,
+        "sens_aegypti": 0.8407,
+        "sens_albopictus": 0.8095,
+        "espec_aegypti": 0.8095,
+        "espec_albopictus": 0.8407,
+        "prec_aegypti": 0.8158,
+        "prec_albopictus": 0.8351,
+        "f1_aegypti": 0.828,
+        "f1_albopictus": 0.8221,
+        "matriz_confusion": [
+          [
+            248,
+            47
+          ],
+          [
+            56,
+            238
+          ]
+        ],
+        "ic_exactitud": [
+          0.7863,
+          0.8591
+        ],
+        "ic_exactitud_balanceada": [
+          0.7873,
+          0.8591
+        ],
+        "ic_macro_f1": [
+          0.7862,
+          0.859
+        ],
+        "ic_sens_aegypti": [
+          0.7986,
+          0.8803
+        ],
+        "ic_sens_albopictus": [
+          0.75,
+          0.8641
+        ]
+      },
+      "control": {
+        "n": 254,
+        "n_aegypti": 127,
+        "n_albopictus": 127,
+        "exactitud": 0.9016,
+        "exactitud_balanceada": 0.9016,
+        "macro_f1": 0.9016,
+        "sens_aegypti": 0.9055,
+        "sens_albopictus": 0.8976,
+        "espec_aegypti": 0.8976,
+        "espec_albopictus": 0.9055,
+        "prec_aegypti": 0.8984,
+        "prec_albopictus": 0.9048,
+        "f1_aegypti": 0.902,
+        "f1_albopictus": 0.9012,
+        "matriz_confusion": [
+          [
+            115,
+            12
+          ],
+          [
+            13,
+            114
+          ]
+        ],
+        "ic_exactitud": [
+          0.8608,
+          0.9378
+        ],
+        "ic_exactitud_balanceada": [
+          0.8602,
+          0.9376
+        ],
+        "ic_macro_f1": [
+          0.8603,
+          0.9375
+        ],
+        "ic_sens_aegypti": [
+          0.8547,
+          0.9504
+        ],
+        "ic_sens_albopictus": [
+          0.8319,
+          0.9504
+        ]
+      },
+      "dryad": {
+        "n": 180,
+        "n_aegypti": 90,
+        "n_albopictus": 90,
+        "exactitud": 0.8944,
+        "exactitud_balanceada": 0.8944,
+        "macro_f1": 0.8944,
+        "sens_aegypti": 0.8889,
+        "sens_albopictus": 0.9,
+        "espec_aegypti": 0.9,
+        "espec_albopictus": 0.8889,
+        "prec_aegypti": 0.8989,
+        "prec_albopictus": 0.8901,
+        "f1_aegypti": 0.8939,
+        "f1_albopictus": 0.895,
+        "matriz_confusion": [
+          [
+            80,
+            10
+          ],
+          [
+            9,
+            81
+          ]
+        ],
+        "ic_exactitud": [
+          0.8444,
+          0.9389
+        ],
+        "ic_exactitud_balanceada": [
+          0.8444,
+          0.9389
+        ],
+        "ic_macro_f1": [
+          0.8444,
+          0.9388
+        ],
+        "ic_sens_aegypti": [
+          0.8333,
+          0.9444
+        ],
+        "ic_sens_albopictus": [
+          0.8222,
+          0.9667
+        ]
+      },
+      "ong": {
+        "n": 74,
+        "n_aegypti": 37,
+        "n_albopictus": 37,
+        "exactitud": 0.9189,
+        "exactitud_balanceada": 0.9189,
+        "macro_f1": 0.9189,
+        "sens_aegypti": 0.9459,
+        "sens_albopictus": 0.8919,
+        "espec_aegypti": 0.8919,
+        "espec_albopictus": 0.9459,
+        "prec_aegypti": 0.8974,
+        "prec_albopictus": 0.9429,
+        "f1_aegypti": 0.9211,
+        "f1_albopictus": 0.9167,
+        "matriz_confusion": [
+          [
+            35,
+            2
+          ],
+          [
+            4,
+            33
+          ]
+        ],
+        "ic_exactitud": [
+          0.8382,
+          0.9785
+        ],
+        "ic_exactitud_balanceada": [
+          0.839,
+          0.9778
+        ],
+        "ic_macro_f1": [
+          0.8335,
+          0.9763
+        ],
+        "ic_sens_aegypti": [
+          0.8333,
+          1.0
+        ],
+        "ic_sens_albopictus": [
+          0.7714,
+          1.0
+        ]
+      },
+      "campo": {
+        "n": 335,
+        "n_aegypti": 168,
+        "n_albopictus": 167,
+        "exactitud": 0.7672,
+        "exactitud_balanceada": 0.7671,
+        "macro_f1": 0.767,
+        "sens_aegypti": 0.7917,
+        "sens_albopictus": 0.7425,
+        "espec_aegypti": 0.7425,
+        "espec_albopictus": 0.7917,
+        "prec_aegypti": 0.7557,
+        "prec_albopictus": 0.7799,
+        "f1_aegypti": 0.7733,
+        "f1_albopictus": 0.7607,
+        "matriz_confusion": [
+          [
+            133,
+            35
+          ],
+          [
+            43,
+            124
+          ]
+        ],
+        "ic_exactitud": [
+          0.7114,
+          0.8196
+        ],
+        "ic_exactitud_balanceada": [
+          0.7129,
+          0.8194
+        ],
+        "ic_macro_f1": [
+          0.711,
+          0.8195
+        ],
+        "ic_sens_aegypti": [
+          0.7325,
+          0.8476
+        ],
+        "ic_sens_albopictus": [
+          0.6548,
+          0.8276
+        ]
+      },
+      "I-ae": {
+        "n": 160,
+        "n_aegypti": 160,
+        "n_albopictus": 0,
+        "exactitud": 0.8063,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.8063,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.8063,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8927,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            129,
+            31
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "ic_exactitud": [
+          0.7438,
+          0.8625
+        ],
+        "ic_sens_aegypti": [
+          0.7438,
+          0.8625
+        ]
+      },
+      "M-al": {
+        "n": 167,
+        "n_aegypti": 0,
+        "n_albopictus": 167,
+        "exactitud": 0.7425,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": null,
+        "sens_albopictus": 0.7425,
+        "espec_aegypti": 0.7425,
+        "espec_albopictus": null,
+        "prec_aegypti": 0.0,
+        "prec_albopictus": 1.0,
+        "f1_aegypti": null,
+        "f1_albopictus": 0.8522,
+        "matriz_confusion": [
+          [
+            0,
+            0
+          ],
+          [
+            43,
+            124
+          ]
+        ],
+        "ic_exactitud": [
+          0.6548,
+          0.8276
+        ],
+        "ic_sens_albopictus": [
+          0.6548,
+          0.8276
+        ]
+      },
+      "M-ae": {
+        "n": 8,
+        "n_aegypti": 8,
+        "n_albopictus": 0,
+        "exactitud": 0.5,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.5,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.5,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.6667,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "mobilenetv3_large_100": {
+      "prueba": {
+        "n": 589,
+        "n_aegypti": 295,
+        "n_albopictus": 294,
+        "exactitud": 0.8081,
+        "exactitud_balanceada": 0.8082,
+        "macro_f1": 0.8081,
+        "sens_aegypti": 0.8,
+        "sens_albopictus": 0.8163,
+        "espec_aegypti": 0.8163,
+        "espec_albopictus": 0.8,
+        "prec_aegypti": 0.8138,
+        "prec_albopictus": 0.8027,
+        "f1_aegypti": 0.8068,
+        "f1_albopictus": 0.8094,
+        "matriz_confusion": [
+          [
+            236,
+            59
+          ],
+          [
+            54,
+            240
+          ]
+        ],
+        "ic_exactitud": [
+          0.7693,
+          0.8451
+        ],
+        "ic_exactitud_balanceada": [
+          0.7694,
+          0.8455
+        ],
+        "ic_macro_f1": [
+          0.7692,
+          0.8451
+        ],
+        "ic_sens_aegypti": [
+          0.7466,
+          0.8494
+        ],
+        "ic_sens_albopictus": [
+          0.7581,
+          0.8741
+        ]
+      },
+      "control": {
+        "n": 254,
+        "n_aegypti": 127,
+        "n_albopictus": 127,
+        "exactitud": 0.8504,
+        "exactitud_balanceada": 0.8504,
+        "macro_f1": 0.8504,
+        "sens_aegypti": 0.8425,
+        "sens_albopictus": 0.8583,
+        "espec_aegypti": 0.8583,
+        "espec_albopictus": 0.8425,
+        "prec_aegypti": 0.856,
+        "prec_albopictus": 0.845,
+        "f1_aegypti": 0.8492,
+        "f1_albopictus": 0.8516,
+        "matriz_confusion": [
+          [
+            107,
+            20
+          ],
+          [
+            18,
+            109
+          ]
+        ],
+        "ic_exactitud": [
+          0.7831,
+          0.9068
+        ],
+        "ic_exactitud_balanceada": [
+          0.7838,
+          0.9076
+        ],
+        "ic_macro_f1": [
+          0.7827,
+          0.9067
+        ],
+        "ic_sens_aegypti": [
+          0.7565,
+          0.9153
+        ],
+        "ic_sens_albopictus": [
+          0.7659,
+          0.9426
+        ]
+      },
+      "dryad": {
+        "n": 180,
+        "n_aegypti": 90,
+        "n_albopictus": 90,
+        "exactitud": 0.8667,
+        "exactitud_balanceada": 0.8667,
+        "macro_f1": 0.8664,
+        "sens_aegypti": 0.8222,
+        "sens_albopictus": 0.9111,
+        "espec_aegypti": 0.9111,
+        "espec_albopictus": 0.8222,
+        "prec_aegypti": 0.9024,
+        "prec_albopictus": 0.8367,
+        "f1_aegypti": 0.8605,
+        "f1_albopictus": 0.8723,
+        "matriz_confusion": [
+          [
+            74,
+            16
+          ],
+          [
+            8,
+            82
+          ]
+        ],
+        "ic_exactitud": [
+          0.8056,
+          0.9222
+        ],
+        "ic_exactitud_balanceada": [
+          0.8056,
+          0.9222
+        ],
+        "ic_macro_f1": [
+          0.8033,
+          0.9222
+        ],
+        "ic_sens_aegypti": [
+          0.7111,
+          0.9111
+        ],
+        "ic_sens_albopictus": [
+          0.8444,
+          0.9667
+        ]
+      },
+      "ong": {
+        "n": 74,
+        "n_aegypti": 37,
+        "n_albopictus": 37,
+        "exactitud": 0.8108,
+        "exactitud_balanceada": 0.8108,
+        "macro_f1": 0.8096,
+        "sens_aegypti": 0.8919,
+        "sens_albopictus": 0.7297,
+        "espec_aegypti": 0.7297,
+        "espec_albopictus": 0.8919,
+        "prec_aegypti": 0.7674,
+        "prec_albopictus": 0.871,
+        "f1_aegypti": 0.825,
+        "f1_albopictus": 0.7941,
+        "matriz_confusion": [
+          [
+            33,
+            4
+          ],
+          [
+            10,
+            27
+          ]
+        ],
+        "ic_exactitud": [
+          0.6562,
+          0.942
+        ],
+        "ic_exactitud_balanceada": [
+          0.6829,
+          0.9437
+        ],
+        "ic_macro_f1": [
+          0.6512,
+          0.9404
+        ],
+        "ic_sens_aegypti": [
+          0.7419,
+          1.0
+        ],
+        "ic_sens_albopictus": [
+          0.5306,
+          0.9643
+        ]
+      },
+      "campo": {
+        "n": 335,
+        "n_aegypti": 168,
+        "n_albopictus": 167,
+        "exactitud": 0.7761,
+        "exactitud_balanceada": 0.7761,
+        "macro_f1": 0.7761,
+        "sens_aegypti": 0.7679,
+        "sens_albopictus": 0.7844,
+        "espec_aegypti": 0.7844,
+        "espec_albopictus": 0.7679,
+        "prec_aegypti": 0.7818,
+        "prec_albopictus": 0.7706,
+        "f1_aegypti": 0.7748,
+        "f1_albopictus": 0.7774,
+        "matriz_confusion": [
+          [
+            129,
+            39
+          ],
+          [
+            36,
+            131
+          ]
+        ],
+        "ic_exactitud": [
+          0.7278,
+          0.8246
+        ],
+        "ic_exactitud_balanceada": [
+          0.7276,
+          0.8254
+        ],
+        "ic_macro_f1": [
+          0.7272,
+          0.8246
+        ],
+        "ic_sens_aegypti": [
+          0.7024,
+          0.8294
+        ],
+        "ic_sens_albopictus": [
+          0.7063,
+          0.8663
+        ]
+      },
+      "I-ae": {
+        "n": 160,
+        "n_aegypti": 160,
+        "n_albopictus": 0,
+        "exactitud": 0.7688,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.7688,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.7688,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8693,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            123,
+            37
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "ic_exactitud": [
+          0.7,
+          0.8313
+        ],
+        "ic_sens_aegypti": [
+          0.7,
+          0.8313
+        ]
+      },
+      "M-al": {
+        "n": 167,
+        "n_aegypti": 0,
+        "n_albopictus": 167,
+        "exactitud": 0.7844,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": null,
+        "sens_albopictus": 0.7844,
+        "espec_aegypti": 0.7844,
+        "espec_albopictus": null,
+        "prec_aegypti": 0.0,
+        "prec_albopictus": 1.0,
+        "f1_aegypti": null,
+        "f1_albopictus": 0.8792,
+        "matriz_confusion": [
+          [
+            0,
+            0
+          ],
+          [
+            36,
+            131
+          ]
+        ],
+        "ic_exactitud": [
+          0.7063,
+          0.8663
+        ],
+        "ic_sens_albopictus": [
+          0.7063,
+          0.8663
+        ]
+      },
+      "M-ae": {
+        "n": 8,
+        "n_aegypti": 8,
+        "n_albopictus": 0,
+        "exactitud": 0.75,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.75,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.75,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8571,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "resnet50": {
+      "prueba": {
+        "n": 589,
+        "n_aegypti": 295,
+        "n_albopictus": 294,
+        "exactitud": 0.8149,
+        "exactitud_balanceada": 0.815,
+        "macro_f1": 0.8149,
+        "sens_aegypti": 0.8,
+        "sens_albopictus": 0.8299,
+        "espec_aegypti": 0.8299,
+        "espec_albopictus": 0.8,
+        "prec_aegypti": 0.8252,
+        "prec_albopictus": 0.8053,
+        "f1_aegypti": 0.8124,
+        "f1_albopictus": 0.8174,
+        "matriz_confusion": [
+          [
+            236,
+            59
+          ],
+          [
+            50,
+            244
+          ]
+        ],
+        "ic_exactitud": [
+          0.7729,
+          0.8559
+        ],
+        "ic_exactitud_balanceada": [
+          0.7728,
+          0.8562
+        ],
+        "ic_macro_f1": [
+          0.7726,
+          0.8559
+        ],
+        "ic_sens_aegypti": [
+          0.7509,
+          0.8486
+        ],
+        "ic_sens_albopictus": [
+          0.7609,
+          0.894
+        ]
+      },
+      "control": {
+        "n": 254,
+        "n_aegypti": 127,
+        "n_albopictus": 127,
+        "exactitud": 0.8425,
+        "exactitud_balanceada": 0.8425,
+        "macro_f1": 0.8422,
+        "sens_aegypti": 0.8898,
+        "sens_albopictus": 0.7953,
+        "espec_aegypti": 0.7953,
+        "espec_albopictus": 0.8898,
+        "prec_aegypti": 0.8129,
+        "prec_albopictus": 0.8783,
+        "f1_aegypti": 0.8496,
+        "f1_albopictus": 0.8347,
+        "matriz_confusion": [
+          [
+            113,
+            14
+          ],
+          [
+            26,
+            101
+          ]
+        ],
+        "ic_exactitud": [
+          0.7684,
+          0.9106
+        ],
+        "ic_exactitud_balanceada": [
+          0.7722,
+          0.91
+        ],
+        "ic_macro_f1": [
+          0.7676,
+          0.9102
+        ],
+        "ic_sens_aegypti": [
+          0.8167,
+          0.9545
+        ],
+        "ic_sens_albopictus": [
+          0.6741,
+          0.9091
+        ]
+      },
+      "dryad": {
+        "n": 180,
+        "n_aegypti": 90,
+        "n_albopictus": 90,
+        "exactitud": 0.8722,
+        "exactitud_balanceada": 0.8722,
+        "macro_f1": 0.872,
+        "sens_aegypti": 0.9111,
+        "sens_albopictus": 0.8333,
+        "espec_aegypti": 0.8333,
+        "espec_albopictus": 0.9111,
+        "prec_aegypti": 0.8454,
+        "prec_albopictus": 0.9036,
+        "f1_aegypti": 0.877,
+        "f1_albopictus": 0.8671,
+        "matriz_confusion": [
+          [
+            82,
+            8
+          ],
+          [
+            15,
+            75
+          ]
+        ],
+        "ic_exactitud": [
+          0.8111,
+          0.9333
+        ],
+        "ic_exactitud_balanceada": [
+          0.8111,
+          0.9333
+        ],
+        "ic_macro_f1": [
+          0.81,
+          0.9333
+        ],
+        "ic_sens_aegypti": [
+          0.8333,
+          0.9778
+        ],
+        "ic_sens_albopictus": [
+          0.7333,
+          0.9222
+        ]
+      },
+      "ong": {
+        "n": 74,
+        "n_aegypti": 37,
+        "n_albopictus": 37,
+        "exactitud": 0.7703,
+        "exactitud_balanceada": 0.7703,
+        "macro_f1": 0.7692,
+        "sens_aegypti": 0.8378,
+        "sens_albopictus": 0.7027,
+        "espec_aegypti": 0.7027,
+        "espec_albopictus": 0.8378,
+        "prec_aegypti": 0.7381,
+        "prec_albopictus": 0.8125,
+        "f1_aegypti": 0.7848,
+        "f1_albopictus": 0.7536,
+        "matriz_confusion": [
+          [
+            31,
+            6
+          ],
+          [
+            11,
+            26
+          ]
+        ],
+        "ic_exactitud": [
+          0.5656,
+          0.9423
+        ],
+        "ic_exactitud_balanceada": [
+          0.6021,
+          0.9444
+        ],
+        "ic_macro_f1": [
+          0.5621,
+          0.94
+        ],
+        "ic_sens_aegypti": [
+          0.6389,
+          0.9744
+        ],
+        "ic_sens_albopictus": [
+          0.4286,
+          1.0
+        ]
+      },
+      "campo": {
+        "n": 335,
+        "n_aegypti": 168,
+        "n_albopictus": 167,
+        "exactitud": 0.794,
+        "exactitud_balanceada": 0.7942,
+        "macro_f1": 0.7933,
+        "sens_aegypti": 0.7321,
+        "sens_albopictus": 0.8563,
+        "espec_aegypti": 0.8563,
+        "espec_albopictus": 0.7321,
+        "prec_aegypti": 0.8367,
+        "prec_albopictus": 0.7606,
+        "f1_aegypti": 0.781,
+        "f1_albopictus": 0.8056,
+        "matriz_confusion": [
+          [
+            123,
+            45
+          ],
+          [
+            24,
+            143
+          ]
+        ],
+        "ic_exactitud": [
+          0.7454,
+          0.8427
+        ],
+        "ic_exactitud_balanceada": [
+          0.7449,
+          0.8442
+        ],
+        "ic_macro_f1": [
+          0.7444,
+          0.8424
+        ],
+        "ic_sens_aegypti": [
+          0.6647,
+          0.7976
+        ],
+        "ic_sens_albopictus": [
+          0.7784,
+          0.9281
+        ]
+      },
+      "I-ae": {
+        "n": 160,
+        "n_aegypti": 160,
+        "n_albopictus": 0,
+        "exactitud": 0.7312,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.7312,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.7312,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8448,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            117,
+            43
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "ic_exactitud": [
+          0.6625,
+          0.8
+        ],
+        "ic_sens_aegypti": [
+          0.6625,
+          0.8
+        ]
+      },
+      "M-al": {
+        "n": 167,
+        "n_aegypti": 0,
+        "n_albopictus": 167,
+        "exactitud": 0.8563,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": null,
+        "sens_albopictus": 0.8563,
+        "espec_aegypti": 0.8563,
+        "espec_albopictus": null,
+        "prec_aegypti": 0.0,
+        "prec_albopictus": 1.0,
+        "f1_aegypti": null,
+        "f1_albopictus": 0.9226,
+        "matriz_confusion": [
+          [
+            0,
+            0
+          ],
+          [
+            24,
+            143
+          ]
+        ],
+        "ic_exactitud": [
+          0.7784,
+          0.9281
+        ],
+        "ic_sens_albopictus": [
+          0.7784,
+          0.9281
+        ]
+      },
+      "M-ae": {
+        "n": 8,
+        "n_aegypti": 8,
+        "n_albopictus": 0,
+        "exactitud": 0.75,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.75,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.75,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8571,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "vit_small_patch16_224": {
+      "prueba": {
+        "n": 589,
+        "n_aegypti": 295,
+        "n_albopictus": 294,
+        "exactitud": 0.854,
+        "exactitud_balanceada": 0.854,
+        "macro_f1": 0.854,
+        "sens_aegypti": 0.8678,
+        "sens_albopictus": 0.8401,
+        "espec_aegypti": 0.8401,
+        "espec_albopictus": 0.8678,
+        "prec_aegypti": 0.8449,
+        "prec_albopictus": 0.8636,
+        "f1_aegypti": 0.8562,
+        "f1_albopictus": 0.8517,
+        "matriz_confusion": [
+          [
+            256,
+            39
+          ],
+          [
+            47,
+            247
+          ]
+        ],
+        "ic_exactitud": [
+          0.8131,
+          0.8929
+        ],
+        "ic_exactitud_balanceada": [
+          0.8134,
+          0.8926
+        ],
+        "ic_macro_f1": [
+          0.813,
+          0.8928
+        ],
+        "ic_sens_aegypti": [
+          0.8258,
+          0.9085
+        ],
+        "ic_sens_albopictus": [
+          0.77,
+          0.9051
+        ]
+      },
+      "control": {
+        "n": 254,
+        "n_aegypti": 127,
+        "n_albopictus": 127,
+        "exactitud": 0.8976,
+        "exactitud_balanceada": 0.8976,
+        "macro_f1": 0.8976,
+        "sens_aegypti": 0.9213,
+        "sens_albopictus": 0.874,
+        "espec_aegypti": 0.874,
+        "espec_albopictus": 0.9213,
+        "prec_aegypti": 0.8797,
+        "prec_albopictus": 0.9174,
+        "f1_aegypti": 0.9,
+        "f1_albopictus": 0.8952,
+        "matriz_confusion": [
+          [
+            117,
+            10
+          ],
+          [
+            16,
+            111
+          ]
+        ],
+        "ic_exactitud": [
+          0.8284,
+          0.954
+        ],
+        "ic_exactitud_balanceada": [
+          0.8327,
+          0.9537
+        ],
+        "ic_macro_f1": [
+          0.8283,
+          0.9539
+        ],
+        "ic_sens_aegypti": [
+          0.8581,
+          0.9692
+        ],
+        "ic_sens_albopictus": [
+          0.7568,
+          0.9667
+        ]
+      },
+      "dryad": {
+        "n": 180,
+        "n_aegypti": 90,
+        "n_albopictus": 90,
+        "exactitud": 0.9278,
+        "exactitud_balanceada": 0.9278,
+        "macro_f1": 0.9278,
+        "sens_aegypti": 0.9444,
+        "sens_albopictus": 0.9111,
+        "espec_aegypti": 0.9111,
+        "espec_albopictus": 0.9444,
+        "prec_aegypti": 0.914,
+        "prec_albopictus": 0.9425,
+        "f1_aegypti": 0.929,
+        "f1_albopictus": 0.9266,
+        "matriz_confusion": [
+          [
+            85,
+            5
+          ],
+          [
+            8,
+            82
+          ]
+        ],
+        "ic_exactitud": [
+          0.8889,
+          0.9611
+        ],
+        "ic_exactitud_balanceada": [
+          0.8889,
+          0.9611
+        ],
+        "ic_macro_f1": [
+          0.8887,
+          0.9611
+        ],
+        "ic_sens_aegypti": [
+          0.9,
+          0.9889
+        ],
+        "ic_sens_albopictus": [
+          0.8444,
+          0.9667
+        ]
+      },
+      "ong": {
+        "n": 74,
+        "n_aegypti": 37,
+        "n_albopictus": 37,
+        "exactitud": 0.8243,
+        "exactitud_balanceada": 0.8243,
+        "macro_f1": 0.824,
+        "sens_aegypti": 0.8649,
+        "sens_albopictus": 0.7838,
+        "espec_aegypti": 0.7838,
+        "espec_albopictus": 0.8649,
+        "prec_aegypti": 0.8,
+        "prec_albopictus": 0.8529,
+        "f1_aegypti": 0.8312,
+        "f1_albopictus": 0.8169,
+        "matriz_confusion": [
+          [
+            32,
+            5
+          ],
+          [
+            8,
+            29
+          ]
+        ],
+        "ic_exactitud": [
+          0.6129,
+          0.9846
+        ],
+        "ic_exactitud_balanceada": [
+          0.6458,
+          0.9848
+        ],
+        "ic_macro_f1": [
+          0.6115,
+          0.9845
+        ],
+        "ic_sens_aegypti": [
+          0.6729,
+          1.0
+        ],
+        "ic_sens_albopictus": [
+          0.4894,
+          1.0
+        ]
+      },
+      "campo": {
+        "n": 335,
+        "n_aegypti": 168,
+        "n_albopictus": 167,
+        "exactitud": 0.8209,
+        "exactitud_balanceada": 0.8209,
+        "macro_f1": 0.8209,
+        "sens_aegypti": 0.8274,
+        "sens_albopictus": 0.8144,
+        "espec_aegypti": 0.8144,
+        "espec_albopictus": 0.8274,
+        "prec_aegypti": 0.8176,
+        "prec_albopictus": 0.8242,
+        "f1_aegypti": 0.8225,
+        "f1_albopictus": 0.8193,
+        "matriz_confusion": [
+          [
+            139,
+            29
+          ],
+          [
+            31,
+            136
+          ]
+        ],
+        "ic_exactitud": [
+          0.7685,
+          0.8712
+        ],
+        "ic_exactitud_balanceada": [
+          0.7698,
+          0.8716
+        ],
+        "ic_macro_f1": [
+          0.7685,
+          0.8709
+        ],
+        "ic_sens_aegypti": [
+          0.7706,
+          0.8824
+        ],
+        "ic_sens_albopictus": [
+          0.7268,
+          0.8947
+        ]
+      },
+      "I-ae": {
+        "n": 160,
+        "n_aegypti": 160,
+        "n_albopictus": 0,
+        "exactitud": 0.8313,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.8313,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.8313,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.9078,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            133,
+            27
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "ic_exactitud": [
+          0.7688,
+          0.8875
+        ],
+        "ic_sens_aegypti": [
+          0.7688,
+          0.8875
+        ]
+      },
+      "M-al": {
+        "n": 167,
+        "n_aegypti": 0,
+        "n_albopictus": 167,
+        "exactitud": 0.8144,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": null,
+        "sens_albopictus": 0.8144,
+        "espec_aegypti": 0.8144,
+        "espec_albopictus": null,
+        "prec_aegypti": 0.0,
+        "prec_albopictus": 1.0,
+        "f1_aegypti": null,
+        "f1_albopictus": 0.8977,
+        "matriz_confusion": [
+          [
+            0,
+            0
+          ],
+          [
+            31,
+            136
+          ]
+        ],
+        "ic_exactitud": [
+          0.7268,
+          0.8947
+        ],
+        "ic_sens_albopictus": [
+          0.7268,
+          0.8947
+        ]
+      },
+      "M-ae": {
+        "n": 8,
+        "n_aegypti": 8,
+        "n_albopictus": 0,
+        "exactitud": 0.75,
+        "exactitud_balanceada": null,
+        "macro_f1": null,
+        "sens_aegypti": 0.75,
+        "sens_albopictus": null,
+        "espec_aegypti": null,
+        "espec_albopictus": 0.75,
+        "prec_aegypti": 1.0,
+        "prec_albopictus": 0.0,
+        "f1_aegypti": 0.8571,
+        "f1_albopictus": null,
+        "matriz_confusion": [
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

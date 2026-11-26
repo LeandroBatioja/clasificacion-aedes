@@ -1,0 +1,155 @@
+{
+  "entorno": {
+    "python": "3.11.13",
+    "torch": "2.4.1+cpu",
+    "timm": "1.0.9",
+    "scikit-learn": "1.5.2",
+    "grad-cam": "instalado",
+    "hilos": 6,
+    "cpu": "x86_64"
+  },
+  "submuestra": 825,
+  "configuraciones": [
+    [
+      0.001,
+      16
+    ],
+    [
+      0.0001,
+      16
+    ],
+    [
+      0.0001,
+      32
+    ]
+  ],
+  "resultados": {
+    "efficientnet_b0": {
+      "lr0.001_b16": {
+        "lr": 0.001,
+        "batch": 16,
+        "macro_f1_val": 0.7559,
+        "mejor_epoca": 8,
+        "epocas": 10,
+        "segundos": 796.0
+      },
+      "lr0.0001_b16": {
+        "lr": 0.0001,
+        "batch": 16,
+        "macro_f1_val": 0.7188,
+        "mejor_epoca": 8,
+        "epocas": 10,
+        "segundos": 825.6
+      },
+      "lr0.0001_b32": {
+        "lr": 0.0001,
+        "batch": 32,
+        "macro_f1_val": 0.7267,
+        "mejor_epoca": 10,
+        "epocas": 10,
+        "segundos": 763.4
+      }
+    },
+    "mobilenetv3_large_100": {
+      "lr0.001_b16": {
+        "lr": 0.001,
+        "batch": 16,
+        "macro_f1_val": 0.7423,
+        "mejor_epoca": 8,
+        "epocas": 10,
+        "segundos": 466.2
+      },
+      "lr0.0001_b16": {
+        "lr": 0.0001,
+        "batch": 16,
+        "macro_f1_val": 0.7339,
+        "mejor_epoca": 8,
+        "epocas": 10,
+        "segundos": 484.2
+      },
+      "lr0.0001_b32": {
+        "lr": 0.0001,
+        "batch": 32,
+        "macro_f1_val": 0.727,
+        "mejor_epoca": 5,
+        "epocas": 10,
+        "segundos": 459.9
+      }
+    },
+    "resnet50": {
+      "lr0.001_b16": {
+        "lr": 0.001,
+        "batch": 16,
+        "macro_f1_val": 0.7814,
+        "mejor_epoca": 10,
+        "epocas": 10,
+        "segundos": 1867.1
+      },
+      "lr0.0001_b16": {
+        "lr": 0.0001,
+        "batch": 16,
+        "macro_f1_val": 0.7475,
+        "mejor_epoca": 6,
+        "epocas": 10,
+        "segundos": 1873.2
+      },
+      "lr0.0001_b32": {
+        "lr": 0.0001,
+        "batch": 32,
+        "macro_f1_val": 0.742,
+        "mejor_epoca": 6,
+        "epocas": 10,
+        "segundos": 1896.1
+      }
+    },
+    "vit_small_patch16_224": {
+      "lr0.001_b16": {
+        "lr": 0.001,
+        "batch": 16,
+        "macro_f1_val": 0.8186,
+        "mejor_epoca": 7,
+        "epocas": 10,
+        "segundos": 1918.4
+      },
+      "lr0.0001_b16": {
+        "lr": 0.0001,
+        "batch": 16,
+        "macro_f1_val": 0.8488,
+        "mejor_epoca": 4,
+        "epocas": 9,
+        "segundos": 1650.2
+      },
+      "lr0.0001_b32": {
+        "lr": 0.0001,
+        "batch": 32,
+        "macro_f1_val": 0.8401,
+        "mejor_epoca": 3,
+        "epocas": 8,
+        "segundos": 1321.5
+      }
+    }
+  },
+  "fecha": "2026-11-17 02:21:36",
+  "seleccion": {
+    "efficientnet_b0": {
+      "lr": 0.001,
+      "batch": 16,
+      "macro_f1_val": 0.7559
+    },
+    "mobilenetv3_large_100": {
+      "lr": 0.001,
+      "batch": 16,
+      "macro_f1_val": 0.7423
+    },
+    "resnet50": {
+      "lr": 0.001,
+      "batch": 16,
+      "macro_f1_val": 0.7814
+    },
+    "vit_small_patch16_224": {
+      "lr": 0.0001,
+      "batch": 16,
+      "macro_f1_val": 0.8488
+    }
+  }
+}

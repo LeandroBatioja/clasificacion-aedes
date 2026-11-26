@@ -1,0 +1,160 @@
+nohup: no se tendrá en cuenta la entrada
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+==================================================================
+  BUSQUEDA DE HIPERPARAMETROS (FASE 5, plan 3.2)
+==================================================================
+  Submuestra: 825 imagenes (30 % del entrenamiento, por grupos y estratificada)   cache nuevas: 0
+  Configuraciones (comunes a las cuatro): [(0.001, 16), (0.0001, 16), (0.0001, 32)]
+  Maximo 10 epocas, detencion tras 5 sin mejora
+
+  >>> efficientnet_b0: parametros 4.01 M, entrenables 3.16 M (79 %), 2475 imagenes por epoca
+      epoca 1: perdida 1.2527  val macroF1 0.7113  (64 s, 38.6 img/s)
+      epoca 2: perdida 0.2421  val macroF1 0.7099  (61 s, 40.5 img/s)
+      epoca 3: perdida 0.1208  val macroF1 0.7542  (65 s, 38.0 img/s)
+      epoca 4: perdida 0.1401  val macroF1 0.7288  (69 s, 35.7 img/s)
+      epoca 5: perdida 0.1240  val macroF1 0.7279  (69 s, 36.0 img/s)
+      epoca 6: perdida 0.1181  val macroF1 0.7463  (66 s, 37.6 img/s)
+      epoca 7: perdida 0.0720  val macroF1 0.7317  (68 s, 36.4 img/s)
+      epoca 8: perdida 0.0583  val macroF1 0.7559  (72 s, 34.4 img/s)
+      epoca 9: perdida 0.0560  val macroF1 0.7026  (69 s, 36.1 img/s)
+      epoca 10: perdida 0.1014  val macroF1 0.7533  (70 s, 35.2 img/s)
+
+  >>> efficientnet_b0: parametros 4.01 M, entrenables 3.16 M (79 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.9760  val macroF1 0.6497  (71 s, 35.0 img/s)
+      epoca 2: perdida 0.2544  val macroF1 0.7117  (69 s, 35.7 img/s)
+      epoca 3: perdida 0.1578  val macroF1 0.7051  (69 s, 35.9 img/s)
+      epoca 4: perdida 0.0936  val macroF1 0.7136  (74 s, 33.5 img/s)
+      epoca 5: perdida 0.0816  val macroF1 0.7095  (68 s, 36.5 img/s)
+      epoca 6: perdida 0.0535  val macroF1 0.7065  (71 s, 35.0 img/s)
+      epoca 7: perdida 0.0493  val macroF1 0.7066  (69 s, 35.7 img/s)
+      epoca 8: perdida 0.0560  val macroF1 0.7188  (71 s, 34.9 img/s)
+      epoca 9: perdida 0.0287  val macroF1 0.7009  (73 s, 34.0 img/s)
+      epoca 10: perdida 0.0541  val macroF1 0.7113  (66 s, 37.4 img/s)
+
+  >>> efficientnet_b0: parametros 4.01 M, entrenables 3.16 M (79 %), 2475 imagenes por epoca
+      epoca 1: perdida 1.0527  val macroF1 0.6441  (65 s, 38.0 img/s)
+      epoca 2: perdida 0.1673  val macroF1 0.6931  (64 s, 38.5 img/s)
+      epoca 3: perdida 0.0972  val macroF1 0.6893  (63 s, 39.2 img/s)
+      epoca 4: perdida 0.0770  val macroF1 0.6995  (63 s, 39.3 img/s)
+      epoca 5: perdida 0.0488  val macroF1 0.7131  (70 s, 35.6 img/s)
+      epoca 6: perdida 0.0413  val macroF1 0.7097  (65 s, 37.8 img/s)
+      epoca 7: perdida 0.0405  val macroF1 0.7046  (65 s, 38.3 img/s)
+      epoca 8: perdida 0.0404  val macroF1 0.7084  (67 s, 36.8 img/s)
+      epoca 9: perdida 0.0312  val macroF1 0.7200  (63 s, 39.2 img/s)
+      epoca 10: perdida 0.0231  val macroF1 0.7267  (64 s, 39.0 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 2475 imagenes por epoca
+      epoca 1: perdida 1.8708  val macroF1 0.7131  (39 s, 63.7 img/s)
+      epoca 2: perdida 0.4990  val macroF1 0.7305  (39 s, 62.9 img/s)
+      epoca 3: perdida 0.5441  val macroF1 0.7353  (39 s, 62.8 img/s)
+      epoca 4: perdida 0.3401  val macroF1 0.6922  (39 s, 63.2 img/s)
+      epoca 5: perdida 0.2656  val macroF1 0.7231  (39 s, 62.8 img/s)
+      epoca 6: perdida 0.2401  val macroF1 0.7199  (40 s, 62.5 img/s)
+      epoca 7: perdida 0.1201  val macroF1 0.7096  (40 s, 62.4 img/s)
+      epoca 8: perdida 0.0997  val macroF1 0.7423  (40 s, 62.1 img/s)
+      epoca 9: perdida 0.1327  val macroF1 0.7084  (39 s, 63.1 img/s)
+      epoca 10: perdida 0.1900  val macroF1 0.7109  (39 s, 63.4 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.9952  val macroF1 0.6690  (39 s, 63.9 img/s)
+      epoca 2: perdida 0.2977  val macroF1 0.6789  (39 s, 64.1 img/s)
+      epoca 3: perdida 0.1265  val macroF1 0.6998  (39 s, 63.0 img/s)
+      epoca 4: perdida 0.0892  val macroF1 0.7192  (40 s, 62.4 img/s)
+      epoca 5: perdida 0.0536  val macroF1 0.7285  (43 s, 57.6 img/s)
+      epoca 6: perdida 0.0596  val macroF1 0.7203  (43 s, 58.1 img/s)
+      epoca 7: perdida 0.0546  val macroF1 0.7124  (42 s, 59.5 img/s)
+      epoca 8: perdida 0.0464  val macroF1 0.7339  (41 s, 60.0 img/s)
+      epoca 9: perdida 0.0334  val macroF1 0.7293  (42 s, 58.6 img/s)
+      epoca 10: perdida 0.0254  val macroF1 0.7017  (41 s, 60.8 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 2475 imagenes por epoca
+      epoca 1: perdida 1.0732  val macroF1 0.6623  (39 s, 63.8 img/s)
+      epoca 2: perdida 0.2347  val macroF1 0.6864  (39 s, 64.2 img/s)
+      epoca 3: perdida 0.1163  val macroF1 0.6949  (39 s, 63.3 img/s)
+      epoca 4: perdida 0.0923  val macroF1 0.7130  (39 s, 63.4 img/s)
+      epoca 5: perdida 0.0807  val macroF1 0.7270  (39 s, 63.8 img/s)
+      epoca 6: perdida 0.0482  val macroF1 0.7097  (38 s, 64.4 img/s)
+      epoca 7: perdida 0.0407  val macroF1 0.7152  (38 s, 64.4 img/s)
+      epoca 8: perdida 0.0315  val macroF1 0.7146  (39 s, 64.2 img/s)
+      epoca 9: perdida 0.0212  val macroF1 0.7237  (39 s, 63.9 img/s)
+      epoca 10: perdida 0.0261  val macroF1 0.7185  (39 s, 63.7 img/s)
+      detencion temprana en la epoca 10
+
+  >>> resnet50: parametros 23.51 M, entrenables 14.97 M (64 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.3861  val macroF1 0.7387  (158 s, 15.7 img/s)
+      epoca 2: perdida 0.1176  val macroF1 0.7508  (156 s, 15.9 img/s)
+      epoca 3: perdida 0.0744  val macroF1 0.7492  (156 s, 15.9 img/s)
+      epoca 4: perdida 0.0459  val macroF1 0.7678  (155 s, 16.0 img/s)
+      epoca 5: perdida 0.0442  val macroF1 0.7559  (154 s, 16.0 img/s)
+      epoca 6: perdida 0.0608  val macroF1 0.7743  (156 s, 15.8 img/s)
+      epoca 7: perdida 0.0225  val macroF1 0.7758  (161 s, 15.3 img/s)
+      epoca 8: perdida 0.0317  val macroF1 0.7517  (156 s, 15.9 img/s)
+      epoca 9: perdida 0.0220  val macroF1 0.7648  (159 s, 15.6 img/s)
+      epoca 10: perdida 0.0255  val macroF1 0.7814  (156 s, 15.9 img/s)
+
+  >>> resnet50: parametros 23.51 M, entrenables 14.97 M (64 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.6283  val macroF1 0.6518  (156 s, 15.9 img/s)
+      epoca 2: perdida 0.4276  val macroF1 0.7205  (157 s, 15.8 img/s)
+      epoca 3: perdida 0.2255  val macroF1 0.7278  (160 s, 15.5 img/s)
+      epoca 4: perdida 0.1296  val macroF1 0.7407  (155 s, 16.0 img/s)
+      epoca 5: perdida 0.0786  val macroF1 0.7249  (157 s, 15.8 img/s)
+      epoca 6: perdida 0.0631  val macroF1 0.7475  (157 s, 15.7 img/s)
+      epoca 7: perdida 0.0500  val macroF1 0.7411  (157 s, 15.7 img/s)
+      epoca 8: perdida 0.0381  val macroF1 0.7448  (159 s, 15.6 img/s)
+      epoca 9: perdida 0.0401  val macroF1 0.7436  (156 s, 15.9 img/s)
+      epoca 10: perdida 0.0418  val macroF1 0.7315  (158 s, 15.7 img/s)
+
+  >>> resnet50: parametros 23.51 M, entrenables 14.97 M (64 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.6526  val macroF1 0.6308  (157 s, 15.8 img/s)
+      epoca 2: perdida 0.5149  val macroF1 0.6881  (160 s, 15.5 img/s)
+      epoca 3: perdida 0.3226  val macroF1 0.7128  (161 s, 15.4 img/s)
+      epoca 4: perdida 0.1877  val macroF1 0.7304  (157 s, 15.7 img/s)
+      epoca 5: perdida 0.1053  val macroF1 0.7284  (162 s, 15.3 img/s)
+      epoca 6: perdida 0.0730  val macroF1 0.7420  (161 s, 15.4 img/s)
+      epoca 7: perdida 0.0545  val macroF1 0.7183  (157 s, 15.8 img/s)
+      epoca 8: perdida 0.0375  val macroF1 0.7296  (159 s, 15.5 img/s)
+      epoca 9: perdida 0.0326  val macroF1 0.7354  (161 s, 15.4 img/s)
+      epoca 10: perdida 0.0293  val macroF1 0.7297  (160 s, 15.5 img/s)
+
+  >>> vit_small_patch16_224: parametros 21.67 M, entrenables 5.32 M (25 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.5672  val macroF1 0.7125  (144 s, 17.2 img/s)
+      epoca 2: perdida 0.2540  val macroF1 0.7966  (139 s, 17.8 img/s)
+      epoca 3: perdida 0.1741  val macroF1 0.7762  (149 s, 16.6 img/s)
+      epoca 4: perdida 0.1547  val macroF1 0.7996  (171 s, 14.5 img/s)
+      epoca 5: perdida 0.1517  val macroF1 0.7888  (174 s, 14.2 img/s)
+      epoca 6: perdida 0.1559  val macroF1 0.7711  (172 s, 14.4 img/s)
+      epoca 7: perdida 0.1026  val macroF1 0.8186  (183 s, 13.5 img/s)
+      epoca 8: perdida 0.1275  val macroF1 0.7359  (176 s, 14.0 img/s)
+      epoca 9: perdida 0.1021  val macroF1 0.7965  (189 s, 13.1 img/s)
+      epoca 10: perdida 0.1132  val macroF1 0.7721  (176 s, 14.0 img/s)
+
+  >>> vit_small_patch16_224: parametros 21.67 M, entrenables 5.32 M (25 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.3906  val macroF1 0.7925  (150 s, 16.5 img/s)
+      epoca 2: perdida 0.1292  val macroF1 0.8271  (151 s, 16.4 img/s)
+      epoca 3: perdida 0.0474  val macroF1 0.8270  (154 s, 16.1 img/s)
+      epoca 4: perdida 0.0348  val macroF1 0.8488  (164 s, 15.1 img/s)
+      epoca 5: perdida 0.0284  val macroF1 0.8219  (162 s, 15.3 img/s)
+      epoca 6: perdida 0.0472  val macroF1 0.8353  (165 s, 15.0 img/s)
+      epoca 7: perdida 0.0137  val macroF1 0.8082  (163 s, 15.2 img/s)
+      epoca 8: perdida 0.0108  val macroF1 0.8169  (164 s, 15.1 img/s)
+      epoca 9: perdida 0.0147  val macroF1 0.8152  (153 s, 16.2 img/s)
+      detencion temprana en la epoca 9
+
+  >>> vit_small_patch16_224: parametros 21.67 M, entrenables 5.32 M (25 %), 2475 imagenes por epoca
+      epoca 1: perdida 0.4038  val macroF1 0.8235  (138 s, 17.9 img/s)
+      epoca 2: perdida 0.1457  val macroF1 0.7274  (141 s, 17.6 img/s)
+      epoca 3: perdida 0.0752  val macroF1 0.8401  (143 s, 17.3 img/s)
+      epoca 4: perdida 0.0322  val macroF1 0.8345  (142 s, 17.4 img/s)
+      epoca 5: perdida 0.0192  val macroF1 0.8200  (140 s, 17.7 img/s)
+      epoca 6: perdida 0.0153  val macroF1 0.8050  (140 s, 17.7 img/s)
+      epoca 7: perdida 0.0259  val macroF1 0.8285  (144 s, 17.1 img/s)
+      epoca 8: perdida 0.0192  val macroF1 0.8169  (142 s, 17.4 img/s)
+      detencion temprana en la epoca 8
+
+  Arquitectura               lr0.001 b16  lr0.0001 b16  lr0.0001 b32   Seleccionada
+  efficientnet_b0                 0.7559        0.7188        0.7267   lr 0.001, batch 16
+  mobilenetv3_large_100           0.7423        0.7339        0.7270   lr 0.001, batch 16
+  resnet50                        0.7814        0.7475        0.7420   lr 0.001, batch 16
+  vit_small_patch16_224           0.8186        0.8488        0.8401   lr 0.0001, batch 16
+
+  Seleccion: fase5/busqueda/configuracion_seleccionada.json

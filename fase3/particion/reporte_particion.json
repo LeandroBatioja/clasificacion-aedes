@@ -1,0 +1,86 @@
+{
+  "fecha": "2026-10-24 18:13:58",
+  "semilla": 42,
+  "proporciones": {
+    "entrenamiento": 0.7,
+    "validacion": 0.15,
+    "prueba": 0.15
+  },
+  "protocolo": "fase2/protocolo_evaluacion.md v1.0",
+  "imagenes_por_especie": 1958,
+  "exclusiones_007": 30,
+  "rebalanceo": {
+    "reportes_retirados": 17,
+    "imagenes_retiradas": 28
+  },
+  "tabla": {
+    "entrenamiento|aedes_aegypti": {
+      "dryad": 417,
+      "inaturalist": 744,
+      "mosquito_alert": 37,
+      "ong": 170
+    },
+    "entrenamiento|aedes_albopictus": {
+      "dryad": 416,
+      "mosquito_alert": 780,
+      "ong": 173
+    },
+    "validacion|aedes_aegypti": {
+      "dryad": 90,
+      "inaturalist": 160,
+      "mosquito_alert": 8,
+      "ong": 37
+    },
+    "validacion|aedes_albopictus": {
+      "dryad": 90,
+      "mosquito_alert": 167,
+      "ong": 38
+    },
+    "prueba|aedes_aegypti": {
+      "dryad": 90,
+      "inaturalist": 160,
+      "mosquito_alert": 8,
+      "ong": 37
+    },
+    "prueba|aedes_albopictus": {
+      "dryad": 90,
+      "mosquito_alert": 167,
+      "ong": 37
+    }
+  },
+  "totales": {
+    "entrenamiento": 2737,
+    "validacion": 590,
+    "prueba": 589
+  },
+  "m1_max_por_subconjunto": {
+    "entrenamiento|aedes_aegypti": 54.4,
+    "entrenamiento|aedes_albopictus": 57.0,
+    "validacion|aedes_aegypti": 54.2,
+    "validacion|aedes_albopictus": 56.6,
+    "prueba|aedes_aegypti": 54.2,
+    "prueba|aedes_albopictus": 56.8
+  },
+  "grupos": 2459,
+  "grupos_repartidos": 0,
+  "control_prueba": {
+    "aedes_aegypti": 127,
+    "aedes_albopictus": 127
+  },
+  "gradcam": {
+    "D-ae": 10,
+    "D-al": 10,
+    "O-ae": 10,
+    "O-al": 10,
+    "I-ae": 10,
+    "M-al": 10,
+    "M-ae": 4
+  },
+  "piloto": {
+    "entrenamiento": {
+      "aedes_aegypti": 200,
+      "aedes_albopictus": 200
+    },
+    "gradcam_validacion": 20
+  }
+}

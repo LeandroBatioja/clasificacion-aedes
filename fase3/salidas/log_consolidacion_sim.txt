@@ -1,0 +1,53 @@
+==============================================================
+  CONSOLIDACION DEL CONJUNTO BRUTO
+==============================================================
+  Repositorios : /home/leandro/Vídeos/TESIS/DATASETS
+  Destino      : /home/leandro/Imágenes/tesis/fase3/conjunto_bruto
+  Modo         : SIMULACION (no copia)
+
+  Recolectando...
+  16969 imagenes recolectadas
+
+==============================================================
+  TABLA CRUZADA ESPECIE x REPOSITORIO  (medida M1)
+==============================================================
+  Repositorio                  aegypti        albopictus
+  ------------------------------------------------------
+  couret                   219 (14.2%)          0 (0.0%)
+  dryad                    398 (25.8%)        398 (2.6%)
+  kaggle                   603 (39.1%)          0 (0.0%)
+  mosquito_alert             73 (4.7%)     14778 (95.8%)
+  ong                      250 (16.2%)        250 (1.6%)
+  ------------------------------------------------------
+  TOTAL                           1543             15426
+
+==============================================================
+  VERIFICACION M1  (ninguna fuente > 70.0%)
+==============================================================
+  aedes_aegypti        kaggle             39.1%   CUMPLE
+  aedes_albopictus     mosquito_alert     95.8%   NO CUMPLE
+
+  El conjunto bruto no cumple M1. Se resolvera mediante
+  submuestreo dirigido de la fuente dominante durante el
+  balanceo, priorizando diversidad de origen.
+
+==============================================================
+  AGRUPAMIENTO POR ESPECIMEN
+==============================================================
+  Con identificador : 16469
+  Sin identificador : 500  (cada una se trata como especimen unico)
+  Especimenes con varias imagenes: 548
+    kaggle           aegypti29    5 imagenes
+    kaggle           aegypti30    5 imagenes
+    kaggle           aegypti32    5 imagenes
+    kaggle           aegypti100   4 imagenes
+    kaggle           aegypti101   4 imagenes
+
+==============================================================
+  ARCHIVOS GENERADOS
+==============================================================
+  procedencia_conjunto_bruto.csv
+  reporte_consolidacion.json
+
+  Siguiente paso: python analizar_nitidez.py --raiz /home/leandro/Imágenes/tesis/fase3/conjunto_bruto
+==============================================================

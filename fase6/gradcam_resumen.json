@@ -1,0 +1,338 @@
+{
+  "efficientnet_b0": {
+    "total": {
+      "imagenes": 64,
+      "informativas": 43,
+      "picos_fuera": 11,
+      "pct_picos_fuera": 25.5814,
+      "mediana_concentracion": 1.451,
+      "alerta_fondo": true,
+      "alerta_no_localizada": false,
+      "evaluable_por_estrato": true
+    },
+    "por_estrato": {
+      "D-ae": {
+        "imagenes": 10,
+        "informativas": 2,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.342,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "D-al": {
+        "imagenes": 10,
+        "informativas": 1,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.154,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "I-ae": {
+        "imagenes": 10,
+        "informativas": 8,
+        "picos_fuera": 2,
+        "pct_picos_fuera": 25.0,
+        "mediana_concentracion": 1.518,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "M-ae": {
+        "imagenes": 4,
+        "informativas": 2,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 2.355,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "M-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 7,
+        "pct_picos_fuera": 70.0,
+        "mediana_concentracion": 1.114,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-ae": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 10.0,
+        "mediana_concentracion": 1.5905,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 10.0,
+        "mediana_concentracion": 1.5775,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      }
+    }
+  },
+  "mobilenetv3_large_100": {
+    "total": {
+      "imagenes": 64,
+      "informativas": 43,
+      "picos_fuera": 15,
+      "pct_picos_fuera": 34.8837,
+      "mediana_concentracion": 1.538,
+      "alerta_fondo": true,
+      "alerta_no_localizada": false,
+      "evaluable_por_estrato": true
+    },
+    "por_estrato": {
+      "D-ae": {
+        "imagenes": 10,
+        "informativas": 2,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.5165,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "D-al": {
+        "imagenes": 10,
+        "informativas": 1,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.436,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "I-ae": {
+        "imagenes": 10,
+        "informativas": 8,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 12.5,
+        "mediana_concentracion": 1.874,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "M-ae": {
+        "imagenes": 4,
+        "informativas": 2,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 2.253,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "M-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 3,
+        "pct_picos_fuera": 30.0,
+        "mediana_concentracion": 2.464,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-ae": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 5,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 1.1485,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 5,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 1.025,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      }
+    }
+  },
+  "resnet50": {
+    "total": {
+      "imagenes": 64,
+      "informativas": 43,
+      "picos_fuera": 12,
+      "pct_picos_fuera": 27.907,
+      "mediana_concentracion": 2.171,
+      "alerta_fondo": true,
+      "alerta_no_localizada": false,
+      "evaluable_por_estrato": true
+    },
+    "por_estrato": {
+      "D-ae": {
+        "imagenes": 10,
+        "informativas": 2,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.6655,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "D-al": {
+        "imagenes": 10,
+        "informativas": 1,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.476,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "I-ae": {
+        "imagenes": 10,
+        "informativas": 8,
+        "picos_fuera": 2,
+        "pct_picos_fuera": 25.0,
+        "mediana_concentracion": 1.7545,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "M-ae": {
+        "imagenes": 4,
+        "informativas": 2,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 3.246,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "M-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 6,
+        "pct_picos_fuera": 60.0,
+        "mediana_concentracion": 2.3815,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-ae": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 2,
+        "pct_picos_fuera": 20.0,
+        "mediana_concentracion": 1.99,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 10.0,
+        "mediana_concentracion": 2.3345,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      }
+    }
+  },
+  "vit_small_patch16_224": {
+    "total": {
+      "imagenes": 64,
+      "informativas": 43,
+      "picos_fuera": 28,
+      "pct_picos_fuera": 65.1163,
+      "mediana_concentracion": 0.934,
+      "alerta_fondo": true,
+      "alerta_no_localizada": true,
+      "evaluable_por_estrato": true
+    },
+    "por_estrato": {
+      "D-ae": {
+        "imagenes": 10,
+        "informativas": 2,
+        "picos_fuera": 0,
+        "pct_picos_fuera": 0.0,
+        "mediana_concentracion": 1.472,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "D-al": {
+        "imagenes": 10,
+        "informativas": 1,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 100.0,
+        "mediana_concentracion": 0.581,
+        "alerta_fondo": false,
+        "alerta_no_localizada": true,
+        "evaluable_por_estrato": false
+      },
+      "I-ae": {
+        "imagenes": 10,
+        "informativas": 8,
+        "picos_fuera": 7,
+        "pct_picos_fuera": 87.5,
+        "mediana_concentracion": 0.929,
+        "alerta_fondo": true,
+        "alerta_no_localizada": true,
+        "evaluable_por_estrato": true
+      },
+      "M-ae": {
+        "imagenes": 4,
+        "informativas": 2,
+        "picos_fuera": 1,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 1.5545,
+        "alerta_fondo": false,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": false
+      },
+      "M-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 7,
+        "pct_picos_fuera": 70.0,
+        "mediana_concentracion": 1.0245,
+        "alerta_fondo": true,
+        "alerta_no_localizada": false,
+        "evaluable_por_estrato": true
+      },
+      "O-ae": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 7,
+        "pct_picos_fuera": 70.0,
+        "mediana_concentracion": 0.882,
+        "alerta_fondo": true,
+        "alerta_no_localizada": true,
+        "evaluable_por_estrato": true
+      },
+      "O-al": {
+        "imagenes": 10,
+        "informativas": 10,
+        "picos_fuera": 5,
+        "pct_picos_fuera": 50.0,
+        "mediana_concentracion": 0.8595,
+        "alerta_fondo": true,
+        "alerta_no_localizada": true,
+        "evaluable_por_estrato": true
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+==================================================================
+  REBALANCEO Y PARTICION DEL CONJUNTO (ENTRADA 008)
+==================================================================
+  Conjunto de trabajo: 3974   exclusiones 007: 30   quedan: 3944
+  Rebalanceo: 17 grupos retirados (28 imagenes) -> 1958 por especie
+
+  Subconjunto   Especie                     dryad            ong    inaturalist mosquito_alert   Total   M1 max
+  entrenamiento aedes_aegypti                 417            170            744             37    1368    54.4%
+  entrenamiento aedes_albopictus              416            173              0            780    1369    57.0%
+  validacion    aedes_aegypti                  90             37            160              8     295    54.2%
+  validacion    aedes_albopictus               90             38              0            167     295    56.6%
+  prueba        aedes_aegypti                  90             37            160              8     295    54.2%
+  prueba        aedes_albopictus               90             37              0            167     294    56.8%
+
+  Proporciones: entrenamiento 2737 (69.9 %), validacion 590 (15.1 %), prueba 589 (15.0 %)
+  Control (Dryad+Ong) en prueba: aedes_aegypti 127, aedes_albopictus 127
+  Grad-CAM: 64 imagenes  {'D-ae': 10, 'D-al': 10, 'O-ae': 10, 'O-al': 10, 'I-ae': 10, 'M-al': 10, 'M-ae': 4}
+  Piloto: 400 de entrenamiento {'aedes_aegypti': 200, 'aedes_albopictus': 200}, 20 de validacion para Grad-CAM
+
+  Verificaciones: grupos repartidos 0, excluidas presentes 0, especies {'aedes_aegypti': 1958, 'aedes_albopictus': 1958}, M1 > 70 %: ninguno
+
+  SIMULACION: no se escribio nada.

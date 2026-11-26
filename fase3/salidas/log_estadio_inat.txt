@@ -1,0 +1,7 @@
+==============================================================
+  REVISION VISUAL DE ESTADIO VITAL - INATURALIST
+==============================================================
+  Revisadas: 652   No adultos marcados: 0   Agregadas: 0
+  Exclusiones totales en fase3/verificacion_morfologica/exclusiones_007.csv: 30
+  Conjunto de trabajo tras exclusiones: aegypti 1958, albopictus 1986
+  Resultado: fase3/verificacion_morfologica/estadio_inat/resultado_estadio.json

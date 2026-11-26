@@ -1,0 +1,65 @@
+{
+  "fecha": "2026-09-24 22:12:55",
+  "modo": "enlaces_duros",
+  "umbrales": {
+    "resolucion_min": 100,
+    "hamming_max_256": 25,
+    "correlacion_min": 0.98,
+    "rango_dinamico_min": 40.0,
+    "laplaciano_min": 10.0,
+    "lado_normalizacion": 512
+  },
+  "total_bruto": {
+    "aedes_aegypti": 1543,
+    "aedes_albopictus": 15426
+  },
+  "eliminadas_por_criterio": {
+    "E1": {
+      "aedes_albopictus": 50
+    },
+    "E2": {},
+    "E3": {
+      "aedes_aegypti": 4,
+      "aedes_albopictus": 496
+    },
+    "E4": {
+      "aedes_aegypti": 8,
+      "aedes_albopictus": 133
+    },
+    "E5": {
+      "aedes_aegypti": 2,
+      "aedes_albopictus": 189
+    },
+    "E6": {
+      "aedes_albopictus": 50
+    },
+    "E7": {},
+    "E8": {},
+    "E9": {}
+  },
+  "aceptadas": {
+    "aedes_aegypti": 1529,
+    "aedes_albopictus": 14508
+  },
+  "componentes_duplicados": 552,
+  "candidatos_phash": 895,
+  "duplicados_confirmados": 758,
+  "rechazados_por_correlacion": 137,
+  "conflictos_entre_especies": [],
+  "depurado_especie_repositorio": {
+    "aedes_aegypti": {
+      "couret": 219,
+      "dryad": 398,
+      "kaggle": 600,
+      "mosquito_alert": 68,
+      "ong": 244
+    },
+    "aedes_albopictus": {
+      "dryad": 398,
+      "mosquito_alert": 13862,
+      "ong": 248
+    }
+  },
+  "tamano_balanceo_previsto": 1529,
+  "duracion_min": 8.98
+}

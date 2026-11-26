@@ -1,0 +1,30 @@
+# Entorno y caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+fase4/cache_512/
+fase6/cache_ecuador_512/
+
+# Imagenes: no se redistribuyen (se obtienen de los repositorios de origen)
+fase3/conjunto_bruto*/
+fase3/conjunto_depurado*/
+fase3/conjunto_final/
+*.jpg
+*.jpeg
+*.JPG
+*.tif
+*.tiff
+*.webp
+fase6/Dataset_Dengue_Aedes_Ecuador/*/
+
+# Modelos (se publican como release)
+*.pt
+*.pth
+*.npz
+
+# Paquetes y documentos binarios
+*.zip
+*.pdf
+*.docx
+entrega/

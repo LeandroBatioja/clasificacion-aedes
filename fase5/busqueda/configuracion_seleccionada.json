@@ -1,0 +1,22 @@
+{
+  "efficientnet_b0": {
+    "lr": 0.001,
+    "batch": 16,
+    "macro_f1_val": 0.7559
+  },
+  "mobilenetv3_large_100": {
+    "lr": 0.001,
+    "batch": 16,
+    "macro_f1_val": 0.7423
+  },
+  "resnet50": {
+    "lr": 0.001,
+    "batch": 16,
+    "macro_f1_val": 0.7814
+  },
+  "vit_small_patch16_224": {
+    "lr": 0.0001,
+    "batch": 16,
+    "macro_f1_val": 0.8488
+  }
+}

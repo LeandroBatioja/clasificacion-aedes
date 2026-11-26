@@ -1,0 +1,127 @@
+nohup: no se tendrá en cuenta la entrada
+
+======================================================================
+  FASE 6 - EVALUACION (plan 3.7-3.8; protocolo v1.0 y anexo)
+======================================================================
+  Protocolo v1.0: 0a88a99c6235d9f68432fd908e25f3cb3c7ee927954e7cfda98f98618376cb31 (coincide con la Entrada 007 bis)
+  Anexo Fase 6:   e1695322fcc6b7868fb6f00145b4eb2d19fb8c2f48d443151569ac394709ebfe
+  Prueba: 589 imagenes, 369 grupos; estratos {'D-ae': 90, 'D-al': 90, 'I-ae': 160, 'M-ae': 8, 'M-al': 167, 'O-ae': 37, 'O-al': 37}
+  Corridas medianas: EfficientNet-B0 46, MobileNetV3-Large 43, ResNet50 44, ViT-S/16 46
+  Grad-CAM: 64 imagenes, 64 cajas
+  Ecuador: 127 imagenes {('Aedes_aegypti', 'research'): 71, ('Aedes_aegypti', 'casual'): 2, ('Aedes_albopictus', 'needs_id'): 4, ('Aedes_aegypti', 'needs_id'): 46, ('Aedes_albopictus', 'research'): 4}
+  Fuga con iNaturalist de entrenamiento (1100 fotos): 0 coincidencias
+
+======================================================================
+  1. PREDICCIONES (20 modelos)
+======================================================================
+  Copias reducidas nuevas: prueba 0, Ecuador 127
+  EfficientNet-B0    semilla 42: macro F1 prueba 0.8540 (18 s)
+  EfficientNet-B0    semilla 43: macro F1 prueba 0.8229 (16 s)
+  EfficientNet-B0    semilla 44: macro F1 prueba 0.7802 (17 s)
+  EfficientNet-B0    semilla 45: macro F1 prueba 0.8387 (16 s)
+  EfficientNet-B0    semilla 46: macro F1 prueba 0.8251 (16 s)
+  MobileNetV3-Large  semilla 42: macro F1 prueba 0.7979 (11 s)
+  MobileNetV3-Large  semilla 43: macro F1 prueba 0.8081 (11 s)
+  MobileNetV3-Large  semilla 44: macro F1 prueba 0.8211 (11 s)
+  MobileNetV3-Large  semilla 45: macro F1 prueba 0.8193 (11 s)
+  MobileNetV3-Large  semilla 46: macro F1 prueba 0.8166 (11 s)
+  ResNet50           semilla 42: macro F1 prueba 0.8315 (39 s)
+  ResNet50           semilla 43: macro F1 prueba 0.8251 (40 s)
+  ResNet50           semilla 44: macro F1 prueba 0.8149 (38 s)
+  ResNet50           semilla 45: macro F1 prueba 0.8098 (38 s)
+  ResNet50           semilla 46: macro F1 prueba 0.8149 (38 s)
+  ViT-S/16           semilla 42: macro F1 prueba 0.8574 (30 s)
+  ViT-S/16           semilla 43: macro F1 prueba 0.8591 (31 s)
+  ViT-S/16           semilla 44: macro F1 prueba 0.8572 (32 s)
+  ViT-S/16           semilla 45: macro F1 prueba 0.8472 (31 s)
+  ViT-S/16           semilla 46: macro F1 prueba 0.8540 (31 s)
+
+======================================================================
+  2. NIVEL 1 - ESTABILIDAD (5 corridas, prueba y control)
+======================================================================
+  Arquitectura           Macro F1 prueba (media +- DE)             Rango     Control (media +- DE)
+  EfficientNet-B0                     0.8242 +- 0.0276    0.7802-0.8540          0.8594 +- 0.0444
+  MobileNetV3-Large                   0.8126 +- 0.0096    0.7979-0.8211          0.8441 +- 0.0172
+  ResNet50                            0.8192 +- 0.0088    0.8098-0.8315          0.8523 +- 0.0208
+  ViT-S/16                            0.8550 +- 0.0047    0.8472-0.8591          0.8984 +- 0.0102
+
+======================================================================
+  3. NIVEL 2 - CORRIDA MEDIANA: METRICAS POR SUBCONJUNTO (IC 95 %, bootstrap por grupos)
+======================================================================
+  Arquitectura                        Prueba               Control                 Campo  Sens I-ae  Sens M-al   M-ae
+  EfficientNet-B0        0.825 [0.786-0.859]   0.902 [0.860-0.938]   0.767 [0.711-0.820]      0.806      0.743   4/8
+  MobileNetV3-Large      0.808 [0.769-0.845]   0.850 [0.783-0.907]   0.776 [0.727-0.825]      0.769      0.784   6/8
+  ResNet50               0.815 [0.773-0.856]   0.842 [0.768-0.910]   0.793 [0.744-0.842]      0.731      0.856   6/8
+  ViT-S/16               0.854 [0.813-0.893]   0.898 [0.828-0.954]   0.821 [0.768-0.871]      0.831      0.814   6/8
+  EfficientNet-B0      matriz (filas real ae/al, columnas pred ae/al): [[248, 47], [56, 238]]
+  MobileNetV3-Large    matriz (filas real ae/al, columnas pred ae/al): [[236, 59], [54, 240]]
+  ResNet50             matriz (filas real ae/al, columnas pred ae/al): [[236, 59], [50, 244]]
+  ViT-S/16             matriz (filas real ae/al, columnas pred ae/al): [[256, 39], [47, 247]]
+
+======================================================================
+  3b. SUBCONJUNTO DE CONTROL (protocolo v1.0, 3)
+======================================================================
+  EfficientNet-B0      Delta_control -0.0765 [-0.1157, -0.0393]  sin senal  Delta_campo -0.1346 [-0.1995, -0.0701]
+  MobileNetV3-Large    Delta_control -0.0423 [-0.0872, +0.0043]  sin senal  Delta_campo -0.0743 [-0.1520, +0.0074]
+  ResNet50             Delta_control -0.0273 [-0.0768, +0.0210]  sin senal  Delta_campo -0.0489 [-0.1346, +0.0358]
+  ViT-S/16             Delta_control -0.0436 [-0.0918, +0.0043]  sin senal  Delta_campo -0.0767 [-0.1590, +0.0074]
+  Orden en prueba:  ViT-S/16 > EfficientNet-B0 > ResNet50 > MobileNetV3-Large
+  Orden en control: EfficientNet-B0 > ViT-S/16 > MobileNetV3-Large > ResNet50   (DIFIERE)
+
+======================================================================
+  3c. PRUEBAS ESTADISTICAS (corrida mediana, 589 imagenes)
+======================================================================
+  Q de Cochran = 8.315, gl = 3, p = 0.03993   W = 0.0047   (significativa)
+  EfficientNet-B0 vs MobileNetV3-Large   b= 62 c= 52  p=0.3994  p_Bonf=1.0000  dif +0.0170 Wald [-0.0185, +0.0525] bootstrap [-0.0223, +0.0570]
+  EfficientNet-B0 vs ResNet50            b= 62 c= 56  p=0.6455  p_Bonf=1.0000  dif +0.0102 Wald [-0.0260, +0.0463] bootstrap [-0.0348, +0.0545]
+  EfficientNet-B0 vs ViT-S/16            b= 39 c= 56  p=0.1002  p_Bonf=0.6010  dif -0.0289 Wald [-0.0612, +0.0035] bootstrap [-0.0670, +0.0114]
+  MobileNetV3-Large vs ResNet50          b= 53 c= 57  p=0.7750  p_Bonf=1.0000  dif -0.0068 Wald [-0.0417, +0.0281] bootstrap [-0.0435, +0.0295]
+  MobileNetV3-Large vs ViT-S/16          b= 35 c= 62  p=0.0080  p_Bonf=0.0478  dif -0.0458 Wald [-0.0784, -0.0133] bootstrap [-0.0809, -0.0099]
+  ResNet50 vs ViT-S/16                   b= 28 c= 51  p=0.0128  p_Bonf=0.0769  dif -0.0390 Wald [-0.0685, -0.0096] bootstrap [-0.0696, -0.0083]
+
+======================================================================
+  4. EFICIENCIA (un proceso por arquitectura; anexo, 5)
+======================================================================
+  EfficientNet-B0        17.61 ms/img (lote 1)   18.13 ms/img (lote 64)  RAM 500 MB (base 203, modelo e inferencia 298, pico 1497)  15.57 MB  4.01 M
+  MobileNetV3-Large      12.48 ms/img (lote 1)   10.97 ms/img (lote 64)  RAM 525 MB (base 203, modelo e inferencia 322, pico 1497)  16.23 MB  4.20 M
+  ResNet50               50.43 ms/img (lote 1)   48.40 ms/img (lote 64)  RAM 591 MB (base 203, modelo e inferencia 388, pico 1497)  89.99 MB  23.51 M
+  ViT-S/16               43.74 ms/img (lote 1)   38.41 ms/img (lote 64)  RAM 624 MB (base 203, modelo e inferencia 422, pico 1497)  82.7 MB  21.67 M
+
+======================================================================
+  5. SELECCION DEL MEJOR MODELO (plan 3.8; anexo, 4)
+======================================================================
+  Sobre prueba:
+    1. Macro F1: mejor 0.8540; empatadas (dif. < 0.02): ViT-S/16 0.8540
+    -> ViT-S/16
+  Sobre control:
+    1. Macro F1: mejor 0.9016; empatadas (dif. < 0.02): EfficientNet-B0 0.9016, ViT-S/16 0.8976
+    2. Sensibilidad Ae. aegypti: mejor 0.9213; empatadas: EfficientNet-B0 0.9055, ViT-S/16 0.9213
+    3. Menor DE del macro F1 (5 corridas): 0.0102: ViT-S/16
+    -> ViT-S/16
+
+======================================================================
+  6. GRAD-CAM (64 imagenes de prueba; protocolo v1.0, 5)
+======================================================================
+  EfficientNet-B0      picos fuera 11/43 (25.5814 %)  mediana conc. 1.451  alerta total: SI  estratos con alerta: ['M-al']  (7 s)
+  MobileNetV3-Large    picos fuera 15/43 (34.8837 %)  mediana conc. 1.538  alerta total: SI  estratos con alerta: ['M-al', 'O-ae', 'O-al']  (4 s)
+  ResNet50             picos fuera 12/43 (27.907 %)  mediana conc. 2.171  alerta total: SI  estratos con alerta: ['M-al']  (14 s)
+  ViT-S/16             picos fuera 28/43 (65.1163 %)  mediana conc. 0.934  alerta total: SI  estratos con alerta: ['I-ae', 'M-al', 'O-ae', 'O-al']  (12 s)
+  Laminas: fase6/gradcam_laminas/
+
+======================================================================
+  7. VALIDACION CONTEXTUAL - CONJUNTO ECUATORIANO (plan 3.8; anexo, 6)
+======================================================================
+  Research: 71 aegypti (19 obs.) y 4 albopictus (4 obs.)
+  Arquitectura                  Sens ae (71)  Exact. (75)  F1 ae (75)  Por obs.  Sin 156329843  Sens 119  Prueba I-ae  Prueba ae
+  EfficientNet-B0        0.648 [0.493-0.878]        0.640       0.773     0.768          0.692     0.706        0.806      0.841
+  MobileNetV3-Large      0.775 [0.488-0.907]        0.773       0.866     0.800          0.692     0.765        0.769      0.800
+  ResNet50               0.817 [0.521-0.939]        0.827       0.899     0.742          0.692     0.756        0.731      0.800
+  ViT-S/16               0.803 [0.512-0.935]        0.813       0.891     0.783          0.692     0.756        0.831      0.868
+  Albopictus ecuatorianos (aciertos): EfficientNet-B0 2/4 research, 5/8 todas, MobileNetV3-Large 3/4 research, 7/8 todas, ResNet50 4/4 research, 7/8 todas, ViT-S/16 4/4 research, 6/8 todas
+
+======================================================================
+  8. FIGURAS
+======================================================================
+  Figuras en fase6/figuras/
+
+  Reporte: fase6/reporte_fase6.json   (9.8 min)

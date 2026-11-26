@@ -1,0 +1,152 @@
+{
+  "n_imagenes": 589,
+  "arquitecturas": [
+    "efficientnet_b0",
+    "mobilenetv3_large_100",
+    "resnet50",
+    "vit_small_patch16_224"
+  ],
+  "exactitud": {
+    "efficientnet_b0": 0.8251,
+    "mobilenetv3_large_100": 0.8081,
+    "resnet50": 0.8149,
+    "vit_small_patch16_224": 0.854
+  },
+  "cochran": {
+    "Q": 8.3148,
+    "gl": 3,
+    "p": 0.039933809593114905,
+    "W": 0.0047,
+    "significativa": true
+  },
+  "mcnemar": [
+    {
+      "par": "EfficientNet-B0 vs MobileNetV3-Large",
+      "a": "efficientnet_b0",
+      "b": "mobilenetv3_large_100",
+      "ambos_aciertan": 424,
+      "solo_a": 62,
+      "solo_b": 52,
+      "ambos_fallan": 51,
+      "p_exacta": 0.3994,
+      "p_bonferroni": 1.0,
+      "significativa": false,
+      "dif_exactitud": 0.017,
+      "ic95_wald": [
+        -0.0185,
+        0.0525
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.0223,
+        0.057
+      ]
+    },
+    {
+      "par": "EfficientNet-B0 vs ResNet50",
+      "a": "efficientnet_b0",
+      "b": "resnet50",
+      "ambos_aciertan": 424,
+      "solo_a": 62,
+      "solo_b": 56,
+      "ambos_fallan": 47,
+      "p_exacta": 0.6455,
+      "p_bonferroni": 1.0,
+      "significativa": false,
+      "dif_exactitud": 0.0102,
+      "ic95_wald": [
+        -0.026,
+        0.0463
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.0348,
+        0.0545
+      ]
+    },
+    {
+      "par": "EfficientNet-B0 vs ViT-S/16",
+      "a": "efficientnet_b0",
+      "b": "vit_small_patch16_224",
+      "ambos_aciertan": 447,
+      "solo_a": 39,
+      "solo_b": 56,
+      "ambos_fallan": 47,
+      "p_exacta": 0.1002,
+      "p_bonferroni": 0.601,
+      "significativa": false,
+      "dif_exactitud": -0.0289,
+      "ic95_wald": [
+        -0.0612,
+        0.0035
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.067,
+        0.0114
+      ]
+    },
+    {
+      "par": "MobileNetV3-Large vs ResNet50",
+      "a": "mobilenetv3_large_100",
+      "b": "resnet50",
+      "ambos_aciertan": 423,
+      "solo_a": 53,
+      "solo_b": 57,
+      "ambos_fallan": 56,
+      "p_exacta": 0.775,
+      "p_bonferroni": 1.0,
+      "significativa": false,
+      "dif_exactitud": -0.0068,
+      "ic95_wald": [
+        -0.0417,
+        0.0281
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.0435,
+        0.0295
+      ]
+    },
+    {
+      "par": "MobileNetV3-Large vs ViT-S/16",
+      "a": "mobilenetv3_large_100",
+      "b": "vit_small_patch16_224",
+      "ambos_aciertan": 441,
+      "solo_a": 35,
+      "solo_b": 62,
+      "ambos_fallan": 51,
+      "p_exacta": 0.008,
+      "p_bonferroni": 0.0478,
+      "significativa": true,
+      "dif_exactitud": -0.0458,
+      "ic95_wald": [
+        -0.0784,
+        -0.0133
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.0809,
+        -0.0099
+      ]
+    },
+    {
+      "par": "ResNet50 vs ViT-S/16",
+      "a": "resnet50",
+      "b": "vit_small_patch16_224",
+      "ambos_aciertan": 452,
+      "solo_a": 28,
+      "solo_b": 51,
+      "ambos_fallan": 58,
+      "p_exacta": 0.0128,
+      "p_bonferroni": 0.0769,
+      "significativa": false,
+      "dif_exactitud": -0.039,
+      "ic95_wald": [
+        -0.0685,
+        -0.0096
+      ],
+      "ic95_bootstrap_grupos": [
+        -0.0696,
+        -0.0083
+      ]
+    }
+  ],
+  "correccion": "Bonferroni (x6)",
+  "alfa": 0.05
+}

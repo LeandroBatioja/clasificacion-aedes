@@ -1,0 +1,487 @@
+{
+  "entorno": {
+    "python": "3.11.13",
+    "torch": "2.4.1+cpu",
+    "timm": "1.0.9",
+    "scikit-learn": "1.5.2",
+    "grad-cam": "instalado",
+    "hilos": 6,
+    "cpu": "x86_64"
+  },
+  "semillas": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "corridas": {
+    "efficientnet_b0": {
+      "42": {
+        "inicio": "2026-11-21 07:00:40",
+        "fin": "2026-11-21 07:45:28",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 42,
+        "epocas_ejecutadas": 12,
+        "mejor_epoca": 7,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.832,
+        "exactitud_val": 0.8322,
+        "horas": 0.747,
+        "segundos_entrenamiento": 2553.4,
+        "ms_inferencia_por_imagen": 19.49,
+        "ram_pico_proceso_mb": 1652,
+        "tamano_modelo_mb": 15.57,
+        "parametros": {
+          "total": 4010110,
+          "entrenables": 3158302
+        }
+      },
+      "43": {
+        "inicio": "2026-11-21 07:45:28",
+        "fin": "2026-11-21 08:21:20",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 43,
+        "epocas_ejecutadas": 10,
+        "mejor_epoca": 5,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8485,
+        "exactitud_val": 0.8492,
+        "horas": 0.598,
+        "segundos_entrenamiento": 2039.7,
+        "ms_inferencia_por_imagen": 18.64,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 15.57,
+        "parametros": {
+          "total": 4010110,
+          "entrenables": 3158302
+        }
+      },
+      "44": {
+        "inicio": "2026-11-21 08:21:20",
+        "fin": "2026-11-21 08:53:52",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 44,
+        "epocas_ejecutadas": 9,
+        "mejor_epoca": 4,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8185,
+        "exactitud_val": 0.8186,
+        "horas": 0.542,
+        "segundos_entrenamiento": 1851.8,
+        "ms_inferencia_por_imagen": 18.98,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 15.57,
+        "parametros": {
+          "total": 4010110,
+          "entrenables": 3158302
+        }
+      },
+      "45": {
+        "inicio": "2026-11-21 08:53:52",
+        "fin": "2026-11-21 09:44:28",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 45,
+        "epocas_ejecutadas": 14,
+        "mejor_epoca": 9,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.861,
+        "exactitud_val": 0.861,
+        "horas": 0.843,
+        "segundos_entrenamiento": 2879.9,
+        "ms_inferencia_por_imagen": 18.81,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 15.57,
+        "parametros": {
+          "total": 4010110,
+          "entrenables": 3158302
+        }
+      },
+      "46": {
+        "inicio": "2026-11-21 09:44:28",
+        "fin": "2026-11-21 10:38:58",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 46,
+        "epocas_ejecutadas": 15,
+        "mejor_epoca": 14,
+        "detencion_temprana": false,
+        "macro_f1_val": 0.8475,
+        "exactitud_val": 0.8475,
+        "horas": 0.908,
+        "segundos_entrenamiento": 3101.2,
+        "ms_inferencia_por_imagen": 18.98,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 15.57,
+        "parametros": {
+          "total": 4010110,
+          "entrenables": 3158302
+        }
+      }
+    },
+    "mobilenetv3_large_100": {
+      "42": {
+        "inicio": "2026-11-21 10:38:58",
+        "fin": "2026-11-21 10:54:47",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 42,
+        "epocas_ejecutadas": 7,
+        "mejor_epoca": 2,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8305,
+        "exactitud_val": 0.8305,
+        "horas": 0.263,
+        "segundos_entrenamiento": 898.5,
+        "ms_inferencia_por_imagen": 12.03,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 16.23,
+        "parametros": {
+          "total": 4204594,
+          "entrenables": 3412106
+        }
+      },
+      "43": {
+        "inicio": "2026-11-21 10:54:47",
+        "fin": "2026-11-21 11:15:08",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 43,
+        "epocas_ejecutadas": 9,
+        "mejor_epoca": 4,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8203,
+        "exactitud_val": 0.8203,
+        "horas": 0.339,
+        "segundos_entrenamiento": 1157.1,
+        "ms_inferencia_por_imagen": 11.86,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 16.23,
+        "parametros": {
+          "total": 4204594,
+          "entrenables": 3412106
+        }
+      },
+      "44": {
+        "inicio": "2026-11-21 11:15:08",
+        "fin": "2026-11-21 11:42:18",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 44,
+        "epocas_ejecutadas": 12,
+        "mejor_epoca": 7,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8196,
+        "exactitud_val": 0.8203,
+        "horas": 0.453,
+        "segundos_entrenamiento": 1545.8,
+        "ms_inferencia_por_imagen": 11.86,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 16.23,
+        "parametros": {
+          "total": 4204594,
+          "entrenables": 3412106
+        }
+      },
+      "45": {
+        "inicio": "2026-11-21 11:42:18",
+        "fin": "2026-11-21 12:07:12",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 45,
+        "epocas_ejecutadas": 11,
+        "mejor_epoca": 6,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8185,
+        "exactitud_val": 0.8186,
+        "horas": 0.415,
+        "segundos_entrenamiento": 1415.5,
+        "ms_inferencia_por_imagen": 11.86,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 16.23,
+        "parametros": {
+          "total": 4204594,
+          "entrenables": 3412106
+        }
+      },
+      "46": {
+        "inicio": "2026-11-21 12:07:12",
+        "fin": "2026-11-21 12:41:07",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 46,
+        "epocas_ejecutadas": 15,
+        "mejor_epoca": 13,
+        "detencion_temprana": false,
+        "macro_f1_val": 0.8271,
+        "exactitud_val": 0.8271,
+        "horas": 0.565,
+        "segundos_entrenamiento": 1928.4,
+        "ms_inferencia_por_imagen": 11.86,
+        "ram_pico_proceso_mb": 1676,
+        "tamano_modelo_mb": 16.23,
+        "parametros": {
+          "total": 4204594,
+          "entrenables": 3412106
+        }
+      }
+    },
+    "resnet50": {
+      "42": {
+        "inicio": "2026-11-21 12:41:07",
+        "fin": "2026-11-21 14:48:05",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 42,
+        "epocas_ejecutadas": 14,
+        "mejor_epoca": 9,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8711,
+        "exactitud_val": 0.8712,
+        "horas": 2.116,
+        "segundos_entrenamiento": 7198.4,
+        "ms_inferencia_por_imagen": 50.68,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 89.99,
+        "parametros": {
+          "total": 23512130,
+          "entrenables": 14968834
+        }
+      },
+      "43": {
+        "inicio": "2026-11-21 14:48:05",
+        "fin": "2026-11-21 16:01:49",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 43,
+        "epocas_ejecutadas": 8,
+        "mejor_epoca": 3,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.861,
+        "exactitud_val": 0.861,
+        "horas": 1.229,
+        "segundos_entrenamiento": 4180.0,
+        "ms_inferencia_por_imagen": 52.71,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 89.99,
+        "parametros": {
+          "total": 23512130,
+          "entrenables": 14968834
+        }
+      },
+      "44": {
+        "inicio": "2026-11-21 16:01:49",
+        "fin": "2026-11-21 17:06:17",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 44,
+        "epocas_ejecutadas": 7,
+        "mejor_epoca": 2,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8491,
+        "exactitud_val": 0.8492,
+        "horas": 1.074,
+        "segundos_entrenamiento": 3655.4,
+        "ms_inferencia_por_imagen": 51.19,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 89.99,
+        "parametros": {
+          "total": 23512130,
+          "entrenables": 14968834
+        }
+      },
+      "45": {
+        "inicio": "2026-11-21 17:06:17",
+        "fin": "2026-11-21 18:10:22",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 45,
+        "epocas_ejecutadas": 7,
+        "mejor_epoca": 2,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.847,
+        "exactitud_val": 0.8475,
+        "horas": 1.068,
+        "segundos_entrenamiento": 3634.9,
+        "ms_inferencia_por_imagen": 50.17,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 89.99,
+        "parametros": {
+          "total": 23512130,
+          "entrenables": 14968834
+        }
+      },
+      "46": {
+        "inicio": "2026-11-21 18:10:22",
+        "fin": "2026-11-21 19:04:57",
+        "lr": 0.001,
+        "batch": 16,
+        "semilla": 46,
+        "epocas_ejecutadas": 6,
+        "mejor_epoca": 1,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8424,
+        "exactitud_val": 0.8424,
+        "horas": 0.91,
+        "segundos_entrenamiento": 3096.3,
+        "ms_inferencia_por_imagen": 50.68,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 89.99,
+        "parametros": {
+          "total": 23512130,
+          "entrenables": 14968834
+        }
+      }
+    },
+    "vit_small_patch16_224": {
+      "42": {
+        "inicio": "2026-11-21 19:04:57",
+        "fin": "2026-11-21 21:09:58",
+        "lr": 0.0001,
+        "batch": 16,
+        "semilla": 42,
+        "epocas_ejecutadas": 15,
+        "mejor_epoca": 11,
+        "detencion_temprana": false,
+        "macro_f1_val": 0.8607,
+        "exactitud_val": 0.861,
+        "horas": 2.083,
+        "segundos_entrenamiento": 7145.4,
+        "ms_inferencia_por_imagen": 39.83,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 82.7,
+        "parametros": {
+          "total": 21666434,
+          "entrenables": 5324930
+        }
+      },
+      "43": {
+        "inicio": "2026-11-21 21:09:58",
+        "fin": "2026-11-21 22:24:14",
+        "lr": 0.0001,
+        "batch": 16,
+        "semilla": 43,
+        "epocas_ejecutadas": 9,
+        "mejor_epoca": 4,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8675,
+        "exactitud_val": 0.8678,
+        "horas": 1.238,
+        "segundos_entrenamiento": 4244.1,
+        "ms_inferencia_por_imagen": 40.68,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 82.7,
+        "parametros": {
+          "total": 21666434,
+          "entrenables": 5324930
+        }
+      },
+      "44": {
+        "inicio": "2026-11-21 22:24:14",
+        "fin": "2026-11-22 00:19:25",
+        "lr": 0.0001,
+        "batch": 16,
+        "semilla": 44,
+        "epocas_ejecutadas": 14,
+        "mejor_epoca": 9,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.878,
+        "exactitud_val": 0.878,
+        "horas": 1.92,
+        "segundos_entrenamiento": 6586.3,
+        "ms_inferencia_por_imagen": 40.51,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 82.7,
+        "parametros": {
+          "total": 21666434,
+          "entrenables": 5324930
+        }
+      },
+      "45": {
+        "inicio": "2026-11-22 00:19:25",
+        "fin": "2026-11-22 02:22:45",
+        "lr": 0.0001,
+        "batch": 16,
+        "semilla": 45,
+        "epocas_ejecutadas": 15,
+        "mejor_epoca": 15,
+        "detencion_temprana": false,
+        "macro_f1_val": 0.8845,
+        "exactitud_val": 0.8847,
+        "horas": 2.056,
+        "segundos_entrenamiento": 7046.1,
+        "ms_inferencia_por_imagen": 37.29,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 82.7,
+        "parametros": {
+          "total": 21666434,
+          "entrenables": 5324930
+        }
+      },
+      "46": {
+        "inicio": "2026-11-22 02:22:45",
+        "fin": "2026-11-22 04:01:37",
+        "lr": 0.0001,
+        "batch": 16,
+        "semilla": 46,
+        "epocas_ejecutadas": 12,
+        "mejor_epoca": 7,
+        "detencion_temprana": true,
+        "macro_f1_val": 0.8745,
+        "exactitud_val": 0.8746,
+        "horas": 1.648,
+        "segundos_entrenamiento": 5646.6,
+        "ms_inferencia_por_imagen": 39.15,
+        "ram_pico_proceso_mb": 1860,
+        "tamano_modelo_mb": 82.7,
+        "parametros": {
+          "total": 21666434,
+          "entrenables": 5324930
+        }
+      }
+    }
+  },
+  "fecha": "2026-11-22 04:01:37",
+  "estadisticos": {
+    "efficientnet_b0": {
+      "corridas": 5,
+      "media_macro_f1_val": 0.8415,
+      "de_macro_f1_val": 0.0165,
+      "min": 0.8185,
+      "max": 0.861,
+      "semilla_corrida_mediana": 46,
+      "horas_totales": 3.64
+    },
+    "mobilenetv3_large_100": {
+      "corridas": 5,
+      "media_macro_f1_val": 0.8232,
+      "de_macro_f1_val": 0.0053,
+      "min": 0.8185,
+      "max": 0.8305,
+      "semilla_corrida_mediana": 43,
+      "horas_totales": 2.04
+    },
+    "resnet50": {
+      "corridas": 5,
+      "media_macro_f1_val": 0.8541,
+      "de_macro_f1_val": 0.0117,
+      "min": 0.8424,
+      "max": 0.8711,
+      "semilla_corrida_mediana": 44,
+      "horas_totales": 6.4
+    },
+    "vit_small_patch16_224": {
+      "corridas": 5,
+      "media_macro_f1_val": 0.873,
+      "de_macro_f1_val": 0.0092,
+      "min": 0.8607,
+      "max": 0.8845,
+      "semilla_corrida_mediana": 46,
+      "horas_totales": 8.95
+    }
+  }
+}

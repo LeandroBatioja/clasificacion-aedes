@@ -1,0 +1,17 @@
+caso,imagen,grupo,calidad,EfficientNet-B0,MobileNetV3-Large,ResNet50,ViT-S/16
+M-ae (prueba),mosquito_alert__06e860cd-e224-47fe-badc-dcb88c63dd5c.jpg,ma_rep_f93776b6-bcd5-4880-9273-c47c2b57ecd5,,albopictus,aegypti,aegypti,aegypti
+M-ae (prueba),mosquito_alert__5f7633e0-de40-415b-857a-57a4e2bc11bd.jpg,ma_rep_f4e97453-43ec-4469-84ca-cdeaa0b2ddb9,,albopictus,albopictus,albopictus,albopictus
+M-ae (prueba),mosquito_alert__66b8b3a4-1951-49ec-b39c-c441bde2e1fc.jpg,ma_rep_9342c26b-0f23-4e42-a783-4bbd51186e15,,aegypti,aegypti,albopictus,aegypti
+M-ae (prueba),mosquito_alert__7026a8d1-79f1-4c99-9e0d-cefbbfb5ea71.jpg,ma_rep_9342c26b-0f23-4e42-a783-4bbd51186e15,,aegypti,aegypti,aegypti,aegypti
+M-ae (prueba),mosquito_alert__88597662-ac96-4cb2-8a66-94b2747c7fb9.jpg,ma_rep_f93776b6-bcd5-4880-9273-c47c2b57ecd5,,albopictus,albopictus,aegypti,albopictus
+M-ae (prueba),mosquito_alert__bc9382ff-df93-4afe-aa21-dc9e19cf76d0.jpg,ma_rep_9342c26b-0f23-4e42-a783-4bbd51186e15,,albopictus,aegypti,aegypti,aegypti
+M-ae (prueba),mosquito_alert__f69d63f7-3295-4b3b-b894-3b663bb7edfd.jpg,ma_rep_f93776b6-bcd5-4880-9273-c47c2b57ecd5,,aegypti,aegypti,aegypti,aegypti
+M-ae (prueba),mosquito_alert__fabf4320-6d14-45f9-9af7-754cecf9a812.jpg,ma_rep_f4ff373a-dde1-4fe7-96fe-5b5ea0e0170b,,aegypti,aegypti,aegypti,aegypti
+albopictus Ecuador,Aedes_albopictus__obs64071367__photo102943923__cc-by-nc.jpeg,64071367,needs_id,albopictus,albopictus,albopictus,albopictus
+albopictus Ecuador,Aedes_albopictus__obs64071367__photo102943941__cc-by-nc.jpeg,64071367,needs_id,albopictus,albopictus,albopictus,aegypti
+albopictus Ecuador,Aedes_albopictus__obs271247070__photo487895124__cc-by-nc.jpeg,271247070,needs_id,albopictus,albopictus,aegypti,albopictus
+albopictus Ecuador,Aedes_albopictus__obs284272667__photo510868618__cc-by-nc.jpg,284272667,research,aegypti,aegypti,albopictus,albopictus
+albopictus Ecuador,Aedes_albopictus__obs288038488__photo517944597__cc-by.jpg,288038488,research,albopictus,albopictus,albopictus,albopictus
+albopictus Ecuador,Aedes_albopictus__obs329126060__photo596525960__cc-by.jpg,329126060,research,albopictus,albopictus,albopictus,albopictus
+albopictus Ecuador,Aedes_albopictus__obs337363912__photo613250547__cc-by.jpg,337363912,research,aegypti,albopictus,albopictus,albopictus
+albopictus Ecuador,Aedes_albopictus__obs344733666__photo628076606__cc-by-nc.jpg,344733666,needs_id,aegypti,albopictus,albopictus,aegypti

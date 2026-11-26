@@ -1,0 +1,6 @@
+epoca,perdida_entrenamiento,exactitud_entrenamiento,perdida_validacion,exactitud_validacion,macro_f1_validacion,segundos_entrenamiento,segundos_validacion,img_s_entrenamiento,ram_pico_mb
+1,0.94137,0.8225,2.71415,0.6644,0.6642,40.4,15.6,29.7,1728
+2,0.29439,0.935,3.4473,0.6576,0.6538,40.5,15.3,29.6,1728
+3,0.24393,0.9658,2.73927,0.6695,0.6695,39.8,15.3,30.2,1774
+4,0.0843,0.9783,2.50358,0.7085,0.7083,39.8,15.3,30.2,1774
+5,0.06948,0.9858,3.56768,0.6746,0.6745,39.6,15.2,30.3,1774

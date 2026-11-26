@@ -1,0 +1,128 @@
+archivo,clase,calidad,observacion,lugar,fecha,EfficientNet-B0,MobileNetV3-Large,ResNet50,ViT-S/16,prob_albopictus_efficientnet_b0,prob_albopictus_mobilenetv3_large_100,prob_albopictus_resnet50,prob_albopictus_vit_small_patch16_224
+Aedes_aegypti__obs29816355__photo46553034__cc-by-nc.jpg,Aedes_aegypti,research,29816355,"Manta, Manta, Manabí, EC",2019-07-29,albopictus,aegypti,albopictus,albopictus,0.8033,0.4284,0.8432,0.9672
+Aedes_aegypti__obs31308558__photo48990080__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,0.9943,0.9946,0.972,0.9997
+Aedes_aegypti__obs31308558__photo48990100__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,0.9991,1.0,0.9872,1.0
+Aedes_aegypti__obs31308558__photo48990127__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,0.9722,0.9998,0.9823,1.0
+Aedes_aegypti__obs31308558__photo48990146__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,0.9999,0.9998,0.961,1.0
+Aedes_aegypti__obs31308558__photo48990165__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,0.9995,0.9996,0.9604,0.9997
+Aedes_aegypti__obs31308558__photo48990199__cc-by.jpeg,Aedes_aegypti,research,31308558,"Santa Cruz, Parque Nacional Galápagos, EC-GA, EC",2019-08-22,albopictus,albopictus,albopictus,albopictus,1.0,0.9953,0.9992,0.9989
+Aedes_aegypti__obs31880751__photo49943119__cc-by.jpg,Aedes_aegypti,research,31880751,"Puerto Villamil, Ecuador",2019-01-03,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0157,0.0
+Aedes_aegypti__obs56259143__photo89641937__cc-by-nc.jpeg,Aedes_aegypti,research,56259143,Puerto Baquerizo Moreno,2019-07-17,aegypti,aegypti,albopictus,aegypti,0.012,0.1428,0.8566,0.0
+Aedes_aegypti__obs58549575__photo93484209__cc-by-nc.jpg,Aedes_aegypti,casual,58549575,"Jaime Roldos Aguilera, Guayaquil, Ecuador",2020-09-04,aegypti,albopictus,aegypti,aegypti,0.1357,0.9984,0.4375,0.084
+Aedes_albopictus__obs64071367__photo102943923__cc-by-nc.jpeg,Aedes_albopictus,needs_id,64071367,Urbanización Laguna Club,2020-11-02,albopictus,albopictus,albopictus,albopictus,0.9668,0.9884,0.9829,0.9325
+Aedes_albopictus__obs64071367__photo102943941__cc-by-nc.jpeg,Aedes_albopictus,needs_id,64071367,Urbanización Laguna Club,2020-11-02,albopictus,albopictus,albopictus,aegypti,0.9885,0.9511,0.9893,0.0122
+Aedes_aegypti__obs85564178__photo140800525__cc-by-nc.jpeg,Aedes_aegypti,research,85564178,Isla Santa Cruz,2021-07-02,albopictus,albopictus,aegypti,aegypti,1.0,0.9993,0.4395,0.0299
+Aedes_aegypti__obs85564178__photo140800541__cc-by-nc.jpeg,Aedes_aegypti,research,85564178,Isla Santa Cruz,2021-07-02,albopictus,albopictus,aegypti,aegypti,0.9996,0.9329,0.1001,0.0028
+Aedes_aegypti__obs86065591__photo141716260__cc-by-nc.jpg,Aedes_aegypti,research,86065591,"Parque Nacional Galápagos, San Cristobal, Galápagos, EC",2021-07-05,aegypti,aegypti,aegypti,aegypti,0.0823,0.0097,0.0245,0.0004
+Aedes_aegypti__obs86065591__photo141716319__cc-by-nc.jpg,Aedes_aegypti,research,86065591,"Parque Nacional Galápagos, San Cristobal, Galápagos, EC",2021-07-05,albopictus,aegypti,aegypti,aegypti,0.7133,0.0762,0.0199,0.0
+Aedes_aegypti__obs86065591__photo141716344__cc-by-nc.jpg,Aedes_aegypti,research,86065591,"Parque Nacional Galápagos, San Cristobal, Galápagos, EC",2021-07-05,aegypti,aegypti,aegypti,aegypti,0.0393,0.0506,0.0088,0.0
+Aedes_aegypti__obs87613393__photo144450323__cc-by-nc.jpg,Aedes_aegypti,research,87613393,"Lazareto, Manta 130203, Ecuador",2021-07-09,aegypti,aegypti,aegypti,aegypti,0.0,0.0625,0.0024,0.0004
+Aedes_aegypti__obs87613393__photo144467308__cc-by-nc.jpg,Aedes_aegypti,research,87613393,"Lazareto, Manta 130203, Ecuador",2021-07-09,aegypti,aegypti,aegypti,aegypti,0.0,0.0001,0.0132,0.0
+Aedes_aegypti__obs102795911__photo171913856__cc-by-nc.jpg,Aedes_aegypti,research,102795911,"Lazareto, Manta 130203, Ecuador",2021-12-06,aegypti,aegypti,albopictus,aegypti,0.0,0.0,0.5028,0.0
+Aedes_aegypti__obs102795911__photo171914634__cc-by-nc.jpg,Aedes_aegypti,research,102795911,"Lazareto, Manta 130203, Ecuador",2021-12-06,aegypti,aegypti,aegypti,aegypti,0.0,0.0028,0.0929,0.0
+Aedes_aegypti__obs102795911__photo171914637__cc-by-nc.jpg,Aedes_aegypti,research,102795911,"Lazareto, Manta 130203, Ecuador",2021-12-06,aegypti,aegypti,aegypti,aegypti,0.0004,0.0,0.0006,0.0001
+Aedes_aegypti__obs106491237__photo178898130__cc-by-nc.jpeg,Aedes_aegypti,needs_id,106491237,"Parroquia Jambeli, Machala, Ecuador",2022-02-06,albopictus,albopictus,aegypti,aegypti,0.9999,0.8144,0.2322,0.0667
+Aedes_aegypti__obs107804900__photo181383704__cc-by-nc.jpg,Aedes_aegypti,needs_id,107804900,"Lazareto, Manta 130203, Ecuador",2022-02-25,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0023,0.0
+Aedes_aegypti__obs121339153__photo205315504__cc-by-nc.jpeg,Aedes_aegypti,needs_id,121339153,"Montecristi, Ecuador",2022-06-11,aegypti,aegypti,albopictus,albopictus,0.2794,0.0049,0.9934,0.9919
+Aedes_aegypti__obs125807804__photo213388768__cc-by-nc-sa.jpeg,Aedes_aegypti,needs_id,125807804,"Barrio El Edén, Puerto Ayora, Ecuador",2022-07-08,aegypti,aegypti,aegypti,aegypti,0.0,0.0002,0.0014,0.0013
+Aedes_aegypti__obs143622036__photo246339255__cc-by-nc.jpg,Aedes_aegypti,needs_id,143622036,"Lazareto, Manta 130203, Ecuador",2022-10-16,aegypti,aegypti,aegypti,aegypti,0.0006,0.0001,0.0068,0.0
+Aedes_aegypti__obs143622036__photo246340643__cc-by-nc.jpg,Aedes_aegypti,needs_id,143622036,"Lazareto, Manta 130203, Ecuador",2022-10-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0004,0.0014,0.0
+Aedes_aegypti__obs143622036__photo246340648__cc-by-nc.jpg,Aedes_aegypti,needs_id,143622036,"Lazareto, Manta 130203, Ecuador",2022-10-16,aegypti,aegypti,aegypti,aegypti,0.0002,0.0796,0.0,0.0
+Aedes_aegypti__obs149939693__photo258451389__cc-by-nc.jpeg,Aedes_aegypti,research,149939693,"P454+9CM, El Cambio, Ecuador",2023-02-24,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0521,0.0106
+Aedes_aegypti__obs149939693__photo258451400__cc-by-nc.jpeg,Aedes_aegypti,research,149939693,"P454+9CM, El Cambio, Ecuador",2023-02-24,aegypti,aegypti,aegypti,aegypti,0.0003,0.0,0.0008,0.0
+Aedes_aegypti__obs153137507__photo264425593__cc-by-nc.jpg,Aedes_aegypti,needs_id,153137507,"Lazareto, Manta 130203, Ecuador",2023-03-03,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0003,0.0
+Aedes_aegypti__obs153137507__photo264425676__cc-by-nc.jpg,Aedes_aegypti,needs_id,153137507,"Lazareto, Manta 130203, Ecuador",2023-03-03,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0037,0.0
+Aedes_aegypti__obs155357729__photo268526419__cc-by-nc.jpg,Aedes_aegypti,needs_id,155357729,"Lazareto, Manta 130203, Ecuador",2023-04-07,aegypti,aegypti,aegypti,aegypti,0.0,0.0001,0.0329,0.0
+Aedes_aegypti__obs155357729__photo268533685__cc-by-nc.jpg,Aedes_aegypti,needs_id,155357729,"Lazareto, Manta 130203, Ecuador",2023-04-07,aegypti,aegypti,aegypti,aegypti,0.0,0.0098,0.3626,0.0
+Aedes_aegypti__obs156329843__photo270304265__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.955,0.0,0.0002,0.0
+Aedes_aegypti__obs156329843__photo270305010__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,albopictus,aegypti,aegypti,0.9987,0.9525,0.029,0.0
+Aedes_aegypti__obs156329843__photo270306058__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.9997,0.0,0.0011,0.0013
+Aedes_aegypti__obs156329843__photo270306559__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.1839,0.0126,0.0001,0.0076
+Aedes_aegypti__obs156329843__photo270306585__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,albopictus,aegypti,aegypti,0.0206,0.768,0.0849,0.0318
+Aedes_aegypti__obs156329843__photo270306637__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,albopictus,aegypti,aegypti,0.0088,0.7324,0.0787,0.1217
+Aedes_aegypti__obs156329843__photo270306656__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,albopictus,albopictus,0.0425,0.3247,0.5838,0.5974
+Aedes_aegypti__obs156329843__photo270306710__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0007,0.0,0.0,0.0
+Aedes_aegypti__obs156329843__photo270306737__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.091,0.0,0.0013,0.0
+Aedes_aegypti__obs156329843__photo270306822__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0001,0.0,0.0001,0.0
+Aedes_aegypti__obs156329843__photo270306837__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0002,0.0,0.0002,0.0002
+Aedes_aegypti__obs156329843__photo270306934__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.5446,0.0,0.0,0.0
+Aedes_aegypti__obs156329843__photo270306942__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0068,0.0,0.0,0.0003
+Aedes_aegypti__obs156329843__photo270307005__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0,0.0
+Aedes_aegypti__obs156329843__photo270307044__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0005,0.0
+Aedes_aegypti__obs156329843__photo270307097__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0001,0.0053,0.001,0.0002
+Aedes_aegypti__obs156329843__photo270307150__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.3282,0.0003,0.0069,0.0
+Aedes_aegypti__obs156329843__photo270307193__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0456,0.01,0.0139,0.0
+Aedes_aegypti__obs156329843__photo270307257__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,albopictus,0.99,0.0495,0.1871,0.9275
+Aedes_aegypti__obs156329843__photo270307303__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.8958,0.0175,0.0916,0.0038
+Aedes_aegypti__obs156329843__photo270311118__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.9822,0.3923,0.0325,0.0002
+Aedes_aegypti__obs156329843__photo270311393__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.7978,0.2346,0.0328,0.0001
+Aedes_aegypti__obs156329843__photo270311451__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0,0.073,0.104,0.0002
+Aedes_aegypti__obs156329843__photo270311501__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0002,0.4055,0.0255,0.1918
+Aedes_aegypti__obs156329843__photo270311505__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0025,0.1936,0.4254,0.0001
+Aedes_aegypti__obs156329843__photo270311503__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.9979,0.0,0.0001,0.0
+Aedes_aegypti__obs156329843__photo270311514__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,albopictus,aegypti,aegypti,0.6798,0.8235,0.059,0.0002
+Aedes_aegypti__obs156329843__photo270311580__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0965,0.0,0.0002,0.0
+Aedes_aegypti__obs156329843__photo270311589__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.9935,0.0,0.0003,0.0
+Aedes_aegypti__obs156329843__photo270311647__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.7574,0.0,0.0025,0.0
+Aedes_aegypti__obs156329843__photo270311659__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,albopictus,aegypti,aegypti,aegypti,0.8404,0.0,0.0119,0.0
+Aedes_aegypti__obs156329843__photo270311669__cc-by-nc.jpg,Aedes_aegypti,research,156329843,"Lazareto, Manta 130203, Ecuador",2023-03-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0001,0.0,0.0
+Aedes_aegypti__obs164042368__photo283786515__cc-by-nc-sa.jpg,Aedes_aegypti,research,164042368,"Barrio El Edén, Puerto Ayora, Ecuador",2023-05-26,aegypti,aegypti,aegypti,aegypti,0.0,0.0005,0.0,0.0
+Aedes_aegypti__obs177190773__photo308139198__cc-by-nc.jpg,Aedes_aegypti,needs_id,177190773,"Bahia de Caraquez, Ecuador",2023-07-30,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.1026,0.0
+Aedes_aegypti__obs180716511__photo314844806__cc-by-nc.jpg,Aedes_aegypti,needs_id,180716511,"Delfin Amaya, Pasaje, El Oro, EC",2023-08-28,aegypti,aegypti,albopictus,albopictus,0.0242,0.2801,0.922,0.9779
+Aedes_aegypti__obs180716511__photo314844827__cc-by-nc.jpg,Aedes_aegypti,needs_id,180716511,"Delfin Amaya, Pasaje, El Oro, EC",2023-08-28,aegypti,albopictus,albopictus,albopictus,0.0026,0.5463,0.7972,0.9989
+Aedes_aegypti__obs186007177__photo324968195__cc-by-nc.jpeg,Aedes_aegypti,needs_id,186007177,"Q344+JQX, Machala, Ecuador",2023-10-03,albopictus,albopictus,albopictus,albopictus,0.9865,0.6018,0.992,0.9933
+Aedes_aegypti__obs194326245__photo341532267__cc-by-nc.jpg,Aedes_aegypti,needs_id,194326245,"Lazareto, Manta 130203, Ecuador",2023-04-04,aegypti,aegypti,aegypti,aegypti,0.0045,0.0003,0.0224,0.259
+Aedes_aegypti__obs194326245__photo341540909__cc-by-nc.jpg,Aedes_aegypti,needs_id,194326245,"Lazareto, Manta 130203, Ecuador",2023-04-04,aegypti,aegypti,aegypti,aegypti,0.3832,0.0023,0.0118,0.0055
+Aedes_aegypti__obs194326245__photo341541030__cc-by-nc.jpg,Aedes_aegypti,needs_id,194326245,"Lazareto, Manta 130203, Ecuador",2023-04-04,aegypti,aegypti,aegypti,aegypti,0.032,0.0,0.0382,0.1881
+Aedes_aegypti__obs194326245__photo341541263__cc-by-nc.jpg,Aedes_aegypti,needs_id,194326245,"Lazareto, Manta 130203, Ecuador",2023-04-04,aegypti,aegypti,albopictus,albopictus,0.0282,0.2819,0.8426,0.6053
+Aedes_aegypti__obs194326245__photo341541053__cc-by-nc.jpg,Aedes_aegypti,needs_id,194326245,"Lazareto, Manta 130203, Ecuador",2023-04-04,albopictus,albopictus,aegypti,aegypti,0.5104,0.6036,0.1331,0.0265
+Aedes_aegypti__obs195212630__photo343322125__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212630,"Lazareto, Manta 130203, Ecuador",2023-12-05,aegypti,aegypti,aegypti,aegypti,0.0946,0.0003,0.0108,0.031
+Aedes_aegypti__obs195212630__photo343332573__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212630,"Lazareto, Manta 130203, Ecuador",2023-12-05,aegypti,aegypti,aegypti,aegypti,0.3418,0.0002,0.0038,0.0031
+Aedes_aegypti__obs195212630__photo343332694__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212630,"Lazareto, Manta 130203, Ecuador",2023-12-05,albopictus,albopictus,albopictus,albopictus,1.0,1.0,1.0,0.9806
+Aedes_aegypti__obs195212769__photo343327126__cc-by-nc.jpg,Aedes_aegypti,research,195212769,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0087,0.0001,0.0097,0.0193
+Aedes_aegypti__obs195212769__photo343338145__cc-by-nc.jpg,Aedes_aegypti,research,195212769,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,albopictus,0.0336,0.0,0.0705,0.5077
+Aedes_aegypti__obs195212769__photo343338252__cc-by-nc.jpg,Aedes_aegypti,research,195212769,"Lazareto, Manta 130203, Ecuador",2023-12-16,albopictus,albopictus,aegypti,albopictus,0.8106,0.7981,0.4007,0.982
+Aedes_aegypti__obs195212771__photo343327101__cc-by-nc.jpg,Aedes_aegypti,research,195212771,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,albopictus,aegypti,0.01,0.0991,0.877,0.452
+Aedes_aegypti__obs195212772__photo343327144__cc-by-nc.jpg,Aedes_aegypti,research,195212772,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,albopictus,0.0,0.0381,0.0003,0.6721
+Aedes_aegypti__obs195212777__photo343327309__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,albopictus,albopictus,albopictus,aegypti,0.6453,0.8572,0.962,0.0007
+Aedes_aegypti__obs195212777__photo343338442__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.02,0.0
+Aedes_aegypti__obs195212777__photo343338526__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0072,0.0
+Aedes_aegypti__obs195212777__photo343338539__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0,0.0133,0.0
+Aedes_aegypti__obs195212777__photo343338559__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0002,0.0002,0.0
+Aedes_aegypti__obs195212777__photo343338585__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0002,0.3385,0.0
+Aedes_aegypti__obs195212777__photo343338633__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0228,0.0,0.0381,0.0003
+Aedes_aegypti__obs195212777__photo343338659__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0005,0.001,0.0
+Aedes_aegypti__obs195212777__photo343338800__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212777,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,albopictus,0.021,0.011,0.4793,0.9818
+Aedes_aegypti__obs195212779__photo343327443__cc-by-nc.jpg,Aedes_aegypti,needs_id,195212779,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0001,0.0021,0.0
+Aedes_aegypti__obs195212781__photo343327592__cc-by-nc.jpg,Aedes_aegypti,research,195212781,"Lazareto, Manta 130203, Ecuador",2023-12-16,aegypti,aegypti,aegypti,aegypti,0.0,0.0005,0.0492,0.0
+Aedes_aegypti__obs197836140__photo348540123__cc-by-nc.jpg,Aedes_aegypti,needs_id,197836140,"Lazareto, Manta 130203, Ecuador",2024-01-03,aegypti,aegypti,albopictus,aegypti,0.0938,0.0,0.6193,0.0108
+Aedes_aegypti__obs197836140__photo348540671__cc-by-nc.jpg,Aedes_aegypti,needs_id,197836140,"Lazareto, Manta 130203, Ecuador",2024-01-03,albopictus,aegypti,albopictus,albopictus,0.9815,0.0,0.9989,0.9158
+Aedes_aegypti__obs201038211__photo354809586__cc-by.jpeg,Aedes_aegypti,needs_id,201038211,"Guayas, EC",2024-02-29,aegypti,aegypti,aegypti,aegypti,0.088,0.2838,0.4946,0.3882
+Aedes_aegypti__obs201038211__photo354809618__cc-by.jpeg,Aedes_aegypti,needs_id,201038211,"Guayas, EC",2024-02-29,albopictus,albopictus,albopictus,albopictus,0.567,0.9963,0.5383,0.8934
+Aedes_aegypti__obs202439761__photo357531128__cc-by-nc.jpg,Aedes_aegypti,needs_id,202439761,"San Cristóbal, EC-GA, EC",2024-03-14,albopictus,albopictus,albopictus,albopictus,0.8896,0.997,0.9659,0.8706
+Aedes_aegypti__obs202439761__photo357531178__cc-by-nc.jpg,Aedes_aegypti,needs_id,202439761,"San Cristóbal, EC-GA, EC",2024-03-14,albopictus,albopictus,albopictus,albopictus,0.9974,0.9979,0.9583,0.9624
+Aedes_aegypti__obs263328639__photo473045459__cc-by-nc.jpeg,Aedes_aegypti,research,263328639,"Location: -0.740822, -90.310431",2025-01-05,aegypti,aegypti,aegypti,aegypti,0.0003,0.0,0.0315,0.0
+Aedes_aegypti__obs263328639__photo473045474__cc-by-nc.jpeg,Aedes_aegypti,research,263328639,"Location: -0.740822, -90.310431",2025-01-05,aegypti,aegypti,aegypti,aegypti,0.0474,0.0104,0.2255,0.0003
+Aedes_aegypti__obs263328639__photo473045487__cc-by-nc.jpeg,Aedes_aegypti,research,263328639,"Location: -0.740822, -90.310431",2025-01-05,albopictus,albopictus,albopictus,aegypti,0.9999,0.8385,0.805,0.0014
+Aedes_albopictus__obs271247070__photo487895124__cc-by-nc.jpeg,Aedes_albopictus,needs_id,271247070,"Km 7 1/2 vía Lago Agrio, Francisco de Orellana, Ecuador",2025-04-18,albopictus,albopictus,aegypti,albopictus,0.9054,0.6634,0.4436,0.8638
+Aedes_albopictus__obs284272667__photo510868618__cc-by-nc.jpg,Aedes_albopictus,research,284272667,"Guayaquil, Ecuador",2025-05-26,aegypti,aegypti,albopictus,albopictus,0.1156,0.0,0.9999,0.5801
+Aedes_aegypti__obs284942199__photo512134985__cc-by.jpg,Aedes_aegypti,needs_id,284942199,"Guayaquil, Ecuador",2025-05-28,aegypti,albopictus,albopictus,albopictus,0.009,0.9993,0.9999,0.9961
+Aedes_aegypti__obs284942199__photo512135166__cc-by.jpg,Aedes_aegypti,needs_id,284942199,"Guayaquil, Ecuador",2025-05-28,aegypti,albopictus,albopictus,albopictus,0.0138,0.9644,0.9999,0.8292
+Aedes_albopictus__obs288038488__photo517944597__cc-by.jpg,Aedes_albopictus,research,288038488,"Guayaquil, Ecuador",2025-06-06,albopictus,albopictus,albopictus,albopictus,0.545,1.0,0.884,0.9307
+Aedes_aegypti__obs309317344__photo558142944__cc-by.jpg,Aedes_aegypti,research,309317344,"Precooperativa 31 de Agosto, 090610 Guayaquil, Ecuador",2025-08-26,aegypti,aegypti,aegypti,aegypti,0.0009,0.0,0.006,0.0001
+Aedes_aegypti__obs311237057__photo561826680__cc-by-nc.jpg,Aedes_aegypti,needs_id,311237057,"Quijos, Província de Napo, EC",2022-11-21,aegypti,aegypti,albopictus,albopictus,0.249,0.3486,0.5985,1.0
+Aedes_aegypti__obs311237057__photo561826721__cc-by-nc.jpg,Aedes_aegypti,needs_id,311237057,"Quijos, Província de Napo, EC",2022-11-21,albopictus,aegypti,albopictus,albopictus,0.6085,0.0044,0.978,0.9999
+Aedes_aegypti__obs311237057__photo561826740__cc-by-nc.jpg,Aedes_aegypti,needs_id,311237057,"Quijos, Província de Napo, EC",2022-11-21,aegypti,aegypti,aegypti,aegypti,0.1594,0.3267,0.4927,0.2473
+Aedes_aegypti__obs323520272__photo585400437__cc-by-nc-sa.jpg,Aedes_aegypti,research,323520272,"Guayas, EC",2025-10-27,aegypti,aegypti,albopictus,aegypti,0.0,0.001,0.6938,0.007
+Aedes_aegypti__obs323520272__photo585400439__cc-by-nc-sa.jpg,Aedes_aegypti,research,323520272,"Guayas, EC",2025-10-27,aegypti,aegypti,aegypti,aegypti,0.0043,0.1723,0.0625,0.005
+Aedes_aegypti__obs323520272__photo585400436__cc-by-nc-sa.jpg,Aedes_aegypti,research,323520272,"Guayas, EC",2025-10-27,aegypti,aegypti,aegypti,aegypti,0.0,0.001,0.0004,0.0
+Aedes_aegypti__obs323520272__photo585400456__cc-by-nc-sa.jpg,Aedes_aegypti,research,323520272,"Guayas, EC",2025-10-27,aegypti,aegypti,aegypti,albopictus,0.0667,0.0031,0.0106,0.8081
+Aedes_aegypti__obs323520272__photo585400455__cc-by-nc-sa.jpg,Aedes_aegypti,research,323520272,"Guayas, EC",2025-10-27,aegypti,aegypti,aegypti,albopictus,0.0076,0.0242,0.0091,0.9997
+Aedes_albopictus__obs329126060__photo596525960__cc-by.jpg,Aedes_albopictus,research,329126060,"Quinto Guayas Este, Guayaquil, Ecuador",2025-11-30,albopictus,albopictus,albopictus,albopictus,1.0,0.9516,0.9978,0.9973
+Aedes_albopictus__obs337363912__photo613250547__cc-by.jpg,Aedes_albopictus,research,337363912,"Guayaquil, Ecuador",2026-02-04,aegypti,albopictus,albopictus,albopictus,0.1106,0.9998,0.8063,0.8
+Aedes_aegypti__obs338058178__photo614693268__cc-by-nc.jpg,Aedes_aegypti,casual,338058178,"RF2R+5Q9, Quito 170129, Ecuador",,aegypti,aegypti,aegypti,aegypti,0.0001,0.0,0.0,0.0
+Aedes_aegypti__obs342999349__photo624712022__cc-by-nc.jpg,Aedes_aegypti,needs_id,342999349,"RJ9G+MHG, Puembo 170179, Ecuador",2026-03-14,aegypti,aegypti,aegypti,aegypti,0.0021,0.0032,0.0982,0.1575
+Aedes_aegypti__obs342999349__photo624712068__cc-by-nc.jpg,Aedes_aegypti,needs_id,342999349,"RJ9G+MHG, Puembo 170179, Ecuador",2026-03-14,aegypti,aegypti,aegypti,aegypti,0.0012,0.0077,0.0076,0.0016
+Aedes_albopictus__obs344733666__photo628076606__cc-by-nc.jpg,Aedes_albopictus,needs_id,344733666,"Sucumbios, EC",2026-02-20,aegypti,albopictus,albopictus,aegypti,0.0064,0.9987,0.6018,0.0146
+Aedes_aegypti__obs366722523__photo669640320__cc-by-nc.jpg,Aedes_aegypti,research,366722523,"Puerto Baquerizo Moreno, Ecuador",2026-05-16,aegypti,albopictus,aegypti,aegypti,0.0003,0.9785,0.1227,0.0
+Aedes_aegypti__obs366722523__photo669640303__cc-by-nc.jpg,Aedes_aegypti,research,366722523,"Puerto Baquerizo Moreno, Ecuador",2026-05-16,aegypti,albopictus,aegypti,aegypti,0.0058,0.9331,0.3681,0.0

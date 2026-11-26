@@ -1,0 +1,74 @@
+{
+  "efficientnet_b0": {
+    "arquitectura": "efficientnet_b0",
+    "checkpoint": "fase5/definitivas/efficientnet_b0/semilla_46/modelo.pt",
+    "parametros": 4010110,
+    "tamano_checkpoint_mb": 15.57,
+    "ms_por_imagen_lote1_mediana": 17.61,
+    "ms_por_imagen_lote1_p10_p90": [
+      16.76,
+      19.69
+    ],
+    "imagenes_medidas": 100,
+    "ms_por_imagen_lote64": 18.13,
+    "ram_base_mb": 203,
+    "ram_tras_inferencia_mb": 500,
+    "ram_pico_proceso_mb": 1497,
+    "ram_modelo_e_inferencia_mb": 298,
+    "hilos": 6
+  },
+  "mobilenetv3_large_100": {
+    "arquitectura": "mobilenetv3_large_100",
+    "checkpoint": "fase5/definitivas/mobilenetv3_large_100/semilla_43/modelo.pt",
+    "parametros": 4204594,
+    "tamano_checkpoint_mb": 16.23,
+    "ms_por_imagen_lote1_mediana": 12.48,
+    "ms_por_imagen_lote1_p10_p90": [
+      12.32,
+      12.84
+    ],
+    "imagenes_medidas": 100,
+    "ms_por_imagen_lote64": 10.97,
+    "ram_base_mb": 203,
+    "ram_tras_inferencia_mb": 525,
+    "ram_pico_proceso_mb": 1497,
+    "ram_modelo_e_inferencia_mb": 322,
+    "hilos": 6
+  },
+  "resnet50": {
+    "arquitectura": "resnet50",
+    "checkpoint": "fase5/definitivas/resnet50/semilla_44/modelo.pt",
+    "parametros": 23512130,
+    "tamano_checkpoint_mb": 89.99,
+    "ms_por_imagen_lote1_mediana": 50.43,
+    "ms_por_imagen_lote1_p10_p90": [
+      49.7,
+      51.79
+    ],
+    "imagenes_medidas": 100,
+    "ms_por_imagen_lote64": 48.4,
+    "ram_base_mb": 203,
+    "ram_tras_inferencia_mb": 591,
+    "ram_pico_proceso_mb": 1497,
+    "ram_modelo_e_inferencia_mb": 388,
+    "hilos": 6
+  },
+  "vit_small_patch16_224": {
+    "arquitectura": "vit_small_patch16_224",
+    "checkpoint": "fase5/definitivas/vit_small_patch16_224/semilla_46/modelo.pt",
+    "parametros": 21666434,
+    "tamano_checkpoint_mb": 82.7,
+    "ms_por_imagen_lote1_mediana": 43.74,
+    "ms_por_imagen_lote1_p10_p90": [
+      43.09,
+      44.37
+    ],
+    "imagenes_medidas": 100,
+    "ms_por_imagen_lote64": 38.41,
+    "ram_base_mb": 203,
+    "ram_tras_inferencia_mb": 624,
+    "ram_pico_proceso_mb": 1497,
+    "ram_modelo_e_inferencia_mb": 422,
+    "hilos": 6
+  }
+}

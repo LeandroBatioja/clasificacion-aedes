@@ -1,0 +1,72 @@
+======================================================================
+  DEPURACION DEL CONJUNTO BRUTO
+======================================================================
+  Conjunto bruto : conjunto_bruto
+  Destino        : conjunto_depurado
+  Modo           : SIMULACION
+  Imagenes       : 16969
+  Procesos       : 11
+
+  [1/3] Verificacion de integridad y calculo de metricas...
+        2000/16969
+        4000/16969
+        6000/16969
+        8000/16969
+        10000/16969
+        12000/16969
+        14000/16969
+        16000/16969
+  [2/3] Deteccion de duplicados (MD5 y pHash con verificacion)...
+        candidatos pHash: 895   confirmados: 758   rechazados por correlacion: 137
+  [3/3] Resultados
+
+======================================================================
+  IMAGENES ELIMINADAS POR CRITERIO
+======================================================================
+  Criterio                                            aegypti albopictus
+  ----------------------------------------------------------------------
+  E1 Archivo corrupto, ilegible o truncado                  0         50
+  E2 Resolucion inferior a 100 x 100 px                     0          0
+  E3 Duplicado exacto (MD5)                                 4        496
+  E4 Duplicado perceptual (pHash > 90 %)                    8        133
+  E5 Exposicion fuera de rango (< 20 o > 235)              96        125
+  E6 Desenfoque (varianza del Laplaciano < 10)              0         55
+  E7 Estadio no adulto                                      0          0
+  E8 Etiqueta ambigua o ausente                             0          0
+  E9 Licencia incompatible                                  0          0
+  ----------------------------------------------------------------------
+  Total eliminadas                                        108        859
+  TOTAL ACEPTADAS                                        1435      14567
+  Porcentaje aceptado                                   93.0%      94.4%
+
+  E7 y E9: controlados en la recopilacion (seleccion de conjuntos de
+  ejemplares adultos y verificacion de licencias por repositorio).
+
+  Componentes de duplicados : 552
+  Conflictos entre especies : 0
+
+======================================================================
+  CONJUNTO DEPURADO: ESPECIE x REPOSITORIO
+======================================================================
+  Repositorio                  aegypti        albopictus
+  couret                   219 (15.3%)          0 (0.0%)
+  dryad                    305 (21.3%)        341 (2.3%)
+  kaggle                   600 (41.8%)          0 (0.0%)
+  mosquito_alert             67 (4.7%)     13978 (96.0%)
+  ong                      244 (17.0%)        248 (1.7%)
+  TOTAL                           1435             14567
+
+======================================================================
+  UMBRAL MINIMO DE MUESTRA (1.000 por especie)
+======================================================================
+  aedes_aegypti           1435   CUMPLE
+  aedes_albopictus       14567   CUMPLE
+
+  Tamano de balanceo previsto: 1435 por especie
+  Duracion: 8.2 min
+
+  Registros generados:
+    depuracion/registro_imagenes_eliminadas.csv   (instrumento 3.6.2.1)
+    depuracion/metricas_depuracion.csv
+    depuracion/reporte_depuracion.json
+======================================================================

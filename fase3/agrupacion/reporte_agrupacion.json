@@ -1,0 +1,309 @@
+{
+  "version": 4,
+  "fecha": "2026-10-24 01:05:33",
+  "total_imagenes": 17527,
+  "total_grupos": 12513,
+  "por_repositorio": {
+    "kaggle": {
+      "aedes_aegypti": {
+        "imagenes": 600,
+        "grupos": 150
+      }
+    },
+    "mosquito_alert": {
+      "aedes_aegypti": {
+        "imagenes": 68,
+        "grupos": 40
+      },
+      "aedes_albopictus": {
+        "imagenes": 13862,
+        "grupos": 10346
+      }
+    },
+    "dryad": {
+      "aedes_aegypti": {
+        "imagenes": 597,
+        "grupos": 199
+      },
+      "aedes_albopictus": {
+        "imagenes": 596,
+        "grupos": 199
+      }
+    },
+    "couret": {
+      "aedes_aegypti": {
+        "imagenes": 219,
+        "grupos": 219
+      }
+    },
+    "ong": {
+      "aedes_albopictus": {
+        "imagenes": 248,
+        "grupos": 158
+      },
+      "aedes_aegypti": {
+        "imagenes": 244,
+        "grupos": 109
+      }
+    },
+    "inaturalist": {
+      "aedes_aegypti": {
+        "imagenes": 1093,
+        "grupos": 1093
+      }
+    }
+  },
+  "fuente_del_grupo": {
+    "procedencia": 3105,
+    "reporte_ma": 10091,
+    "individual_sin_reporte": 3839,
+    "individual": 184,
+    "similitud_ong": 308
+  },
+  "mosquito_alert": {
+    "archivo_metadatos": "mosquito_alert_photos_clean.csv",
+    "por_especie": {
+      "aedes_aegypti": {
+        "imagenes": 68,
+        "sin_reporte": 15,
+        "uniones_por_similitud": 0,
+        "grupos_finales": 40,
+        "mayor_grupo": 6
+      },
+      "aedes_albopictus": {
+        "imagenes": 13862,
+        "sin_reporte": 3824,
+        "uniones_por_similitud": 0,
+        "grupos_finales": 10346,
+        "mayor_grupo": 21
+      }
+    },
+    "imagenes": 13930,
+    "con_reporte": 10091,
+    "calibracion": {
+      "metodo": "vecino mas parecido; precision = vecino del mismo reporte",
+      "fotos_con_reporte_evaluadas": 7615,
+      "umbral": null,
+      "aplicada": false,
+      "modo_umbral": "auto",
+      "precision_en_umbral": null,
+      "fotos_que_superan_umbral": 0,
+      "tabla_umbral_precision": [
+        {
+          "umbral": 0.7,
+          "fotos": 4894,
+          "precision": 0.103,
+          "precision_reportes_multiples": 0.174
+        },
+        {
+          "umbral": 0.71,
+          "fotos": 4677,
+          "precision": 0.104,
+          "precision_reportes_multiples": 0.177
+        },
+        {
+          "umbral": 0.72,
+          "fotos": 4447,
+          "precision": 0.106,
+          "precision_reportes_multiples": 0.18
+        },
+        {
+          "umbral": 0.73,
+          "fotos": 4230,
+          "precision": 0.109,
+          "precision_reportes_multiples": 0.186
+        },
+        {
+          "umbral": 0.74,
+          "fotos": 4017,
+          "precision": 0.113,
+          "precision_reportes_multiples": 0.192
+        },
+        {
+          "umbral": 0.75,
+          "fotos": 3746,
+          "precision": 0.118,
+          "precision_reportes_multiples": 0.201
+        },
+        {
+          "umbral": 0.76,
+          "fotos": 3493,
+          "precision": 0.123,
+          "precision_reportes_multiples": 0.211
+        },
+        {
+          "umbral": 0.77,
+          "fotos": 3243,
+          "precision": 0.126,
+          "precision_reportes_multiples": 0.217
+        },
+        {
+          "umbral": 0.78,
+          "fotos": 3010,
+          "precision": 0.131,
+          "precision_reportes_multiples": 0.224
+        },
+        {
+          "umbral": 0.79,
+          "fotos": 2776,
+          "precision": 0.142,
+          "precision_reportes_multiples": 0.239
+        },
+        {
+          "umbral": 0.8,
+          "fotos": 2572,
+          "precision": 0.147,
+          "precision_reportes_multiples": 0.247
+        },
+        {
+          "umbral": 0.81,
+          "fotos": 2367,
+          "precision": 0.153,
+          "precision_reportes_multiples": 0.26
+        },
+        {
+          "umbral": 0.82,
+          "fotos": 2165,
+          "precision": 0.163,
+          "precision_reportes_multiples": 0.277
+        },
+        {
+          "umbral": 0.83,
+          "fotos": 1972,
+          "precision": 0.171,
+          "precision_reportes_multiples": 0.289
+        },
+        {
+          "umbral": 0.84,
+          "fotos": 1793,
+          "precision": 0.178,
+          "precision_reportes_multiples": 0.301
+        },
+        {
+          "umbral": 0.85,
+          "fotos": 1610,
+          "precision": 0.185,
+          "precision_reportes_multiples": 0.308
+        },
+        {
+          "umbral": 0.86,
+          "fotos": 1423,
+          "precision": 0.197,
+          "precision_reportes_multiples": 0.324
+        },
+        {
+          "umbral": 0.87,
+          "fotos": 1279,
+          "precision": 0.213,
+          "precision_reportes_multiples": 0.346
+        },
+        {
+          "umbral": 0.88,
+          "fotos": 1097,
+          "precision": 0.227,
+          "precision_reportes_multiples": 0.359
+        },
+        {
+          "umbral": 0.89,
+          "fotos": 943,
+          "precision": 0.245,
+          "precision_reportes_multiples": 0.383
+        },
+        {
+          "umbral": 0.9,
+          "fotos": 778,
+          "precision": 0.26,
+          "precision_reportes_multiples": 0.402
+        },
+        {
+          "umbral": 0.91,
+          "fotos": 645,
+          "precision": 0.287,
+          "precision_reportes_multiples": 0.433
+        },
+        {
+          "umbral": 0.92,
+          "fotos": 507,
+          "precision": 0.312,
+          "precision_reportes_multiples": 0.461
+        },
+        {
+          "umbral": 0.93,
+          "fotos": 391,
+          "precision": 0.355,
+          "precision_reportes_multiples": 0.511
+        },
+        {
+          "umbral": 0.94,
+          "fotos": 291,
+          "precision": 0.405,
+          "precision_reportes_multiples": 0.559
+        },
+        {
+          "umbral": 0.95,
+          "fotos": 213,
+          "precision": 0.469,
+          "precision_reportes_multiples": 0.61
+        },
+        {
+          "umbral": 0.96,
+          "fotos": 125,
+          "precision": 0.584,
+          "precision_reportes_multiples": 0.716
+        },
+        {
+          "umbral": 0.97,
+          "fotos": 61,
+          "precision": 0.607,
+          "precision_reportes_multiples": 0.74
+        }
+      ]
+    },
+    "reportes_con_ambas_especies": [],
+    "reportes_con_varias_fotos": 2132,
+    "imagenes_en_esos_reportes": 5676,
+    "mayor_reporte": 21
+  },
+  "ong": {
+    "medida": "correlacion del recorte centrado en el mosquito",
+    "umbral_correlacion": 0.8,
+    "ventana_numeracion": 10,
+    "umbral_alto_sin_ventana": 0.92,
+    "por_especie": {
+      "aedes_aegypti": {
+        "imagenes": 244,
+        "grupos_multiples": 50,
+        "imagenes_en_grupos": 185,
+        "mayor_grupo": 13,
+        "especimenes_resultantes": 109,
+        "fotos_sin_recorte": 0,
+        "uniones_manuales_aplicadas": 76,
+        "uniones_manuales_no_halladas": [],
+        "r_vecino_percentiles": {
+          "10": 0.583,
+          "25": 0.66,
+          "50": 0.759,
+          "75": 0.9,
+          "90": 0.947
+        }
+      },
+      "aedes_albopictus": {
+        "imagenes": 248,
+        "grupos_multiples": 33,
+        "imagenes_en_grupos": 123,
+        "mayor_grupo": 11,
+        "especimenes_resultantes": 158,
+        "fotos_sin_recorte": 0,
+        "uniones_manuales_aplicadas": 73,
+        "uniones_manuales_no_halladas": [],
+        "r_vecino_percentiles": {
+          "10": 0.541,
+          "25": 0.593,
+          "50": 0.651,
+          "75": 0.748,
+          "90": 0.848
+        }
+      }
+    }
+  }
+}

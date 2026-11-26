@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+==================================================================
+  CURVA DE APRENDIZAJE (FASE 4, plan 3.4)
+==================================================================
+  Arquitectura: ['mobilenetv3_large_100']   epocas: 5   lr 0.0005   batch 32
+     25 %: 689 imagenes {'aedes_aegypti': 345, 'aedes_albopictus': 344}
+     50 %: 1376 imagenes {'aedes_aegypti': 688, 'aedes_albopictus': 688}
+     75 %: 2057 imagenes {'aedes_aegypti': 1030, 'aedes_albopictus': 1027}
+    100 %: 2737 imagenes {'aedes_aegypti': 1368, 'aedes_albopictus': 1369}
+  Cache: 2337 imagenes nuevas en 227 s
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 2067 imagenes por epoca
+      epoca 1: perdida 1.2056  val macroF1 0.7016  (43 s, 48.3 img/s)
+      epoca 2: perdida 0.1531  val macroF1 0.7253  (40 s, 51.1 img/s)
+      epoca 3: perdida 0.1703  val macroF1 0.6698  (39 s, 53.1 img/s)
+      epoca 4: perdida 0.1249  val macroF1 0.7089  (41 s, 50.9 img/s)
+      epoca 5: perdida 0.1245  val macroF1 0.7220  (40 s, 51.1 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 4128 imagenes por epoca
+      epoca 1: perdida 0.9584  val macroF1 0.7338  (84 s, 49.0 img/s)
+      epoca 2: perdida 0.2206  val macroF1 0.7708  (79 s, 52.3 img/s)
+      epoca 3: perdida 0.1248  val macroF1 0.7800  (78 s, 53.1 img/s)
+      epoca 4: perdida 0.1182  val macroF1 0.7838  (78 s, 53.2 img/s)
+      epoca 5: perdida 0.1255  val macroF1 0.7593  (81 s, 51.2 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 6171 imagenes por epoca
+      epoca 1: perdida 0.9239  val macroF1 0.7678  (128 s, 48.4 img/s)
+      epoca 2: perdida 0.2851  val macroF1 0.7869  (122 s, 50.6 img/s)
+      epoca 3: perdida 0.1321  val macroF1 0.7881  (118 s, 52.3 img/s)
+      epoca 4: perdida 0.1033  val macroF1 0.8051  (124 s, 49.7 img/s)
+      epoca 5: perdida 0.0860  val macroF1 0.7830  (121 s, 50.9 img/s)
+
+  >>> mobilenetv3_large_100: parametros 4.20 M, entrenables 3.41 M (81 %), 8211 imagenes por epoca
+      epoca 1: perdida 0.8898  val macroF1 0.7761  (149 s, 55.1 img/s)
+      epoca 2: perdida 0.2732  val macroF1 0.7847  (145 s, 56.8 img/s)
+      epoca 3: perdida 0.1810  val macroF1 0.7787  (146 s, 56.3 img/s)
+      epoca 4: perdida 0.0999  val macroF1 0.7983  (146 s, 56.2 img/s)
+      epoca 5: perdida 0.1495  val macroF1 0.8220  (147 s, 55.9 img/s)
+
+  Arquitectura                   25 %       50 %       75 %      100 %  Mejora 75-100  Estable
+  mobilenetv3_large_100        0.7253     0.7838     0.8051     0.8220         0.0169       si
+
+  Reporte: fase4/curva/reporte_curva.json

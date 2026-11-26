@@ -1,0 +1,186 @@
+{
+  "fecha": "2026-10-27 08:54:26",
+  "entorno": {
+    "python": "3.11.13",
+    "torch": "2.4.1+cpu",
+    "timm": "1.0.9",
+    "scikit-learn": "1.5.2",
+    "grad-cam": "instalado",
+    "hilos": 6,
+    "cpu": "x86_64"
+  },
+  "configuracion": {
+    "modo": "piloto",
+    "arquitecturas": [
+      "efficientnet_b0",
+      "mobilenetv3_large_100",
+      "resnet50",
+      "vit_small_patch16_224"
+    ],
+    "particion": "fase3/particion",
+    "depurado": "fase3/conjunto_depurado_v2",
+    "cache": "fase4/cache_512",
+    "salida": "fase4/piloto",
+    "epocas": 5,
+    "lr": 0.0005,
+    "batch": 32,
+    "weight_decay": 0.01,
+    "factor_aumento": 2,
+    "paciencia": 0,
+    "semilla": 42,
+    "hilos": 6,
+    "workers": 2,
+    "horas_max": 6.0,
+    "sin_pesos": false,
+    "solo_gradcam": false
+  },
+  "imagenes": {
+    "entrenamiento_piloto": 400,
+    "validacion": 590,
+    "entrenamiento_real": 2737
+  },
+  "arquitecturas": {
+    "efficientnet_b0": {
+      "completo": true,
+      "parametros": {
+        "total": 4010110,
+        "entrenables": 3158302
+      },
+      "epocas": 5,
+      "segundos_entrenamiento_piloto": 200.0,
+      "img_s_entrenamiento": 30.0,
+      "ram_pico_mb": 1774,
+      "perdida_inicial": 0.94137,
+      "perdida_final": 0.06948,
+      "pendiente_perdida": -0.19539,
+      "mejor_epoca": 4,
+      "macro_f1_val": 0.7083,
+      "exactitud_val": 0.7085,
+      "horas_estimadas_corrida_completa": 1.2,
+      "gradcam": {
+        "imagenes": 20,
+        "informativas": 18,
+        "picos_fuera": 6,
+        "pct_picos_fuera": 33.3,
+        "mediana_concentracion": 2.121
+      },
+      "gradcam_ok": true,
+      "criterios": {
+        "sin_errores": true,
+        "perdida_decreciente": true,
+        "metricas_calculadas": true,
+        "gradcam_sin_fallos": true,
+        "tiempo_corrida_admisible": true,
+        "gradcam_alerta_piloto": false
+      }
+    },
+    "mobilenetv3_large_100": {
+      "completo": true,
+      "parametros": {
+        "total": 4204594,
+        "entrenables": 3412106
+      },
+      "epocas": 5,
+      "segundos_entrenamiento_piloto": 115.5,
+      "img_s_entrenamiento": 52.0,
+      "ram_pico_mb": 1774,
+      "perdida_inicial": 1.28079,
+      "perdida_final": 0.04376,
+      "pendiente_perdida": -0.26173,
+      "mejor_epoca": 1,
+      "macro_f1_val": 0.7096,
+      "exactitud_val": 0.7102,
+      "horas_estimadas_corrida_completa": 0.7,
+      "gradcam": {
+        "imagenes": 20,
+        "informativas": 18,
+        "picos_fuera": 8,
+        "pct_picos_fuera": 44.4,
+        "mediana_concentracion": 1.451
+      },
+      "gradcam_ok": true,
+      "criterios": {
+        "sin_errores": true,
+        "perdida_decreciente": true,
+        "metricas_calculadas": true,
+        "gradcam_sin_fallos": true,
+        "tiempo_corrida_admisible": true,
+        "gradcam_alerta_piloto": false
+      }
+    },
+    "resnet50": {
+      "completo": true,
+      "parametros": {
+        "total": 23512130,
+        "entrenables": 14968834
+      },
+      "epocas": 5,
+      "segundos_entrenamiento_piloto": 461.1,
+      "img_s_entrenamiento": 13.0,
+      "ram_pico_mb": 2038,
+      "perdida_inicial": 0.57717,
+      "perdida_final": 0.02248,
+      "pendiente_perdida": -0.13076,
+      "mejor_epoca": 4,
+      "macro_f1_val": 0.7177,
+      "exactitud_val": 0.7186,
+      "horas_estimadas_corrida_completa": 2.78,
+      "gradcam": {
+        "imagenes": 20,
+        "informativas": 18,
+        "picos_fuera": 3,
+        "pct_picos_fuera": 16.7,
+        "mediana_concentracion": 3.132
+      },
+      "gradcam_ok": true,
+      "criterios": {
+        "sin_errores": true,
+        "perdida_decreciente": true,
+        "metricas_calculadas": true,
+        "gradcam_sin_fallos": true,
+        "tiempo_corrida_admisible": true,
+        "gradcam_alerta_piloto": false
+      }
+    },
+    "vit_small_patch16_224": {
+      "completo": true,
+      "parametros": {
+        "total": 21666434,
+        "entrenables": 5324930
+      },
+      "epocas": 5,
+      "segundos_entrenamiento_piloto": 378.7,
+      "img_s_entrenamiento": 15.8,
+      "ram_pico_mb": 2136,
+      "perdida_inicial": 0.70767,
+      "perdida_final": 0.04257,
+      "pendiente_perdida": -0.14796,
+      "mejor_epoca": 3,
+      "macro_f1_val": 0.7586,
+      "exactitud_val": 0.7593,
+      "horas_estimadas_corrida_completa": 2.27,
+      "gradcam": {
+        "imagenes": 20,
+        "informativas": 18,
+        "picos_fuera": 11,
+        "pct_picos_fuera": 61.1,
+        "mediana_concentracion": 1.333
+      },
+      "gradcam_ok": true,
+      "criterios": {
+        "sin_errores": true,
+        "perdida_decreciente": true,
+        "metricas_calculadas": true,
+        "gradcam_sin_fallos": true,
+        "tiempo_corrida_admisible": true,
+        "gradcam_alerta_piloto": true
+      }
+    }
+  },
+  "presupuesto_fase5_horas": {
+    "corridas_definitivas": 34.8,
+    "busqueda_hiperparametros": 4.2,
+    "total": 38.9,
+    "disponible": 240.0
+  }
+}

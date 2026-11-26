@@ -1,0 +1,33 @@
+{
+  "arquitectura": "mobilenetv3_large_100",
+  "mejor_epoca": 6,
+  "exactitud": 0.8186440677966101,
+  "exactitud_balanceada": 0.8186440677966103,
+  "macro_f1": 0.8184557958698909,
+  "matriz_confusion": [
+    [
+      251,
+      44
+    ],
+    [
+      63,
+      232
+    ]
+  ],
+  "por_especie": {
+    "aedes_aegypti": {
+      "precision": 0.7993630573248408,
+      "sensibilidad": 0.8508474576271187,
+      "f1": 0.8243021346469622,
+      "especificidad": 0.7864406779661017,
+      "soporte": 295
+    },
+    "aedes_albopictus": {
+      "precision": 0.8405797101449275,
+      "sensibilidad": 0.7864406779661017,
+      "f1": 0.8126094570928196,
+      "especificidad": 0.8508474576271187,
+      "soporte": 295
+    }
+  }
+}

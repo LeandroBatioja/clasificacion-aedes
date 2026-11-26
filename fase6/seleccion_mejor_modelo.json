@@ -1,0 +1,95 @@
+{
+  "prueba": {
+    "datos": {
+      "efficientnet_b0": {
+        "macro_f1": 0.8251,
+        "sens_aegypti": 0.8407,
+        "de_macro_f1": 0.0276,
+        "ms_inferencia": 17.61,
+        "tamano_mb": 15.57
+      },
+      "mobilenetv3_large_100": {
+        "macro_f1": 0.8081,
+        "sens_aegypti": 0.8,
+        "de_macro_f1": 0.0096,
+        "ms_inferencia": 12.48,
+        "tamano_mb": 16.23
+      },
+      "resnet50": {
+        "macro_f1": 0.8149,
+        "sens_aegypti": 0.8,
+        "de_macro_f1": 0.0088,
+        "ms_inferencia": 50.43,
+        "tamano_mb": 89.99
+      },
+      "vit_small_patch16_224": {
+        "macro_f1": 0.854,
+        "sens_aegypti": 0.8678,
+        "de_macro_f1": 0.0047,
+        "ms_inferencia": 43.74,
+        "tamano_mb": 82.7
+      }
+    },
+    "seleccionada": "vit_small_patch16_224",
+    "candidatas_finales": [
+      "vit_small_patch16_224"
+    ],
+    "traza": [
+      "1. Macro F1: mejor 0.8540; empatadas (dif. < 0.02): ViT-S/16 0.8540"
+    ]
+  },
+  "control": {
+    "datos": {
+      "efficientnet_b0": {
+        "macro_f1": 0.9016,
+        "sens_aegypti": 0.9055,
+        "de_macro_f1": 0.0444,
+        "ms_inferencia": 17.61,
+        "tamano_mb": 15.57
+      },
+      "mobilenetv3_large_100": {
+        "macro_f1": 0.8504,
+        "sens_aegypti": 0.8425,
+        "de_macro_f1": 0.0172,
+        "ms_inferencia": 12.48,
+        "tamano_mb": 16.23
+      },
+      "resnet50": {
+        "macro_f1": 0.8422,
+        "sens_aegypti": 0.8898,
+        "de_macro_f1": 0.0208,
+        "ms_inferencia": 50.43,
+        "tamano_mb": 89.99
+      },
+      "vit_small_patch16_224": {
+        "macro_f1": 0.8976,
+        "sens_aegypti": 0.9213,
+        "de_macro_f1": 0.0102,
+        "ms_inferencia": 43.74,
+        "tamano_mb": 82.7
+      }
+    },
+    "seleccionada": "vit_small_patch16_224",
+    "candidatas_finales": [
+      "vit_small_patch16_224"
+    ],
+    "traza": [
+      "1. Macro F1: mejor 0.9016; empatadas (dif. < 0.02): EfficientNet-B0 0.9016, ViT-S/16 0.8976",
+      "2. Sensibilidad Ae. aegypti: mejor 0.9213; empatadas: EfficientNet-B0 0.9055, ViT-S/16 0.9213",
+      "3. Menor DE del macro F1 (5 corridas): 0.0102: ViT-S/16"
+    ]
+  },
+  "coincide": true,
+  "orden_prueba": [
+    "vit_small_patch16_224",
+    "efficientnet_b0",
+    "resnet50",
+    "mobilenetv3_large_100"
+  ],
+  "orden_control": [
+    "efficientnet_b0",
+    "vit_small_patch16_224",
+    "mobilenetv3_large_100",
+    "resnet50"
+  ]
+}

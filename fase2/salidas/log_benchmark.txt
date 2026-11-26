@@ -1,0 +1,76 @@
+==============================================================
+  BENCHMARK DE RENDIMIENTO EN CPU
+  Fase 2 / Verificacion para la Fase 4 (prueba piloto)
+==============================================================
+  CPU              : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+  Hilos de torch   : 6
+  Resolucion       : 224x224
+  Tamano de lote   : 16
+  Lotes medidos    : 5 (se reporta la mediana)
+  Ajuste fino      : parcial (solo capa clasificadora)
+
+==============================================================
+  MEDICIONES POR ARQUITECTURA
+==============================================================
+
+  EfficientNet-B0
+  ----------------------------------------------------------
+    Inferencia      :    43.7 img/s   (22.9 ms/img)
+    Entrenamiento   :    39.3 img/s   (25.4 ms/img)
+    Memoria RAM     :     399 MB    (delta +78 MB)
+
+  MobileNetV3-Large
+  ----------------------------------------------------------
+    Inferencia      :    74.6 img/s   (13.4 ms/img)
+    Entrenamiento   :    66.1 img/s   (15.1 ms/img)
+    Memoria RAM     :     434 MB    (delta +47 MB)
+
+  ResNet50
+  ----------------------------------------------------------
+    Inferencia      :    17.1 img/s   (58.6 ms/img)
+    Entrenamiento   :    16.6 img/s   (60.2 ms/img)
+    Memoria RAM     :     506 MB    (delta +70 MB)
+
+  ViT-S/16
+  ----------------------------------------------------------
+    Inferencia      :    24.3 img/s   (41.1 ms/img)
+    Entrenamiento   :    25.9 img/s   (38.6 ms/img)
+    Memoria RAM     :     525 MB    (delta +18 MB)
+
+==============================================================
+  EXTRAPOLACION AL PRESUPUESTO DE COMPUTO
+==============================================================
+  Conjunto de entrenamiento : 10,800 imagenes
+  Epocas definitivas        : 15
+  Corridas por arquitectura : 5
+  Configuraciones busqueda  : 3 (30% del conjunto, 10 epocas)
+
+  Arquitectura          h/corrida  h definit.  h busqueda   h total
+  -----------------------------------------------------------------
+  EfficientNet-B0            1.14         5.7         0.7       6.4
+  MobileNetV3-Large          0.68         3.4         0.4       3.8
+  ResNet50                   2.71        13.5         1.6      15.2
+  ViT-S/16                   1.74         8.7         1.0       9.7
+  -----------------------------------------------------------------
+  TOTAL REQUERIDO                                              35.1
+  DISPONIBLE (Fase 5)                                         240.0
+  MARGEN                                                      204.9  (+85%)
+
+==============================================================
+  CONTRASTE CON LA ESTIMACION DE LA TABLA 2
+==============================================================
+  Arquitectura           estimado    medido   desviacion
+  --------------------------------------------------------
+  EfficientNet-B0          12.0 i/s    39.3 i/s        +228%
+  MobileNetV3-Large        12.0 i/s    66.1 i/s        +451%
+  ResNet50                  5.0 i/s    16.6 i/s        +232%
+  ViT-S/16                  5.0 i/s    25.9 i/s        +418%
+
+==============================================================
+  VEREDICTO
+==============================================================
+  El presupuesto CIERRA con margen suficiente.
+  La planificacion de la Tabla 2 se sostiene empiricamente.
+
+  Reporte guardado en: reporte_benchmark.json
+==============================================================

@@ -1,0 +1,50 @@
+# ============================================================
+# Fase 2 - Configuracion del entorno experimental
+# Comparacion de arquitecturas de aprendizaje profundo para la
+# clasificacion de mosquitos vectores del dengue
+# Leandro Steven Batioja Mena - PUCE Esmeraldas 2026-2027
+#
+# Entorno objetivo: Linux - Python 3.11 - CPU (sin GPU)
+# Equipo: Intel Core i5-10400 (6C/12T @ 2.90 GHz) - 23 GB RAM
+#
+# INSTALACION (en este orden):
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install --upgrade pip
+#   pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu \
+#       --extra-index-url https://pypi.org/simple
+# ============================================================
+
+# --- Aprendizaje profundo (build CPU, sin CUDA) -------------
+torch==2.4.1
+torchvision==0.19.1
+
+# --- Arquitecturas preentrenadas (EfficientNet-B0,
+#     MobileNetV3-Large, ResNet50, ViT-S/16) ----------------
+timm==1.0.9
+
+# --- Metricas de evaluacion (accuracy, precision, recall,
+#     especificidad, F1, macro F1, matriz de confusion) -----
+scikit-learn==1.5.2
+
+# --- Pruebas estadisticas (Q de Cochran, McNemar) ----------
+statsmodels==0.14.4
+scipy==1.14.1
+
+# --- Procesamiento de imagenes y depuracion ----------------
+opencv-python==5.0.0.93   # requerido por grad-cam; no usar headless en paralelo
+Pillow==10.4.0
+ImageHash==4.3.1          # hash perceptual (pHash)
+
+# --- Manejo de datos y reportes ----------------------------
+numpy==2.1.1
+pandas==2.2.3
+
+# --- Interpretabilidad (Grad-CAM y mapas de atencion) ------
+grad-cam==1.5.4
+
+# --- Visualizacion de resultados ---------------------------
+matplotlib==3.9.2
+
+# --- Utilidades --------------------------------------------
+tqdm==4.66.5

@@ -1,0 +1,85 @@
+{
+  "fecha": "2026-11-16 21:27:32",
+  "entorno": {
+    "python": "3.11.13",
+    "torch": "2.4.1+cpu",
+    "timm": "1.0.9",
+    "scikit-learn": "1.5.2",
+    "grad-cam": "instalado",
+    "hilos": 6,
+    "cpu": "x86_64"
+  },
+  "configuracion": {
+    "modo": "curva",
+    "arquitecturas": [
+      "mobilenetv3_large_100"
+    ],
+    "particion": "fase3/particion",
+    "depurado": "fase3/conjunto_depurado_v2",
+    "cache": "fase4/cache_512",
+    "salida": "fase4/curva",
+    "epocas": 5,
+    "lr": 0.0005,
+    "batch": 32,
+    "weight_decay": 0.01,
+    "factor_aumento": 2,
+    "paciencia": 0,
+    "semilla": 42,
+    "hilos": 6,
+    "workers": 2,
+    "horas_max": 6.0,
+    "sin_pesos": false,
+    "solo_gradcam": false
+  },
+  "criterio": "mejora 75->100 % < 0.02",
+  "resultados": {
+    "mobilenetv3_large_100": {
+      "p025": {
+        "imagenes": 689,
+        "por_especie": {
+          "aedes_aegypti": 345,
+          "aedes_albopictus": 344
+        },
+        "macro_f1_val": 0.7253,
+        "exactitud_val": 0.7254,
+        "mejor_epoca": 2,
+        "segundos": 203.1
+      },
+      "p050": {
+        "imagenes": 1376,
+        "por_especie": {
+          "aedes_aegypti": 688,
+          "aedes_albopictus": 688
+        },
+        "macro_f1_val": 0.7838,
+        "exactitud_val": 0.7847,
+        "mejor_epoca": 4,
+        "segundos": 399.2
+      },
+      "p075": {
+        "imagenes": 2057,
+        "por_especie": {
+          "aedes_aegypti": 1030,
+          "aedes_albopictus": 1027
+        },
+        "macro_f1_val": 0.8051,
+        "exactitud_val": 0.8051,
+        "mejor_epoca": 4,
+        "segundos": 613.0
+      },
+      "p100": {
+        "imagenes": 2737,
+        "por_especie": {
+          "aedes_aegypti": 1368,
+          "aedes_albopictus": 1369
+        },
+        "macro_f1_val": 0.822,
+        "exactitud_val": 0.822,
+        "mejor_epoca": 5,
+        "segundos": 732.8
+      },
+      "mejora_75_100": 0.0169,
+      "estabilizada": true
+    }
+  }
+}
